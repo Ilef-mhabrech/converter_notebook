@@ -1,0 +1,30 @@
+﻿key|title|level|semester|parcours|objective|content
+"Master 2 M2 Apprentissage et Traitement Automatique de la Langue (ATAL)
+Année universitaire"|nan|||master Informatique|nan|
+Research methodology|nan|Master|3|M2 Apprentissage et Traitement Automatique de la Langue (ATAL),M2 Visual Computing (VICO)|nan|The first block of the Research Methodology teaching unit is dedicated to understanding what scientific knowledge production means, how scientific knowledge develops with scientific publishing, what scientific disciplines are and to discuss the relations between science and society. Then we focus on the content of scientific documents, how to read them, and how to write scientific material, before addressing the topic of how to search for scientific material with the tools at hand and organize them in a bibliography.
+Experimental methodology and statistics|Experimental methodology and statistics|Master|3|M2 Data Science (DS) ,M2 Visual Computing (VICO),M2 Apprentissage et Traitement Automatique de la Langue (ATAL)|nan|The third block of the Research Methodology teaching unit offers a comprehensive exploration of experimental methodologies, starting with the hypothetico-deductive method and extending to exploratory science and data collection aimed at modeling and prediction. Students will gain an understanding of both qualitative and quantitative variables, as well as dependent variables (VD) and factors influencing experiments. The curriculum delves into experimental design plans, covering both between-subjects and within-subjects designs. Additionally, the course provides a solid foundation in descriptive statistics, including the examination of various distributions such as Poisson and Bernoulli. To equip students with the tools for rigorous data analysis, the course also covers inferential statistics tailored for experimental data.
+Modélisation des langues|Modélisation des langues|Master|3|M2 Apprentissage et Traitement Automatique de la Langue (ATAL)|nan|"• Architectures et modèles (statique, contextuel, mécanisme d'attention, transformer, encodeur et génératif, multimodalité, compression)
+• Apprentissage (pré-entrainement, entraînement, renforcement, fine-tuning, continuous learning, adversarial, adaptation au domaine, Parameter-Efficient Fine-Tuning)
+• Représentation profonde des mots, des phrases, des séquences longues
+• Injection de connaissances, augmentation de données
+• Analyse et interprétabilité (biais)"
+Développement logiciel et IA dans les entreprises|nan|Master|3|M2 Apprentissage et Traitement Automatique de la Langue (ATAL)|nan|"• Construction de corpus (typologie, constitution, méta-données, codage, corpus et jeux de données de références...) et de lexiques
+• Annotation (procédure, guide d'annotation, outils, mesure d'accord)
+• Valorisation (diffusion de jeux de données/modèles, licence)
+• Evaluation, métriques, campagnes
+• Prompting for LLM application development
+• Retrieval Augmented Generation (RAG)"
+Communication scientifique|Communication scientifique|Master|3|M2 Apprentissage et Traitement Automatique de la Langue (ATAL)|nan|"* Réalisation d'étude bibliographique et de présentation d'articles dans le domaine
+* Participation à séminaires ""Petit Séminaires ATAL""
+* Construction de poster, rédaction en latex, gestion bibliographique"
+Gestion des données distribuées à large échelle|Gestion des données distribuées à large échelle|Master|3|M2 Architectures Logicielles (ALMA),M2 Apprentissage et Traitement Automatique de la Langue (ATAL)|"• To understand how big are big data and how distributed infrastructures are able to handle them
+• To understand why traditional databases cannot handle big data
+• To know online transaction processing, online analytical processing and streaming processing on big data.
+• To know representative distributed datastore for big data OLTP ie. CouchBase, Google BigTable...
+• To know how to program with Map-Reduce, resilient data structures, and stream processing ie. Hadoop, SPARK, Flink
+• To know consistent hashing, linear hashing, distributed linear hashing, sharding
+• To know multi-version concurrency control and consistency issues in large scale datastore
+• To be able to understand how current datastore are built, what they can do and what are their limitations.
+• To be able to use large scale datastore for OLTP, OLAP and stream processing."|nan
+Périodes de formation alternées en milieu professionnel (M2 ATAL)|Périodes de formation alternées en milieu professionnel (M2 ATAL)|Master|3|M2 Apprentissage et Traitement Automatique de la Langue (ATAL)|nan|nan
+Période de suivi en formation par alternance (M2 ATAL)|Période de suivi en formation par alternance (M2 ATAL)|Master|4|M2 Apprentissage et Traitement Automatique de la Langue (ATAL)|nan|nan

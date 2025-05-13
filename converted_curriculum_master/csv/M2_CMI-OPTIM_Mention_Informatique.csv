@@ -1,0 +1,68 @@
+﻿key|title|level|semester|parcours|objective|content
+Information générale|nan|||master Informatique|nan|
+Programme|nan||Code||XMS3IU360|
+Optimisation multi-objectif|nan|Master|3|M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM|"- To know the notion of feasible set, outcome set, solution, point, (weakly) efficient, (weakly) nondominated point, lexicographically optimal solution (M)
+- To know the ideal point and the nadir point, the way to compute these points and the difficulty in their computation (M)
+- To know the main scalarization methods (weighted sum, e-constraint, weighted tchebychev method) and their properties (A)
+- To know the geometrical properties of the feasible set and the outcome set of a MOLP (M)
+- To know the geometrical and topological properties of the efficient set and the nondominated set of a MOLP (M)
+- To be able to apply the parametric simplex algorithm to solve a bi-objective linear programme (A)
+- To know the topological property of the feasible, outcome, efficient, nondominated sets of a Multi- objective Combinatorial Optimization (MOCO) problem (M)
+- To know the classification of efficient solutions and nondominated points, and the notion of complete set (M)
+- To know results about connectedness and non-connectedness of efficient solutions of MOCO problems (M)
+- To be able to apply the e-constraint algorithm with adaptive step to solve a bi-objective combinatorial problem (A)
+- To be able to apply the weighted sum scalarization to compute a complete set of extreme supported solution of a bi-objective combinatorial optimization problem (A)
+- To be able to define and update the search area of a bi-objective combinatorial optimization problem (Phase 2 of the two phase method) (A)
+- To know the main strategies (variable fixing, ranking, branch and bound) to explore the search area (A)
+- To know the notion of bound sets (M)
+- To be able to apply a branch and bound algorithm to solve a bi-objective combinatorial optimization problem (A)
+- To be able to apply a dynamic programming algorithm for multi-objective combinatorial optimization problem, application to the shortest path problem (A)"|"This course is composed of 5 chapters.
+* Introduction to multi-objective optimization
+* Multi-objective linear programming
+* Multi-objective combinatorial optimization - main definitions and properties
+* Multi-objective combinatorial optimization - main solution methods
+* Multi-objective shortest path problem"
+Programmation mathématique|Programmation mathématique|Master|3|M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM|"- To learn classical modelization techniques on various problems using specific variables (A-M)
+- To know the different strategies applicable to solve mixed integer linear programs (M)
+- To know the major techniques used in a solver to pre-process a mixed integer linear program (A)
+- To know how to implement a cutting plane algorithm based on Gomory's cuts and MIR cuts, and the limitations of these techniques (A-M)
+-To be able to compare two formulations of the same problem, and how to strenghten inequalities using lifting technique (M)
+-To know how to distinguish between valid inequalities, faces and facets, and to know the main way to prove that an inequality is a facet (M)
+-To know how to apply these techniques to graph theory or any problem that is not given under the form of a mixed integer linear program (A)
+-To be able to detect symmetry in a problem or model, and to know how to cope with this phenomenon (A-M)
+- To apprehend Lagragian relaxation with effective implementation (M)
+- To discover the implementation of a column generation algorithm (I)
+-To understand the theory of Dantzig-Wolfe decomposition and to devise a column generation approach for various combinatorial optimization problems (M)
+-To know Branch-and-Price and the different ways to make it efficient (A)
+-To know the Benders decomposition and its relation with Dantzig-Wolfe decomposition (A)
+-To know how matheuristics work for both exact methods using approximate methods, and heuristics taking advantage of exact approaches (M)"|nan
+Algorithmique du génome|nan|Master|3|M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM|"• Comprendre les méthodes de calcul par intervalles et le calcul automatique de bornes d'erreurs
+• Savoir linéariser un problème non linéaire
+• Connaître les stratégies de recherche usuelles
+• Mettre en oeuvre un solveur de problèmes d'optimisation non linéaires"|"Ce cours présente des algorithmes de recherche déterministes pour résoudre des problèmes de satisfaction et d'optimisation non linéaires de manière rigoureuse.
+• Algorithme branch-and-bound
+• Arithmétique par intervalles
+• Techniques de réduction
+• Techniques de linéarisation
+• Certification des calculs numériques"
+Optimisation en robotique|Optimisation en robotique|Master|3|M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM|"* understand the kinematic models of various serial and parallel robotic manipulators (Understanding) ;
+* describe a variety of optimization problems in robotics and identify the corresponding classes of optimization problems (Analysis) ;
+* model a variety of robotic problems as numerical constrained optimization problems and solve them using an appropriate method (Synthesis) ;"|Optimization in Robotics presents a number of optimization problems arising in robotics and demonstrates how the optimization techniques learnt throughout the Master allow solving them.
+Solveurs multi-objectifs|nan|Master|3|M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM|nan|nan
+Complément en Anglais du Projet Intégrateur CMI OPTIM|Complément en Anglais du Projet Intégrateur CMI OPTIM|Master|3|M2 CMI-OPTIM|nan|nan
+Stage Spécifique M1 CMI OPTIM|Stage Spécifique M1 CMI OPTIM|Master|3|M2 CMI-OPTIM|nan|nan
+Transport et logistique|Transport et logistique|Master|3|M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM|"+ Information systems and softwares in transport optimization I.
++ Modeling classical facility location and vehicle routing problems E
++ Modeling advanced facility location, network design and vehicle routing problems M
++ Heuristic solving of facility location problems I
++ Heuristics for vehicle routing problems M
++ Meta heuristics for vehicle routing problems A
++ Solving vehicle routing problems with time windows A
++ Advanced exact methods for facility location and vehicle routing (Branch and cut, Lagrangean relaxation, column generation) I."|"At the end of this course, the student will be able to:
+- Identify the main optimization problems that arise in the field of transportation and logistics
+- Model the core problems and their simple extensions
+- Design some exact and heuritic solving methods for these optimization problems"
+Stage|Stage|Master|4|M2 Architectures Logicielles (ALMA),M2 Optimisation en Recherche Opérationnelle (ORO),M2 Apprentissage et Traitement Automatique de la Langue (ATAL),M2 CMI-OPTIM|"- S'intégrer dans le milieu professionel de son stage, mettre en oeuvre sa capacité d'analyse sur le sujet proposé, et être force de proposition.
+- Synthétiser le travail effectué dans un compte rendu de manière concise, correcte, et complète.
+- Préparer des supports puis présenter oralement le travail effectué de manière dynamique et convaincante."|nan
+Complément en Anglais du Stage M2 CMI OPTIM|Mixte|Master|4|M2 CMI-OPTIM|nan|nan

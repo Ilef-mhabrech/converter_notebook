@@ -1,0 +1,68 @@
+@prefix ns1: <http://example.org/masters/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:Master_1_M1_Visual_Computing__VICO__Année_universitaire 
+ns1:Anglais_scientifique     ns1:volume """
+TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h
+""" ;
+
+ns1:Développement_et_exploitation     ns1:volume """
+TOTAL : 23.99h Répartition : CM : 10.66h TD : 0h CI : 0h TP : 13.33h EAD : 0h
+""" ;
+
+ns1:Données_massives_et_web_sémantique     ns1:volume """
+TOTAL : 48.65h Répartition : CM : 17.33h TD : 14.66h CI : 0h TP : 16.66h EAD : 0h
+""" ;
+
+ns1:Analyse_exploratoire_de_données     ns1:volume """
+TOTAL : 23.99h Répartition : CM : 10.66h TD : 5.33h CI : 0h TP : 8h EAD : 0h
+""" ;
+
+ns1:Intelligence_Artificielle_et_Applications     ns1:volume """
+TOTAL : 48.01h Répartition : CM : 5.33h TD : 42.68h CI : 0h TP : 0h EAD : 0h
+""" ;
+
+ns1:Projet_d_intelligence_artificielle     ns1:volume """
+TOTAL : 18.68h Répartition : CM : 0h TD : 18.68h CI : 0h TP : 0h EAD : 0h
+""" ;
+
+ns1:Interactions_Humain_Machine     ns1:volume """
+TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h
+""" ;
+
+ns1:Compilation     ns1:volume """
+TOTAL : 24h Répartition : CM : 16h TD : 8h CI : 0h TP : 0h EAD : 0h
+""" ;
+
+ns1:Professionnalisation_et_éthique     ns1:volume """
+TOTAL : 16h Répartition : CM : 16h TD : 0h CI : 0h TP : 0h EAD : 0h
+""" ;
+
+ns1:Professionnalisation     ns1:volume """
+TOTAL : 11.99h Répartition : CM : 5.33h TD : 6.66h CI : 0h TP : 0h EAD : 0h
+""" ;
+
+ns1:Bases_de_données_avancées     ns1:volume """
+TOTAL : 24h Répartition : CM : 0h TD : 24h CI : 0h TP : 0h EAD : 0h
+""" ;
+
+ns1:Introduction_au_traitement_d_image     ns1:volume """
+TOTAL : 24h Répartition : CM : 0h TD : 16h CI : 8h TP : 0h EAD : 0h
+""" ;
+
+ns1:Informatique_temps_réel_et_embarquée     ns1:volume """
+TOTAL : 24h Répartition : CM : 12h TD : 5.33h CI : 0h TP : 6.67h EAD : 0h
+""" ;
+
+ns1:Conception_et_Analyse_d_Algorithmes_Efficaces     ns1:volume """
+TOTAL : 24h Répartition : CM : 12h TD : 8h CI : 0h TP : 4h EAD : 0h
+""" ;
+
+ns1:Ingéniérie_des_réseaux     ns1:volume """
+TOTAL : 24h Répartition : CM : 12h TD : 8h CI : 0h TP : 4h EAD : 0h
+""" ;
+
+ns1:Préparation_au_TOEIC     ns1:volume """
+TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h
+""" ;
+

@@ -1,0 +1,210 @@
+﻿key|title|level|semester|parcours|objective|content
+"Master 1 M1 Architecture Logicielle (ALMA)
+Année universitaire"|nan|||master Informatique|nan|
+Graphes et Complexité|nan|Master|1|M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Optimisation en Recherche Opérationnelle (ORO),M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Smart Computing|"1. reconnaître et modéliser un problème réel adapté à la résolution par la théorie des graphes.
+2. choisir la représentation d'un graphe la plus adaptée à chaque problème, en visant l'efficacité.
+3. prendre en compte la complexité intrinsèque des graphes pour calculer précisément la complexité algorithmique d'une solution et évaluer son efficacité.
+4. mettre en œuvre les principales solutions algorithmiques pour les problèmes classiques de théorie des graphes : parcours, connexité, plus courts chemins, recherche de cycles."|"1. Introduction, rappels, exemples et applications.
+2. Efficacité des algorithmes et calcul de la complexité: cas particulier des algorithmes portant sur les graphes
+3. Graphes particuliers I (arbres, arborescences): algorithmes et applications.
+4. Connexité, forte connexité: algorithmes et applications.
+5. Graphes particuliers II (graphes bipartis, graphes orientés sans circuits): algorithmes et applications.
+6. Plus courts chemins: algorithmes et applications"
+Développement et exploitation|nan|Master|1|M1 CMI-OPTIM,M1 Architecture Logicielle (ALMA),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Smart Computing|nan|nan
+Données massives et cloud|Données massives et cloud||||nan|"• Indentifier les services fournis pour une infrastructure de type cloud
+• Evaluer sur une applciation passe à l’échelle dans le cloud,
+• Evaluer la fiabilité d'une appllication dans le contexte de cloud
+• Conception et déploiement des applications à large échelle dans un cloud
+• REST API dans le contexte de cloud
+• Stocker et accéder des données massives dans le cloud
+• Calculer le coût d’une application web dans le cloud"
+Objectifs (résultats d'apprentissage)|"• Motiver et et définir la vérification et validation :
+- notions de besoin et de spécification,
+- notions de défaillance, de défaut, d’erreur,
+- comprendre pourquoi les logiciels ont des défauts,
+- savoir la différence entre vérification et validation,
+- savoir citer différentes approches de vérification et les comparer sur des critères pertinents.
+• Motiver et définir le test logiciel :
+- comprendre le processus général du test logiciel,
+- comprendre ce qu’est un scénario de test et une suite de tests,
+- comprendre comment exécuter un scénario de test,
+- distinguer test manuel ou automatisé,
+- distinguer test unitaire, système ou d’intégration,
+- comprendre la définition, l’importance et la nécessité des frameworks de test,
+- comprendre la méthode fonctionnelle pour définir des scénarios de test,
+- comprendre la méthode structurelle pour définir des scénarios de test,
+- comprendre le problème de la testabilité,
+- comprendre la notion de doublure et son intérêt,
+- connaître des métriques mesurant la qualité des tests (couverture et mutation).
+• Pratiquer le test logiciel :
+- savoir écrire des scénarios de test en suivant une méthode fonctionnelle,
+- savoir écrire des scénarios de test en suivant une méthode structurelle,
+- savoir utiliser correctement un framework de test,
+- savoir créer et utiliser des doublures,
+- savoir appliquer des opérateurs de mutation,
+- savoir utiliser un outil de mutation et interpréter les résultats,
+- savoir utiliser un outil de couverture et interpréter les résultats.
+• Motivate and and define verification and validation:
+- notions of need and specification,
+- notions of failure, fault, error,
+- understand why software has flaws,
+- know the difference between verification and validation,
+- know how to cite different verification approaches and compare them on the basis of relevant criteria.
+• Motivate and define software testing:
+- understand the general process of software testing,
+- understand what a test case and a test suite is,
+- understand how to run a test case,
+- distinguish manual or automated test,
+- distinguish unit, system or integration test,
+- understand the definition, importance and necessity of test frameworks,
+- understand the functional method to define test scenarios,
+- understand the structural method to define test cases,
+- understand the problem of testability,
+- understand the notion of test doubles and its interest,
+- know metrics to measure the quality of tests (coverage and mutation analysis).
+• Practice software testing:
+- know how to write test scenarios by following a functional method,
+- know how to write test scenarios by following a structural method,
+- know how to correctly use a test framework,
+- know how to create and use test doubles,
+- know how to apply mutation operators,
+- know how to use a mutation analysis tool and interpret the results,
+- know how to use a test coverage tool and interpret the results."||||"• Motiver et et définir la vérification et validation :
+- notions de besoin et de spécification,
+- notions de défaillance, de défaut, d’erreur,
+- comprendre pourquoi les logiciels ont des défauts,
+- savoir la différence entre vérification et validation,
+- savoir citer différentes approches de vérification et les comparer sur des critères pertinents.
+• Motiver et définir le test logiciel :
+- comprendre le processus général du test logiciel,
+- comprendre ce qu’est un scénario de test et une suite de tests,
+- comprendre comment exécuter un scénario de test,
+- distinguer test manuel ou automatisé,
+- distinguer test unitaire, système ou d’intégration,
+- comprendre la définition, l’importance et la nécessité des frameworks de test,
+- comprendre la méthode fonctionnelle pour définir des scénarios de test,
+- comprendre la méthode structurelle pour définir des scénarios de test,
+- comprendre le problème de la testabilité,
+- comprendre la notion de doublure et son intérêt,
+- connaître des métriques mesurant la qualité des tests (couverture et mutation).
+• Pratiquer le test logiciel :
+- savoir écrire des scénarios de test en suivant une méthode fonctionnelle,
+- savoir écrire des scénarios de test en suivant une méthode structurelle,
+- savoir utiliser correctement un framework de test,
+- savoir créer et utiliser des doublures,
+- savoir appliquer des opérateurs de mutation,
+- savoir utiliser un outil de mutation et interpréter les résultats,
+- savoir utiliser un outil de couverture et interpréter les résultats.
+• Motivate and and define verification and validation:
+- notions of need and specification,
+- notions of failure, fault, error,
+- understand why software has flaws,
+- know the difference between verification and validation,
+- know how to cite different verification approaches and compare them on the basis of relevant criteria.
+• Motivate and define software testing:
+- understand the general process of software testing,
+- understand what a test case and a test suite is,
+- understand how to run a test case,
+- distinguish manual or automated test,
+- distinguish unit, system or integration test,
+- understand the definition, importance and necessity of test frameworks,
+- understand the functional method to define test scenarios,
+- understand the structural method to define test cases,
+- understand the problem of testability,
+- understand the notion of test doubles and its interest,
+- know metrics to measure the quality of tests (coverage and mutation analysis).
+• Practice software testing:
+- know how to write test scenarios by following a functional method,
+- know how to write test scenarios by following a structural method,
+- know how to correctly use a test framework,
+- know how to create and use test doubles,
+- know how to apply mutation operators,
+- know how to use a mutation analysis tool and interpret the results,
+- know how to use a test coverage tool and interpret the results."|"• Notions de besoins, d'exigences, de vérification, de validation
+• Concepts généraux du test logiciel : processus, scénario de test, architecture d'un framework de test logiciel
+• Méthode fonctionnelle pour définir des scénarios de test à partir des exigences
+• Méthode structurelle pour définir des scénarios de test à partir du code source
+• Problèmes de testabilité d'un logiciel, utilisation de doublures de test pour faire face à de tels problèmes
+• Qualité d'une suite de tests et méthodes pour la mesurer (couverture, analyse de mutation)
+• Notions of needs, requirements, verification, validation
+• General concepts of software testing: process, test case, architecture of a software testing framework
+• Functional method to define test cases from requirements
+• Structural method for defining test cases from source code
+• Software testability issues, using test doubles to deal with such issues
+• Quality of a test suite and methods to measure it (coverage, mutation analysis)"
+Conception de logiciels|"• Fonctionnement
+- En séance : cours magistraux pour la théorie (avec support de cours complet en version web et papier), travaux dirigés pour l'application ""sur papier"", travaux pratiques pour l'application sur machine
+- En distanciel / autonomie : travaux pratiques complémentaires, lecture et compréhension en autonomie d'un chapitre non étudié en séance.
+• Évaluation
+- Controle Continu Écrit (CCE) en deux épreuves (mi semestre puis fin de semestre)
+- Contrôle Continu Pratique (CCP).
+• Organization
+- In class: lectures to learn theory (with full course available in web and paper version), tutorials without computers, practical work on computers
+- Outside class: additional practical work, reading and understanding an additional chapter not studied in class, group work on a project given at the end of the semester (see below)
+• Evaluation
+- Two written tests (mid semester then end of semester)
+- One evaluated project to be submitted at the end of the semester"|Master|1|M1 Architecture Logicielle (ALMA),M1 Smart Computing|nan|nan
+Preuves et Constructions Formelles|Preuves et Constructions Formelles||||"1. Maîtriser et savoir manipuler les formalismes théoriques pour la modélisation de problèmes logiciels à base d'automates et logiques.
+2. Comprendre le concept de vérification formelle et être capable d'utiliser des techniques adaptées telles que le model checking ou le theorem proving.
+3. Etre capable de mettre en oeuvre les techniques de modélisation et de vérification formelle à l'aide d'outils adaptés, par ex. Uppaal et CoQ."|"Une préoccupation de l'Informaticien, quel que soit son domaine, est de comprendre les besoins et les exigences d'un projet, de les analyser, de les modéliser, de les structurer, de les stocker, de les programmer. Ce module donne des bases sur ces aspects Logiciel ; ces bases sont nécessaires dans le socle de connaissances de tout étudiant du secteur Logiciel, qui va forcément se confronter au ""logiciel"". On retrouve ces bases dans les curricula de l'ACM ou de l'IEEE (Software engineering body of knowledge) pour le niveau Master.
+Le contenu couvre aussi bien des aspects fondamentaux que ceux directement liés aux environnements professionnels industriels.
+Objectifs : Donner aux étudiants, quel que soit leur parcours en Master Informatique, les bases et les outils pour la construction ou l'analyse de logiciels complexes. Ces bases recouvrent aussi bien les fondamentaux académiques que le contexte professionnel industriel.
+- Notions d'Ingénierie des exigences (avec diverses méthodes)
+- Les normes (ou standard) de qualité et de sécurité des logiciels (IEC 61508, SIL, etc)
+- Logiques, Modèles et Propriétés des logiciels
+- Exploration de modèles de logiciels/systèmes
+- Introduction aux prouveurs de propriétés
+- Prototypage, simulation Détails du contenu:
+- Notions d'Ingénierie des exigences
+La bonne compréhension et la formulation des exigences d'un projet/problème est primordial pour bien le traiter et le faire évoluer.
+Il y a diverses méthodes pour cela, et toute un pan de discipline 'Requirement Engineering' se développe.
+- Les normes (ou standard) de qualité et de sécurité des logiciels (IEC 61508, SIL, etc) Le développement de logiciels répond à un certain niveau de complexité ou de sécurité, à des normes de développement, qui doivent intégrer dès le debut des projets logiciels.
+- Logiques et Modèles
+Pour analyser les exigences et spécifier les logiciels
+- Propriétés des logiciels
+Pour exprimer les attentes d'un logiciel)
+- Exploration de modèles de logiciels/systèmes
+Découvrir les techniques d'analyse du logiciel (model-checking) et pour permettre d'analyser des parties de logiciels
+- Introduction aux prouveurs de propriétés Découvrir des techniques d'analyse du logiciel
+- Prototypage, simulation
+Découvrir techniques et outils d'aide au passage des modèles aux logiciels"
+Projet transversal|Projet transversal|Master|1|M1 Architecture Logicielle (ALMA),M1 Smart Computing|nan|nan
+Apprentissage automatique|Apprentissage automatique|Master|2|M1 Ingénierie Statistique (IS),M1 CMI-IS,M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Smart Computing|nan|nan
+Professionnalisation et éthique|2|Master|2|M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Smart Computing|nan|"Le projet de recherche est une mise en situation d'apprentissage de compétences liées à la recherche.
+Il s'agit de travailler sur une sujet de recherche fourni par une équipe de recherche de LS2N, supervisé par un chercheur professionel.
+L'objectif est constuire une contribution scientifique sur un problème scientifique indentifié.  Cette contribution doit être clairement positionnée par rapport à l'état l'art et validée suivant une méthodologie scientifique.
+Le travail doit être présenté sous forme d'un article de recherche respectant les codes d'un travail académique. Le travail doit être défendu lors d'une présentation orale devant un jury de chercheurs professionels.
+Ce travail s'effectue tout au long du semestre et requiert des échanges scientifiques régulier avec les chercheurs.
+Les activités visées
+- Conception et élaboration d’une démarche de recherche et développement, d’études et prospective
+- Mise en oeuvre d’une démarche de recherche et développement, d’études et prospective Les compétences visées sont:
+- Disposer d’une expertise scientifique tant générale que spécifique d’un domaine de recherche et de travail déterminé
+- Faire le point sur l’état et les limites des savoirs au sein d’un secteur d’activité déterminé, aux échelles locale, nationale et internationale
+- Identifier et résoudre des problèmes complexes et nouveaux impliquant une pluralité de domaines, en mobilisant les connaissances et les savoir–faire les plus avancés."
+Professionnalisation|Professionnalisation|Master|2|M1 Architecture Logicielle (ALMA)|nan|nan
+Programmation distribuée|Programmation distribuée|Master|2|M1 Architecture Logicielle (ALMA)|nan|nan
+Introduction au traitement d'image|Introduction au traitement d'image|Master|2|M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Visual Computing   (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM|nan|"Ce matière permettra de découvrir les bases du traitement d'image:
+•
+Image numérique et échantillonnage
+•
+Histogramme et transformation
+•
+Filtrage spatial et reconstruction / débruitage
+•
+Représentation et filtrage fréquentiel
+•
+Couleur et espaces colorimétriques
+•
+Segmentation et morphologie mathématique
+•
+Extraction de caractéristiques et classification basique"
+Informatique temps réel et embarquée|Informatique temps réel et embarquée|Master|2|M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Visual Computing   (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM|nan|nan
+Ingéniérie des réseaux|Ingéniérie des réseaux|Master|2|M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue   (ATAL),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM|nan|nan
+Introduction au Traitement Automatique des Langues|Introduction au Traitement Automatique des Langues|Master|2|M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM|nan|L'objectif de cette UE est proposer un premier panorama du domaine du traitement automatique du langage. Un bref historique permettra de contextualiser ce domaine dont les recherches y sont très actives actuellement. Des premiers modèles simples de représentation des mots seront étudiés puis des modèles plus complexes à l'état-de-l'art, en particulier s'appuyant sur les réseaux de neurones  et l'apprentissage profond, seront présentés. Les enjeux sociétaux et les limites des modèles de langue actuels seront également abordés. Enfin, une part importante de l'UE intègrera des travaux sur machine sous forme de travaux pratiques : il s'agira de manipuler les concepts du traitement du langage au travers d'exercice ciblé ainsi que d'un petit projet permettant de résoudre un problème ciblé grâce au techniques actuels d'intelligence artificielle adaptées au langage.
+Préparation au TOEIC|Préparation au TOEIC|Master|2|M1 Earth and Planetary Sciences,M1 GE Ecosystèmes et Bioproduction Marine,M1 CMD InnoCare,M1 CMD OHNU,M1 CMD MICAS,M1 CMD M4R,M1 Biologie et médicaments,M1 Biologie et médicaments,M1 Biologie et médicaments,M1 Biologie et médicaments,M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 Sciences de la Matière - Parcours ENR-GE (M1 EEA),M1 Biostatistique & Epidémiologie,M1 Electronique Energie Electrique Automatique - Mention EEA,M1 Bioinformatique/Biostatistique - Mention Bioinformatique,M1 Biologie et médicaments|"A l’issue de cet enseignement, les étudiants seront capables de :
+• Reconnaitre et anticiper les formats de certifications d’anglais.
+• Compléter les réponses exigées par les tests de certifications.
+• Pouvoir optimiser leurs résultats aux certifications grâce à une méthodologie de travail appliquée lors des séances d’entrainement."|"Se préparer pour obtenir une certification en anglais (objectif B2 et +)
+• Présentation des formats
+• Exercices d’entrainement
+• Conseils pour optimiser son score"
