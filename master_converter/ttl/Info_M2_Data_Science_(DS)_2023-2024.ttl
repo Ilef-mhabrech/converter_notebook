@@ -1,0 +1,152 @@
+@prefix ns1: <http://example.org/masters/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:Information_générale rdfs:label "" ;
+    ns1:parcours "master Informatique" .
+
+ns1:Description_des_UE rdfs:label "" ;
+    ns1:content """
+Professional insertion: research & development processes in company processes. Goals and organisation of the scientific research community
+Writing a scientific bibliography Writing and presenting for research
+Designing and interpreting experimental work Ethics of research
+The student will also carry out a project (miniature internship) in the field of data science (various topics will be proposed by the faculty teaching in the master), with emphasis on problem formalisation and bibliography, and light experimentation.
+""" ;
+    ns1:level "Master" ;
+    ns1:semester "3" ;
+    ns1:objective """
+Upon completion, the student will have gained experience in semi-autonomous research work, yet with a guided methodology. They will get personalised tutoring on how to apply the general guidelines
+of the teaching unit to their work.
+""" ;
+    ns1:parcours "M2 Data Science (DS)" .
+
+ns1: rdfs:label "Probabilistic Graphical Models and statistical relational learning" ;
+    ns1:content """
+Probabilistic graphical models (PGMs) are an interesting framework for encoding probability distributions over complex domains. These representations sit at the intersection of statistics and computer science, relying on concepts from probability theory, graph algorithms, machine learning, and more.
+This course describes two basic PGM representations: Bayesian Networks, which rely on a directed graph; and Markov networks, which use an undirected graph. One last part of the course is dedicated to various extensions of these models (dynamic Bayesian networks, probabilistic relational models, Markov logic networks).
+""" ;
+    ns1:level "Master" ;
+    ns1:semester "3" ;
+    ns1:objective """
+Upon completion, the student will
+- be able to model simple problems with simple probabilistic graphical models such as Bayesian networks or Markov networks
+- understand probabilistic inference and parameter/Structure learning algorithm dedicated to such models
+- understand extensions of PGMs dealing with time problems or relational data
+""" ;
+    ns1:parcours "M2 Data Science (DS)" .
+
+ns1:Langue_d_enseignement rdfs:label "Français" ;
+    ns1:content """
+Prerequisites : linear algebra, probability, statistics
+Not mandatory (they will be partly covered during the first courses) but valuable : basic machine learning (classification, regression), convex optimization
+1. Intro [Motivation, definitions, terminology, review linear algebra, probability and optimization, regression]
+2. Subspace learning [principal component analysis (PCA), statistical and geometrical viewpoint, indep. component analysis (ICA)]
+4. Manifold learning [MDS, ISOMAP, t-sne and other unsupervised manifold methods]
+5. Deep learning [restricted Boltzmann machines, auto encoders, deep belief networks, convolutional neural networks, recurrrent neural networks]
+6. Metric learning [(non)-linear, global/local, constraints setting, structured data]
+Project : Students should form groups of 2-4 members. A list of candidate papers will be posted, and each group should pick one from the list. Each group is required to give an oral presentation about the content of the paper in the last two weeks, and submit a report at the end. The report should include at the minimum a summary of the method/framework, and experimental results obtained by playing the code published along with the paper. Division of work should be determined by the members.
+Grading will be based on a project assignment (50%) and a final exam (50%).
+""" ;
+    ns1:level "Master" ;
+    ns1:semester "3" ;
+    ns1:objective """
+Upon completion, the student will
+- face the problem of human crafted features and observe the benefit of automatic feature learning
+- understand cutting edge representation learning algorithms applied in data science
+- know how to use representation learning methods that scale well on a variety of (un)labeled, (multi)-modal, relational and heterogeneous data.
+- be able to tackle a new data given by an application or a new problem described in a scientific paper, and apply the aforementionned methods on it
+""" ;
+    ns1:parcours "M2 Data Science (DS)" .
+
+ns1: rdfs:label "Text and sequential pattern mining" ;
+    ns1:content """
+This teaching unit explores techniques for discovering and assessing patterns and structures from sequential data (temporal event sequences, texts, biological sequences, etc.). It focuses on applications for text mining and process mining.
+Outline:
+Sequential pattern mining
+- episode mining
+- sequential pattern mining
+- constraint-based mining
+- pattern assessment Text Mining
+- preprocessing methods
+- similarities
+- emerging patterns Process Mining
+- Process model
+- Process discovery
+- Conformance checking
+""" ;
+    ns1:level "Master" ;
+    ns1:semester "3" ;
+    ns1:objective """
+Students will be able to:
+- run through the main algorithms for mining sequential patterns, episodes and processes from a small dataset.
+- choose interestingness measures appropriate to the data and to the analyst' goals.
+- preprocess text corpuses and characterize them with patterns.
+""" ;
+    ns1:parcours "M2 Data Science (DS)" .
+
+ns1: rdfs:label "Pattern mining and social network analysis" ;
+    ns1:level "Master" ;
+    ns1:semester "3" ;
+    ns1:parcours "M2 Data Science (DS)" .
+
+ns1: rdfs:label "Data dependencies and data integration" ;
+    ns1:content """
+- Part I:
+* A Short Review of the Relational Data Model: SQL, RA, RC, CQ, FO
+* Functional Dependencies and Inclusion Dependencies: Armstrong's Axioms, the Implication Problem
+* Database Design: BCNF, 3NF, Decomposition, Chase test
+- Part II
+* FD discovery: TANE, FD_Mine, Dep-Miner, CORDS, FastFDs * Extension to Approximate FD's discovery
+* Conditional FD's and 33 other Relaxations!
+- Part III * Data Integration: egds, tgds, G/L-AV
+* Schema Mapping: GLAV
+* Data Exchange: universal instance, certain answers
+* Query-Answering Using Views
+""" ;
+    ns1:level "Master" ;
+    ns1:semester "3" ;
+    ns1:parcours "M2 Data Science (DS)" .
+
+ns1: rdfs:label "Data economics, law and ethics" ;
+    ns1:content """
+Economics of data Open data
+Models and techniques for recommender systems Models and techniques for crowdsourcing
+Anonymization techniques for privacy-preserving data publishing Detecting and preventing discrimination
+""" ;
+    ns1:level "Master" ;
+    ns1:semester "3" ;
+    ns1:objective """
+Upon completion, students will be able to :
+- relate data analysis tasks and economic motivations and models in the digital economy
+- relate the legal and privacy and algorithmics of privacy-preserving and discrimination-preserving technologies
+- take advantage of mathematical models and software tools that exploit personal data to create economic value (recommendation, crowdsourcing)
+""" ;
+    ns1:parcours "M2 Data Science (DS)" .
+
+ns1: rdfs:label "Conferences and invited courses (DS)" ;
+    ns1:content """
+This course is defined with regular short conferences with researcher or industrialist. The program is defined every year in accordance with the topical issues.
+""" ;
+    ns1:level "Master" ;
+    ns1:semester "3" ;
+    ns1:objective """
+This series of presentations and discussions will open their mind of students to new topics, applications and speakers,
+and stimulate them for chosing their way into the field of data science.
+""" ;
+    ns1:parcours "M2 Data Science (DS)" .
+
+ns1: rdfs:label "Internship (DS)" ;
+    ns1:content """
+During the internship, the student will conduct a research work either in a university lab or in the R&D department of a private company.
+""" ;
+    ns1:level "Master" ;
+    ns1:semester "4" ;
+    ns1:objective """
+At the end of the intership, the student should be able to:
+1. 1. Identify and refine a research question or puzzle within an existing field of scientific inquiry and devise a plan for investigating it.
+2. Formulate a program of reading in consultation with a professional scientist to provide context for the investigation
+3. Develop a time-line for the research project and manage work to that time-line
+4. Communicate research results –both orally and in writing – in a style consistent with scientific standards
+5. Work as part of a research team
+""" ;
+    ns1:parcours "M2 Data Science (DS)" .
+

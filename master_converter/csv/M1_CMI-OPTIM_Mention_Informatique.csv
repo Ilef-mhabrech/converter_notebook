@@ -1,0 +1,97 @@
+﻿key|title|level|semester|parcours|objective|content
+Information générale||||master Informatique||
+Anglais scientifique||Master|1|M1 CMI-OPTIM,M1 Architecture Logicielle (ALMA),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Smart Computing||
+Développement et exploitation||Master|1|M1 Architecture Logicielle (ALMA),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing|"1. reconnaître et modéliser un problème réel adapté à la résolution par la théorie des graphes.
+2. choisir la représentation d'un graphe la plus adaptée à chaque problème, en visant l'efficacité.
+3. prendre en compte la complexité intrinsèque des graphes pour calculer précisément la complexité algorithmique d'une solution et évaluer son efficacité.
+4. mettre en œuvre les principales solutions algorithmiques pour les problèmes classiques de théorie des graphes : parcours, connexité, plus courts chemins, recherche de cycles."|"1. Introduction, rappels, exemples et applications.
+2. Efficacité des algorithmes et calcul de la complexité: cas particulier des algorithmes portant sur les graphes
+3. Graphes particuliers I (arbres, arborescences): algorithmes et applications.
+4. Connexité, forte connexité: algorithmes et applications.
+5. Graphes particuliers II (graphes bipartis, graphes orientés sans circuits): algorithmes et applications.
+6. Plus courts chemins: algorithmes et applications"
+Dualité et optimisation linéaire continue|Dualité et optimisation linéaire continue|Master|1|M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing|"Un étudiant suivant avec attention ce cours sera capable de :
+* Résoudre un programme linéaire graphiquement et par l'algorithme primal simplexe (A)
+* Décrire les propriétés liant un programme linéaire (dit primal) et son dual (M)
+* Donner l'interprétation économique du problème dual : comprendre le lien entre les valeurs des variables duales, les coûts réduits des variables primales et la notion de coût dual associé à une contrainte primale (M)
+* Résoudre un programme linéaire par l'algorithme dual simplexe (A)
+* Décrire des raffinements des algorithmes du simplexe (forme révisée, variantes en variables bornées) (I)
+* Déterminer les conséquences sur le tableau simplexe optimal d'une modification du problème initial : modification de coefficients de la fonction objectif, de membres de droite d'une contrainte, ajout de variables et/ou de contraintes (A)
+* Interpréter correctement les notions d'intervalle de sensibilité d'un coefficient de la fonction objectif ou d'un second membre d'une contrainte (A)
+* Réoptimiser un programme linéaire auquel des contraintes/des variables ont été ajoutées après la résolution initiale (A)
+* Reconnaître une matrice totalement unimodulaire, et décrire ses propriétés (A)
+* Résoudre le problème d'affectation par la méthode hongroise (A)"|"1) Rappels : résolution graphique de programmes linéaires, algorithme primal simplexe
+2) Dualité en programmation linéaire : définition, principales propriétés, interprétation économique
+3) Algorithme dual simplexe
+4) Analyse post-optimale
+5) Résolution du problème d'affectation linéaire par la méthode hongroise"
+Introduction à l'optimisation non-linéaire différentiable||Master|1|M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing|"1. reconnaître, modéliser et résoudre un problème de flots à l'aide d'algorithmes classiques, y compris lorsque le coût compte.
+2. reconnaître, modéliser et résoudre un problème de transport à l'aide de l'algorithme du simplexe réseau.
+3. comprendre l'étendue des applications, mais aussi des limites de chacune des problématiques/méthodes.
+4. mener à bien un projet de résolution de problème à l'aide de graphes, en binôme, depuis la prise en main du sujet et jusqu'à l'évaluation des solutions/implémentations proposées"|"Ce cours concerne divers problèmes de transports dans les réseaux, leurs algorithmes et leurs applications:
+1. Problème du flot maximum : algorithmes de Ford-Fulkerson, d'Edmonds-Karp, de préflot, leurs avantages et leurs limites.
+2. Problème du flot maximum de coût minimum : algorithme des plus courts chemins, algorithme de Klein, leurs avantages et leurs limites.
+3. Problèmes de transbordement : algorithme du simplexe réseau, ses avantages et ses limites."
+Métaheuristiques|Métaheuristiques|Master|1|M1 CMI-IS,M1 Ingénierie Statistique (IS),M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing||
+Analyse exploratoire de données|Analyse exploratoire de données|Master|1|M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing||
+Anglais Préparation TOEIC|Français|Master|1|"M1 Electronique Energie Electrique Automatique - Mention EEA,M1 Ingénierie Statistique (IS),M1 Mécanique,M1 PFA Physique Fondamentale et Applications,M1 Sciences & Santé,M1 Chimie Moleculaire et Therapeutique (CMT),M1 CMI-IS,M1 Mathématiques Fondamentales (MF),M1 Modélisation, Analyse numérique et Calcul Scientifique (MACS),M1 ANALYSE MOLECULES MATERIAUX MEDICAMENTS (A3M),M1 LUMIERE MOLECULE MATIERE (LUMOMAT),M1
+Bioinformatique/Biostatistique - Mention Bioinformatique,M1 Conception et réalisation des bâtiments,M1 Travaux Publics, Maritimes et Maintenance - Mention GC,M1 Travaux Publics, Maritimes et Maintenance - Mention TM,M1 Biostatistique & Epidémiologie,M1 Earth and Planetary Sciences,M1 GE Ecosystèmes et Bioproduction Marine,M1 CMD MICAS,M1 CMD InnoCare,M1 CMD OHNU,M1 CMD I3,M1 CMD I3,M1 Biologie et médicaments,M1 Biologie et médicaments,M1 Biologie et médicaments,M1 Biologie et médicaments,M1 CMD M4R,M1 Biologie et médicaments,M1 CMI-INA,M1 CMI-OPTIM,M1 Sciences de la Matière - Parcours ENR-GE (M1 EEA),M1 CMI-ICM,M1 Technologie Marine - Parcours International Travaux publics et Maritimes"|"A l’issue de cet enseignement, les étudiants seront capables de :
+• Reconnaitre et anticiper les formats de certifications d’anglais.
+• Compléter les réponses exigées par les tests de certifications.
+• Pouvoir optimiser leurs résultats aux certifications grâce à une méthodologie de travail appliquée lors des séances d’entrainement."|"Se préparer pour obtenir une certification en anglais (objectif B2 et +)
+• Présentation des formats
+• Exercices d’entrainement
+• Conseils pour optimiser son score"
+Compilation|1|Master|1|M1 CMI-INA,M1 CMI-IS,M1 CMI-OPTIM,M1 CMI-ICM||
+Apprentissage automatique|Apprentissage automatique|Master|2|M1 Ingénierie Statistique (IS),M1 CMI-IS,M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Smart Computing||
+Professionnalisation et éthique|Professionnalisation et éthique|Master|2|M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM,M1 Smart Computing||
+Ethique|Ethique|Master|2|M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM||
+Modèles probabilistes|Modèles probabilistes|Master|2|M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM||
+Introduction au traitement d'image|Introduction au traitement d'image|Master|2|M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Visual Computing   (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM||"Ce matière permettra de découvrir les bases du traitement d'image:
+•
+Image numérique et échantillonnage
+•
+Histogramme et transformation
+•
+Filtrage spatial et reconstruction / débruitage
+•
+Représentation et filtrage fréquentiel
+•
+Couleur et espaces colorimétriques
+•
+Segmentation et morphologie mathématique
+•
+Extraction de caractéristiques et classification basique"
+Informatique temps réel et embarquée|Informatique temps réel et embarquée|Master|2|M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Visual Computing   (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM||
+Introduction au Traitement Automatique des Langues|Introduction au Traitement Automatique des Langues|Master|2|M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM||L'objectif de cette UE est proposer un premier panorama du domaine du traitement automatique du langage. Un bref historique permettra de contextualiser ce domaine dont les recherches y sont très actives actuellement. Des premiers modèles simples de représentation des mots seront étudiés puis des modèles plus complexes à l'état-de-l'art, en particulier s'appuyant sur les réseaux de neurones  et l'apprentissage profond, seront présentés. Les enjeux sociétaux et les limites des modèles de langue actuels seront également abordés. Enfin, une part importante de l'UE intègrera des travaux sur machine sous forme de travaux pratiques : il s'agira de manipuler les concepts du traitement du langage au travers d'exercice ciblé ainsi que d'un petit projet permettant de résoudre un problème ciblé grâce au techniques actuels d'intelligence artificielle adaptées au langage.
+Optimisation déterministe et stochastique|Optimisation déterministe et stochastique|Master|2|M1 Ingénierie Statistique (IS),M1 Modélisation, Analyse numérique et Calcul Scientifique (MACS),M1 CMI-IS,M1 CMI-OPTIM|"Au terme de cette Unité d’Enseignement, l’étudiant :
+• Formule un problème d’optimisation en dimension finie ou infinie sous contraintes et en prouve l’existence et l’unicité d’un minimum
+• Implémente sous Python les méthodes d’optimisation de Newton, de descente par gradient et par gradient stochastique, de recherche aveugle et de recuit simulé
+• Explique le principe de l’algorithme EM et cite des exemples de problèmes d’optimisation pour lequel il est adapté
+• Compare les avantages et les inconvénients de chacune des méthodes d’optimisation précédentes."|"Optimisation déterministe :
+Convexité, différentiabilité, théorèmes d’existence d’un minimum (dimension finie et infinie) Optimisation sous contrainte : multiplicateurs de Lagrange, point-selle et dualité, conditions KKT Méthodes numériques :
+• Méthodes de Newton (rappel)
+• Méthodes de descente (pas constant, variable, optimal)
+- Application à la résolution de systèmes linéaires
+- Gradient conjugué
+• Problèmes avec contraintes : méthodes de descente et de pénalisation Optimisation stochastique :
+• Recherche aléatoire par méthodes de Monte-Carlo
+• Méthode de gradient stochastique
+• Recuit simulé
+• Algorithme Espérance/ Maximisation (EM), application au maximum de vraisemblance en présence de variables latentes non observées
+L’implémentation des méthodes d’optimisation vues en cours sera faite en langage Python."
+stage volontaire en informatique|stage volontaire en informatique|Master|2|M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM||
+English for Scientific Communication-Online Course|English for Scientific Communication-Online Course|Master|2|M1 Ingénierie Statistique (IS),M1 CMI-IS,M1 Mathématiques Fondamentales (MF),M1 Bioinformatique/Biostatistique - Mention Bioinformatique,M1 Bioinformatique/Biostatistique - Mention Bioinformatique,M1 Sciences & Santé,M1 Modélisation, Analyse numérique et Calcul Scientifique (MACS),M1 Biostatistique & Epidémiologie,M1 CMI-OPTIM|"Au terme du module ‘English for Scientific Communication-Online Course’ les étudiants devront être capables de :
+• Consulter efficacement et évaluer une publication scientifique dans leur domaine de spécialité
+• Concevoir et tenir à jour une banque lexicale des verbes et expressions utiles lors de la rédaction d’une publication scientifique
+• S’être familiarisés avec des situations linguistiques courantes en recherche : traduction, rédaction
+d’abstracts et d’articles, peer-reviewing, présentation orale
+• Communiquer efficacement à l’écrit comme à l’oral dans un contexte scientifique et institutionnel"|"PROGRAMME
+Au terme du module ‘English for Scientific Communication-Online Course’ les étudiants devront être capables de :
+• Consulter efficacement et évaluer une publication scientifique dans leur domaine de spécialité
+• Concevoir et tenir à jour une banque lexicale des verbes et expressions utiles lors de la rédaction d’une publication scientifique
+• S’être familiarisés avec des situations linguistiques courantes en recherche : traduction, rédaction
+d’abstracts et d’articles, peer-reviewing, présentation orale
+• Communiquer efficacement à l’écrit comme à l’oral dans un contexte scientifique et institutionnel
+CONTENU
+Articles et publications de recherche Anglais technique (recherche) Traduction et édition d’articles"

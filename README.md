@@ -1,49 +1,85 @@
-# converter_notebook
+# 🎓 Masters Converter Notebook
 
-# Batch Conversion of Master’s Program Outlines
-
-This directory contains the `batch_masters.py` script and output folders to bulk-convert Master’s program outlines (PDF) into **CSV** and **Turtle (TTL)** files.
+Bulk-convert university Master’s program outlines (PDF → Excel → CSV & Turtle) in one go.
 
 ---
 
-##  Processing Steps
+## 🚀 Table of Contents
 
-1. **Download PDFs**  
-   Retrieve all Master’s program outlines in PDF format from the university website.
+1. [Installation](#installation)  
+2. [Prerequisites](#prerequisites)  
+3. [Processing Steps](#processing-steps)  
+4. [Usage](#usage)  
+5. [How It Works](#how-it-works)  
+6. [Output Structure](#output-structure) 
+7. [Testing Turtle Outputs with Python](#Testing-Turtle-Outputs-with-Python) 
 
-2. **Convert PDF → Excel**  
-   Use  **I Love PDF** to transform each PDF into an Excel file (`.xlsx`).
+---
 
-3. **Run the Script**  
-   From the root of this directory, execute:
-   python3 batch_masters.py
+##  Installation
 
-Note: Install dependencies before running:
-  pip install pandas openpyxl
+1. **Clone** this repository:
+   ```bash
+   git clone https://github.com/Ilef-mhabrech/converter_notebook.git
+   cd converter_notebook
 
-## Script Overview (batch_masters.py)
+ # (Optional) Create & activate a virtual env
 
-**Initialization** 
+   python3 -m venv .venv
+   source .venv/bin/activate      # macOS/Linux
 
-Creates four output folders (if they don’t already exist):
-csv/, ttl/, csv_metrics/, ttl_metrics/.
 
-Defines RDF prefixes for the Turtle files.
+# Install dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+
+##  Prerequisites
+Python ≥ 3.7
+
+pandas
+
+openpyxl
+
+## Processing Steps
+
+**1-Download PDFs**
+Fetch all Master’s program outlines in PDF from the university site:
+https://sciences-techniques.univ-nantes.fr/formations/masters/master-informatique
+
+**2-Convert PDF → Excel**
+Use I Love PDF (or any PDF→Excel tool) to produce .xlsx files.
+
+**3-Run the Script**
+From the project root:
+    ```bash 
+ python3 master_converter/batch_masters.py
+
+## Usage
+After installation and placing your .xlsx files at the repository root, simply run:
+       ```bash 
+python3 master_converter/batch_masters.py
+
+All output folders will be populated automatically.
+
+## How It Works
+**Initialization**
+
+Creates four output directories (if missing):
+csv/, ttl/, csv_metrics/, ttl_metrics/
+
+Sets RDF prefixes for Turtle files.
 
 **Data Extraction**
 
-Iterates through every sheet in each *.xlsx file.
+Iterates through every sheet in each .xlsx.
 
-Detects sections containing “Objectifs” (Objectives) to locate course units (UEs).
+Identifies “Objectifs” sections to locate course units (UEs).
 
-For each UE, collects:
+Extracts:
 
-Metadata:
-key (identifier), title, level, semester,
-parcours (track), objective, content.
+Metadata: key, title, level, semester, track, objective, content
 
-Metrics:
-volume (hours) and ects (credits).
+Metrics: volume (hours), ects (credits)
 
 **File Generation**
 
@@ -55,16 +91,12 @@ Metrics CSV → csv_metrics/<basename>_metrics.csv
 
 Metrics Turtle → ttl_metrics/<basename>_metrics.ttl
 
+Each TTL file includes RDF prefix declarations and triples (ns1:…) describing the units and their credits.
 
-
-Each TTL file includes RDF prefix declarations and triples (ns1:…) describing the course units and their credits.
-
-
-## results 
-
-  📂 Output Structure
-
+## output structure :
+.
 ├── batch_masters.py
+├── requirements.txt
 ├── csv/             # Metadata CSV files
 ├── ttl/             # Metadata Turtle files
 ├── csv_metrics/     # Volume & ECTS CSV files
