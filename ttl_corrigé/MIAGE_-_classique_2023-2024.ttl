@@ -1,0 +1,159 @@
+@prefix ns1: <http://example.org/masters/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:Analyser_la_situation_d_une_organisation_en_vue_d_adapter_et_gérer_son_système_d_information ns1:content """
+Introduction générale au droit, La propriété intellectuelle, Le contrat
+de travail et les TIC, Le RGPD, Les licences et logiciels, Le droit
+des contrats, Les spécificités des contrats numériques, La liberté
+d’expression sur Internet et le droit des réseaux sociaux,
+Cybersécurité, cybercriminalité et cryptomonnaies
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours "MIAGE - classique" ;
+    ns1:semester "1" .
+
+ns1:Anglais rdfs:label "Anglais" ;
+    ns1:content """
+Un projet de groupe portera sur un scénario à analyser puis
+à présenter en anglais (oral et écrit). Création d'une vidéo,
+d'un texte, d'un site web et d'une plateforme MOOC.
+Notation individuelle (oral) et de groupe (rapport).
+""" ;
+    ns1:objective """
+Présenter en anglais, à l’oral et formellement, un projet de groupe.
+Rédiger des documents techniques en anglais.
+Présenter sans notes une innovation ou actualité Informatique.
+""" ;
+    ns1:parcours "MIAGE - classique" ;
+    ns1:semester "2" .
+
+ns1:Concevoir__développer_et_tester_des_applications_dans_des_environnements_spécifiques rdfs:label "Concevoir, développer et tester des applications dans des environnements spécifiques" ;
+    ns1:content """
+Expliquer les principes de la conception de SI : niveaux d’abstraction,
+modèles de représentation, démarches de conception.
+Conception préliminaire, architecturale, détaillée. Composants logiciels,
+services, micro-services, Frameworks, patterns, contrats, tests unitaires
+et d'intégration. Qualité du code (clean code, tableaux de bord).
+Bonnes pratiques, rétro-ingénierie.
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours "MIAGE - classique" ;
+    ns1:semester "1" .
+
+ns1:Données_sur_le_web rdfs:label "Données sur le web" ;
+    ns1:content """
+Open Data, données semi-structurées (modélisation et exploitation ;
+XML, JSON)
+""" ;
+    ns1:objective """
+Comprendre les enjeux de l'Open Data.
+Mettre en œuvre un projet Open Data dans une organisation.
+Être capable de modéliser des données sous forme hiérarchique.
+Maîtriser l’exploitation de données hiérarchiques.
+Justifier le choix de l'algorithme en termes de complexité
+temporelle et spatiale.
+""" .
+
+ns1:Information_générale ns1:objective """
+Pas de semestralisation des enseignements
+Les EC de la partie théorique et de la partie pratique sont répartis
+sur l'ensemble de l'année de mi-septembre à mi-avril
+(sauf l'EC stage qui a lieu de mi-avril à fin août).
+""" ;
+    ns1:parcours "master MIAGE" .
+
+ns1:Ingénierie_des_Réseaux rdfs:label "Ingénierie des Réseaux" ;
+    ns1:content """
+Fonctionnement des principaux protocoles utilisés dans l’internet.
+Enjeux et évolutions de l'adressage IP. Principe du routage statique
+et dynamique. Différents modèles de communication.
+Architectures réseaux à qualité de service (QoS) et ingénierie de
+trafic. Configuration des applications client-serveur
+(FTP, DHCP, TELNET,...). Utilisation des services (DNS…). Notions
+de sécurité (pare-feu, cybercriminalité). Programmation réseaux
+(socket).
+""" ;
+    ns1:level "Master" ;
+    ns1:semester "1" .
+
+ns1:Management_d_équipe ns1:content """
+Constitution d’équipe, Organisation du travail, Prise de décisions,
+Analyse de la performance, Management par objectif, Exercice du contrôle,
+Gestion des conflits, Pilotage du changement, Transversalité et projets,
+Conduite de réunion, Gestion de l’information, Délégation, Recentrage,
+Entretien de progrès
+""" ;
+    ns1:objective """
+Comprendre les principes de collaboration et de communication au sein
+d'une équipe. Savoir différencier les modes de management.
+Identifier les fonctionnements individuels et les interactions.
+Être capable de constituer une équipe en tenant compte des forces
+et faiblesses de chacun. Maîtriser l’animation de réunions.
+Poser les dispositifs de contrôle et d'amélioration périodiques.
+Jugerdes éventuelles lacunes de l'équipe pour la renforcer.
+""" ;
+    ns1:parcours "MIAGE - classique" .
+
+ns1:Modélisation_et_vérification_des_modèles rdfs:label "Modélisation et vérification des modèles" ;
+    ns1:content """
+Modélisation, modèles graphiques à états et logiques.
+Modélisation de programmes et interactions (protocole de transmission).
+Rappels de logique prédicative. Vérification de propriétés
+logiques (linéaire) et d’assertions (Z, B).
+""" ;
+    ns1:level "Master" ;
+    ns1:objective """
+Comprendre et manipuler des automates, réseaux de Petri, chaînes de Markov.
+Produire un modèle graphique adapté. Manipuler la logique linéaire
+et prédicative. Formaliser des propriétés en langage naturel.
+Appliquer les algorithmes de vérification formelle.
+""" .
+
+ns1:Politiques_de_financement rdfs:label "Politiques de financement" ;
+    ns1:content """
+Les annuités, Les emprunts indivis, Les mesures d’évaluation des
+investissements, Le plan de financement, Mode de financement et coût
+du financement à LT
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours "MIAGE - classique" ;
+    ns1:semester "1" .
+
+ns1:Professionnalisation_Projet_1 rdfs:label "Professionnalisation Projet 1" ;
+    ns1:content """
+Travail en groupe (3-5 étudiants) en entreprise, labo ou faculté.
+Projet hebdomadaire sur deux semestres. Conception et développement
+d'un logiciel. Évaluation par rapport, présentation orale.
+""" ;
+    ns1:objective """
+Intégrer la culture compétences. Construire une réflexion ciblée.
+Comprendre les métiers et compétences, élaborer une stratégie de veille.
+Auto-évaluer son profil. Formaliser ses expériences.
+Réinvestir ses acquis.
+""" .
+
+ns1:Professionnalisation___Mémoire_1 rdfs:label "Professionnalisation - Mémoire 1" ;
+    ns1:content """
+Travail en groupe (3-5 étudiants) en entreprise, labo ou faculté.
+Projet hebdomadaire sur deux semestres. Conception et développement
+d'un logiciel. Évaluation par rapport, présentation orale.
+""" ;
+    ns1:objective """
+Intégrer la culture compétences. Construire une réflexion ciblée.
+Comprendre les métiers et compétences, élaborer une stratégie de veille.
+Auto-évaluer son profil. Formaliser ses expériences.
+Réinvestir ses acquis.
+""" .
+
+ns1:STAGE rdfs:label "STAGE" ;
+    ns1:content """
+Le stage individuel en entreprise dure 16 semaines minimum
+(avril à août, extensible jusqu'à fin année).
+Rapport et soutenance orale. Évaluation technique et managériale.
+""" ;
+    ns1:objective """
+Intégrer les compétences professionnelles.
+Construire une réflexion ciblée. Évaluer son profil.
+Réinvestir ses expériences professionnelles.
+""" .
+

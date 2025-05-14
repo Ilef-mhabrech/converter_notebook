@@ -1,0 +1,3 @@
+[console_scripts]
+cleaner = cleaner.cli:run_cleaner
+

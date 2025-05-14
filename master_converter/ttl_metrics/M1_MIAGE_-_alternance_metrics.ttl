@@ -1,38 +1,40 @@
 @prefix ns1: <http://example.org/masters/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://example.org/masters/Analyser_la_situation_d_une_organisation_en_vue_d_adapter_et_gÃ©rer_son_systÃ¨me_d_information> ns1:volume """
-TOTAL : 132h RÃ©partition : CM : 44h TD : 88h CI : 0h TP : 0h EAD : 0h
-""" .
+ns1:Information_générale 
+ns1:Analyser_la_situation_d_une_organisation_en_vue_d_adapter_et_gérer_son_système_d_information     ns1:volume """
+TOTAL : 132h Répartition : CM : 44h TD : 88h CI : 0h TP : 0h EAD : 0h
+""" ;
 
-ns1:Anglais ns1:volume """
-TOTAL : 32h RÃ©partition : CM : 0h TD : 32h CI : 0h TP : 0h EAD : 0h
-""" .
+ns1:Politique_de_financements     ns1:volume """
+TOTAL : 44h Répartition : CM : 16h TD : 28h CI : 0h TP : 0h EAD : 0h
+""" ;
 
-<http://example.org/masters/Concevoir__dÃ©velopper_et_tester_des_applications_dans_des_environnements_spÃ©cifiques> ns1:volume """
-TOTAL : 180h RÃ©partition : CM : 56h TD : 76h CI : 0h TP : 48h EAD : 0h
-""" .
+ns1:Ingénierie_des_Réseaux     ns1:volume """
+TOTAL : 44h Répartition : CM : 12h TD : 16h CI : 0h TP : 16h EAD : 0h
+""" ;
 
-<http://example.org/masters/DonnÃ©es_sur_le_Web> ns1:volume """
-TOTAL : 28h RÃ©partition : CM : 12h TD : 8h CI : 0h TP : 8h EAD : 0h
-""" .
+ns1:Management_d_équipe     ns1:volume """
+TOTAL : 24h Répartition : CM : 0h TD : 24h CI : 0h TP : 0h EAD : 0h
+""" ;
 
-<http://example.org/masters/IngÃ©nierie_des_RÃ©seaux> ns1:volume """
-TOTAL : 44h RÃ©partition : CM : 12h TD : 16h CI : 0h TP : 16h EAD : 0h
-""" .
+ns1:Concevoir__développer_et_tester_des_applications_dans_des_environnements_spécifiques     ns1:volume """
+TOTAL : 180h Répartition : CM : 56h TD : 76h CI : 0h TP : 48h EAD : 0h
+""" ;
 
-<http://example.org/masters/Management_d_Ã©quipe> ns1:volume """
-TOTAL : 24h RÃ©partition : CM : 0h TD : 24h CI : 0h TP : 0h EAD : 0h
-""" .
+ns1:Données_sur_le_Web     ns1:volume """
+TOTAL : 28h Répartition : CM : 12h TD : 8h CI : 0h TP : 8h EAD : 0h
+""" ;
 
-<http://example.org/masters/ModÃ©lisation_et_vÃ©rifications_des_modÃ¨les> ns1:volume """
-TOTAL : 44h RÃ©partition : CM : 12h TD : 20h CI : 0h TP : 12h EAD : 0h
-""" .
+ns1:Modélisation_et_vérifications_des_modèles     ns1:volume """
+TOTAL : 44h Répartition : CM : 12h TD : 20h CI : 0h TP : 12h EAD : 0h
+""" ;
 
-ns1:Politique_de_financements ns1:volume """
-TOTAL : 44h RÃ©partition : CM : 16h TD : 28h CI : 0h TP : 0h EAD : 0h
-""" .
+ns1:Anglais     ns1:volume """
+TOTAL : 32h Répartition : CM : 0h TD : 32h CI : 0h TP : 0h EAD : 0h
+""" ;
 
-<http://example.org/masters/PÃ©riodes_de_formation_alternÃ©es_en_milieu_pro__1> ns1:volume """
-TOTAL : 0h RÃ©partition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h
-""" .
+ns1:Périodes_de_formation_alternées_en_milieu_pro__1     ns1:volume """
+TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h
+""" ;
 

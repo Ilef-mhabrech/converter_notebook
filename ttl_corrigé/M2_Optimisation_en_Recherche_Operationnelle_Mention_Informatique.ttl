@@ -1,0 +1,123 @@
+@prefix ns1: <http://example.org/masters/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:Algorithmique_du_genome a ns1:Course ;
+    rdfs:label "Algorithmique du génome" ;
+    ns1:content """
+Ce cours présente des algorithmes déterministes pour résoudre rigoureusement des problèmes d'optimisation non linéaire :
+- Branch-and-bound
+- Arithmétique par intervalles
+- Techniques de réduction et linéarisation
+- Certification des calculs numériques
+""" ;
+    ns1:level "Master" ;
+    ns1:objective """
+- Comprendre calcul par intervalles et bornes d'erreurs
+- Linéariser un problème non linéaire
+- Connaître les stratégies de recherche usuelles
+- Implémenter un solveur d'optimisation non linéaire
+""" ;
+    ns1:parcours "M2 ORO, M2 CMI-OPTIM" ;
+    ns1:semester "3" .
+
+ns1:Master_2_M2_Optimisation_en_Recherche_Operationnelle_ORO_Annee_universitaire a ns1:Master ;
+    rdfs:label "Master 2 Optimisation en Recherche Opérationnelle (ORO) Année universitaire" ;
+    ns1:objective """
+Le parcours ORO relève du domaine de la recherche opérationnelle. Il aborde en particulier les graphes et la programmation mathématique (discrète, non-linéaire, multi-objectif), la programmation par contraintes (discrète et continue), l’intelligence computationnelle et l’aide à la décision. Ce parcours a pour objectif de donner les connaissances nécessaires en vue de spécifier, concevoir, réaliser et intégrer des solutions logicielles dans le domaine de l'optimisation répondant à des besoins spécifiques et défis de notre société. La formation est centrée sur les fondements algorithmiques de l'optimisation, ainsi que leurs applications aux systèmes de production et logistique, en robotique et à la génomique.
+Le parcours est proposé en double diplôme avec l’Université libre de Bruxelles (Belgique).
+Une labellisation CMI OPT/IM est en cours (cursus de 5 ans sur le modèle international du « master of engineering » qui exige, entre autres, de réaliser un stage à l'étranger ou un semestre dans une université partenaire. Pour l'informatique, c'est sur le parcours ORO qu'est adossé ce cursus CMI au niveau master).
+""" ;
+    ns1:parcours "Master Informatique" .
+
+ns1:Optimisation_en_robotique a ns1:Course ;
+    rdfs:label "Optimisation en robotique" ;
+    ns1:content "Optimisation appliquée aux problèmes en robotique" ;
+    ns1:level "Master" ;
+    ns1:objective """
+- Modéliser cinématique des robots
+- Identifier classes des problèmes d'optimisation en robotique
+- Modéliser et résoudre numériquement ces problèmes
+""" ;
+    ns1:parcours "M2 ORO, M2 CMI-OPTIM" ;
+    ns1:semester "3" .
+
+ns1:Optimisation_multi_objectif a ns1:Course ;
+    rdfs:label "Optimisation multi-objectif" ;
+    ns1:content """
+Ce cours est composé de 5 chapitres :
+- Introduction à l'optimisation multi-objectif
+- Programmation linéaire multi-objectif
+- Optimisation combinatoire multi-objectif – définitions et propriétés principales
+- Optimisation combinatoire multi-objectif – principales méthodes de résolution
+- Problème du plus court chemin multi-objectif
+""" ;
+    ns1:level "Master" ;
+    ns1:objective """
+- Connaître les notions d'ensemble admissible, ensemble des résultats, solution efficace/faiblement efficace, point non dominé/faiblement non dominé, solution optimale lexicographique
+- Connaître les points idéal et nadir
+- Maîtriser les principales méthodes de scalarisation
+- Comprendre les propriétés géométriques des ensembles admissibles et efficaces en MOLP
+- Appliquer l'algorithme du simplexe paramétrique
+- Comprendre les propriétés topologiques en MOCO
+- Classer les solutions efficaces
+- Appliquer les méthodes e-contrainte et somme pondérée
+- Définir et mettre à jour la zone de recherche dans un problème combinatoire bi-objectif
+- Appliquer des stratégies d'exploration (branch and bound, programmation dynamique)
+""" ;
+    ns1:parcours "M2 ORO, M2 CMI-OPTIM" ;
+    ns1:semester "3" .
+
+ns1:Ordonnancement_et_planification a ns1:Course ;
+    rdfs:label "Ordonnancement et planification" ;
+    ns1:level "Master" ;
+    ns1:parcours "M2 ORO, M2 CMI-OPTIM" ;
+    ns1:semester "3" .
+
+ns1:Programmation_mathematique a ns1:Course ;
+    rdfs:label "Programmation mathématique" ;
+    ns1:level "Master" ;
+    ns1:objective """
+- Techniques classiques de modélisation
+- Stratégies pour résoudre les programmes linéaires mixtes
+- Techniques de prétraitement dans un solveur
+- Implémenter un algorithme de plans coupants
+- Comparer les formulations d'un même problème
+- Reconnaître symétries dans les problèmes
+- Relaxation lagrangienne
+- Implémentation d'algorithmes de génération de colonnes
+- Décomposition de Dantzig-Wolfe et Branch-and-Price
+- Décomposition de Benders
+- Méthodes heuristiques
+""" ;
+    ns1:parcours "M2 ORO, M2 CMI-OPTIM" ;
+    ns1:semester "3" .
+
+ns1:Solveurs_multi_objectifs a ns1:Course ;
+    rdfs:label "Solveurs multi-objectifs" ;
+    ns1:level "Master" ;
+    ns1:parcours "M2 ORO, M2 CMI-OPTIM" ;
+    ns1:semester "3" .
+
+ns1:Stage a ns1:Course ;
+    rdfs:label "Stage" ;
+    ns1:level "Master" ;
+    ns1:objective """
+- Intégration professionnelle, analyse et propositions
+- Rédaction et présentation orale convaincante
+""" ;
+    ns1:parcours "M2 ALMA, M2 ORO, M2 ATAL, M2 CMI-OPTIM" ;
+    ns1:semester "4" .
+
+ns1:Transport_et_logistique a ns1:Course ;
+    rdfs:label "Transport et logistique" ;
+    ns1:content """
+Identifier, modéliser et résoudre des problèmes d'optimisation en transport et logistique.
+""" ;
+    ns1:level "Master" ;
+    ns1:objective """
+- Modélisation de problèmes de localisation et routage
+- Méthodes heuristiques et exactes (Branch and cut, relaxation lagrangienne, génération de colonnes)
+""" ;
+    ns1:parcours "M2 ORO, M2 CMI-OPTIM" ;
+    ns1:semester "3" .
+

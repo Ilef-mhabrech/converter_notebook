@@ -1,199 +1,258 @@
-@prefix ns1: <http://example.org/masters/> .
+@prefix ns1:  <http://example.org/masters/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 
-<http://example.org/masters/Analyse_exploratoire_de_donnÃÂ©es> rdfs:label "Analyse exploratoire de donnÃÂ©es" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 Visual Computing (VICO), M1 Data Science (DS), M1 Optimisation en Recherche OpÃÂ©rationnelle (ORO), M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 CMI-OPTIM, M1 Smart Computing
-""" ;
-    ns1:semester "1" .
-
-ns1:Anglais_scientifique rdfs:label "" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 CMI-OPTIM, M1 Architecture Logicielle (ALMA), M1 Optimisation en Recherche OpÃÂ©rationnelle (ORO), M1 Visual Computing (VICO), M1 Data Science (DS), M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Smart Computing
-""" ;
-    ns1:semester "1" .
-
-<http://example.org/masters/Bases_de_donnÃÂ©es_avancÃÂ©es> rdfs:label "" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 Optimisation en Recherche OpÃÂ©rationnelle (ORO), M1 Visual Computing (VICO), M1 Data Science (DS), M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 CMI-OPTIM
-""" ;
-    ns1:semester "2" .
-
-ns1:Compilation rdfs:label "Compilation" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 Data Science (DS), M1 Optimisation en Recherche OpÃÂ©rationnelle (ORO), M1 CMI-OPTIM, M1 Visual Computing (VICO), M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Architecture Logicielle (ALMA), M1 Smart Computing
-""" ;
-    ns1:semester "2" .
-
-ns1:Conception_et_Analyse_d_Algorithmes_Efficaces rdfs:label "Conception et Analyse d'Algorithmes Efficaces" ;
-    ns1:content """
-Dans ce module, on conÃÂ§oit des algorithmes efficaces (temps) pour problÃÂ¨mes d'optimisation :
-Ã¢ÂÂ¢ ÃÂvaluation de la complexitÃÂ© et comparaison de performances
-Ã¢ÂÂ¢ ComplexitÃÂ© des problÃÂ¨mes (Polynomial vs NP-dur)
-Ã¢ÂÂ¢ StratÃÂ©gies pour problÃÂ¨mes NP-durs : approximation et complexitÃÂ© paramÃÂ©trÃÂ©e
-""" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 Optimisation en Recherche OpÃÂ©rationnelle (ORO), M1 Visual Computing (VICO), M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Architecture Logicielle (ALMA), M1 Data Science (DS), M1 CMI-OPTIM
-""" ;
-    ns1:semester "2" .
-
-<http://example.org/masters/DonnÃÂ©es_massives_et_web_sÃÂ©mantique> rdfs:label "DonnÃÂ©es massives et web sÃÂ©mantique" ;
-    ns1:content """
-Ã¢ÂÂ¢ Identifier les services fournis pour une infrastructure de type cloud
-Ã¢ÂÂ¢ ÃÂvaluer une application pour montÃÂ©e en charge dans le cloud
-Ã¢ÂÂ¢ ÃÂvaluer la fiabilitÃÂ© d'une application dans le contexte cloud
-Ã¢ÂÂ¢ Concevoir et dÃÂ©ployer des applications ÃÂ  large ÃÂ©chelle dans un cloud
-Ã¢ÂÂ¢ REST API dans le contexte de cloud
-Ã¢ÂÂ¢ Stocker et accÃÂ©der aux donnÃÂ©es massives dans le cloud
-Ã¢ÂÂ¢ Calculer le coÃÂ»t dÃ¢ÂÂune application web dans le cloud
-""" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 Visual Computing (VICO), M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Architecture Logicielle (ALMA), M1 Data Science (DS), M1 Smart Computing
-""" ;
-    ns1:semester "1" .
-
-<http://example.org/masters/DÃÂ©veloppement_et_exploitation> rdfs:label "" ;
-    ns1:content """
-1. Introduction, rappels, exemples et applications.
-2. EfficacitÃÂ© des algorithmes et calcul de la complexitÃÂ© : cas particulier des algorithmes portant sur les graphes.
-3. Graphes particuliers I (arbres, arborescences) : algorithmes et applications.
-4. ConnexitÃÂ©, forte connexitÃÂ© : algorithmes et applications.
-5. Graphes particuliers II (graphes bipartis, graphes orientÃÂ©s sans circuits) : algorithmes et applications.
-6. Plus courts chemins : algorithmes et applications.
-""" ;
-    ns1:level "Master" ;
-    ns1:objective """
-1. ReconnaÃÂ®tre et modÃÂ©liser un problÃÂ¨me rÃÂ©el adaptÃÂ© ÃÂ  la rÃÂ©solution par la thÃÂ©orie des graphes.
-2. Choisir la reprÃÂ©sentation d'un graphe la plus adaptÃÂ©e ÃÂ  chaque problÃÂ¨me, en visant l'efficacitÃÂ©.
-3. Prendre en compte la complexitÃÂ© intrinsÃÂ¨que des graphes pour calculer prÃÂ©cisÃÂ©ment la complexitÃÂ© algorithmique d'une solution et ÃÂ©valuer son efficacitÃÂ©.
-4. Mettre en ÃÂuvre les principales solutions algorithmiques pour les problÃÂ¨mes classiques de thÃÂ©orie des graphes : parcours, connexitÃÂ©, plus courts chemins, recherche de cycles.
-""" ;
-    ns1:parcours """
-M1 Architecture Logicielle (ALMA), M1 Optimisation en Recherche OpÃÂ©rationnelle (ORO), M1 Visual Computing (VICO), M1 Data Science (DS), M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 CMI-OPTIM, M1 Smart Computing
-""" ;
-    ns1:semester "1" .
-
-<http://example.org/masters/Informatique_temps_rÃÂ©el_et_embarquÃÂ©e> rdfs:label "Informatique temps rÃÂ©el et embarquÃÂ©e" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Visual Computing (VICO), M1 Optimisation en Recherche OpÃÂ©rationnelle (ORO), M1 Architecture Logicielle (ALMA), M1 Data Science (DS), M1 CMI-OPTIM
-""" ;
-    ns1:semester "2" .
-
-<http://example.org/masters/IngÃÂ©niÃÂ©rie_des_rÃÂ©seaux> rdfs:label "" ;
-    ns1:content """
-Panorama du traitement automatique du langage :
-Ã¢ÂÂ Historique et enjeux
-Ã¢ÂÂ ModÃÂ¨les de mots (simples ÃÂ  ÃÂ©tat de l'art, neuros et deep learning)
-Ã¢ÂÂ Travaux pratiques : manipulation et mini-projet IA pour langage
-""" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 Visual Computing (VICO), M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Optimisation en Recherche OpÃÂ©rationnelle (ORO), M1 Architecture Logicielle (ALMA), M1 Data Science (DS), M1 CMI-OPTIM
-""" ;
-    ns1:semester "2" .
-
-ns1:Intelligence_Artificielle_et_Applications rdfs:label "Intelligence Artificielle et Applications" ;
-    ns1:content """
-ÃÂtude d'algorithmes de recherche arborescente : BFS, DFS, heuristiques, recherche gloutonne, A*, minimax, ÃÂ©lagage alpha-bÃÂªta, Monte-Carlo Tree Search.
-""" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 Visual Computing (VICO), M1 Data Science (DS), M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Smart Computing
-""" ;
-    ns1:semester "1" .
-
-ns1:Interactions_Humain_Machine rdfs:label "Interactions Humain-Machine" ;
-    ns1:content """
-- Introduction ÃÂ  lÃ¢ÂÂinteraction homme-machine
-- Du cÃÂ´tÃÂ© de l'humain
-- Conception dÃ¢ÂÂinteractions et dÃ¢ÂÂinterfaces
-- ÃÂvaluation dÃ¢ÂÂinteractions et dÃ¢ÂÂinterfaces
-- Programmation dÃ¢ÂÂinterfaces (pattern MVC)
-- Visualisation de donnÃÂ©es
-""" ;
-    ns1:level "Master" ;
-    ns1:objective """
-- Analyser le contexte mÃÂ©tier et humain dÃ¢ÂÂune intervention numÃÂ©rique
-- Concevoir une interaction et une interface homme-machine
-- ÃÂvaluer lÃ¢ÂÂexpÃÂ©rience utilisateur liÃÂ©e ÃÂ  un outil numÃÂ©rique
-- Concevoir une visualisation de donnÃÂ©es
-""" ;
-    ns1:parcours """
-M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Data Science (DS), M1 Visual Computing (VICO), M1 Smart Computing
-""" ;
-    ns1:semester "1" .
-
-ns1:Introduction_au_traitement_d_image rdfs:label "Introduction au traitement d'image" ;
-    ns1:content """
-Ce module couvre :
-Ã¢ÂÂ¢ Image numÃÂ©rique et ÃÂ©chantillonnage
-Ã¢ÂÂ¢ Histogramme et transformation
-Ã¢ÂÂ¢ Filtrage spatial, reconstruction et dÃÂ©bruitage
-Ã¢ÂÂ¢ ReprÃÂ©sentation et filtrage frÃÂ©quentiel
-Ã¢ÂÂ¢ Couleur et espaces colorimÃÂ©triques
-Ã¢ÂÂ¢ Segmentation et morphologie mathÃÂ©matique
-Ã¢ÂÂ¢ Extraction de caractÃÂ©ristiques et classification basique
-""" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Visual Computing (VICO), M1 Optimisation en Recherche OpÃÂ©rationnelle (ORO), M1 Architecture Logicielle (ALMA), M1 Data Science (DS), M1 CMI-OPTIM
-""" ;
-    ns1:semester "2" .
-
-<http://example.org/masters/Master_1_M1_Visual_Computing__VICO__AnnÃÂ©e_universitaire> rdfs:label "" ;
+ns1:Master_1_M1_Visual_Computing__VICO__Année_universitaire
     ns1:parcours "master Informatique" .
 
-ns1:Professionnalisation rdfs:label "Professionnalisation" ;
-    ns1:level "Master" ;
-    ns1:semester "2" .
-
-<http://example.org/masters/Professionnalisation_et_ÃÂ©thique> rdfs:label "Professionnalisation et ÃÂ©thique" ;
-    ns1:content """
-Le projet de recherche est une mise en situation d'apprentissage de compÃÂ©tences liÃÂ©es ÃÂ  la recherche.
-Travail supervisÃÂ© par une ÃÂ©quipe de LS2N, encadrÃÂ© par un chercheur.
-Contribuer scientifiquement ÃÂ  un problÃÂ¨me identifiÃÂ©, rÃÂ©daction d'un article acadÃÂ©mique et soutenance devant un jury.
-ÃÂchanges scientifiques rÃÂ©guliers tout au long du semestre.
-""" ;
-    ns1:level "Master" ;
+ns1:Anglais_scientifique
+    ns1:level    "Master" ;
+    ns1:semester "1" ;
     ns1:parcours """
-M1 Data Science (DS), M1 Visual Computing (VICO), M1 Optimisation en Recherche OpÃÂ©rationnelle (ORO), M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Architecture Logicielle (ALMA), M1 CMI-OPTIM, M1 Smart Computing
-""" ;
-    ns1:semester "2" .
-
-ns1:Projet_d_intelligence_artificielle rdfs:label "Projet d'intelligence artificielle" ;
-    ns1:content """
-Ã¢ÂÂ¢ Analyse et modÃÂ©lisation dÃ¢ÂÂun problÃÂ¨me de recherche type jeu ÃÂ  deux joueurs
-Ã¢ÂÂ¢ ImplÃÂ©mentation de plusieurs stratÃÂ©gies de jeu
-Ã¢ÂÂ¢ MÃÂ©thodes de comparaison de stratÃÂ©gies
-Ã¢ÂÂ¢ Algorithme minimax
-Ã¢ÂÂ¢ ÃÂlagage alpha-bÃÂªta
-Ã¢ÂÂ¢ Recherche avec heuristiques
-Ã¢ÂÂ¢ (Optionnel) ModÃÂ¨les dÃ¢ÂÂapprentissage
+M1 CMI-OPTIM,M1 Architecture Logicielle (ALMA),M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Visual Computing (VICO),M1 Data Science (DS),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Smart Computing
 """ .
 
-<http://example.org/masters/PrÃÂ©paration_au_TOEIC> rdfs:label "PrÃÂ©paration au TOEIC" ;
+ns1:Développement_et_exploitation
     ns1:content """
-Se prÃÂ©parer ÃÂ  la certification en anglais (objectif B2+) :
-Ã¢ÂÂ¢ PrÃÂ©sentation des formats
-Ã¢ÂÂ¢ Exercices dÃ¢ÂÂentraÃÂ®nement
-Ã¢ÂÂ¢ Conseils pour optimiser son score
+1. Introduction, rappels, exemples et applications.
+2. Efficacité des algorithmes et calcul de la complexité : cas particulier des algorithmes portant sur les graphes
+3. Graphes particuliers I (arbres, arborescences) : algorithmes et applications.
+4. Connexité, forte connexité : algorithmes et applications.
+5. Graphes particuliers II (graphes bipartis, graphes orientés sans circuits) : algorithmes et applications.
+6. Plus courts chemins : algorithmes et applications
 """ ;
-    ns1:level "Master" ;
+    ns1:level    "Master" ;
+    ns1:semester "1" ;
     ns1:objective """
-ÃÂ lÃ¢ÂÂissue de cet enseignement, les ÃÂ©tudiants seront capables de :
-Ã¢ÂÂ¢ ReconnaÃÂ®tre et anticiper les formats des certifications dÃ¢ÂÂanglais.
-Ã¢ÂÂ¢ RÃÂ©pondre correctement aux tests de certification.
-Ã¢ÂÂ¢ Optimiser leurs rÃÂ©sultats via une mÃÂ©thodologie de travail adaptÃÂ©e.
+1. reconnaître et modéliser un problème réel adapté à la résolution par la théorie des graphes.
+2. choisir la représentation d'un graphe la plus adaptée à chaque problème, en visant l'efficacité.
+3. prendre en compte la complexité intrinsèque des graphes pour calculer précisément la complexité algorithmique d'une solution et évaluer son efficacité.
+4. mettre en œuvre les principales solutions algorithmiques pour les problèmes classiques de théorie des graphes : parcours, connexité, plus courts chemins, recherche de cycles.
 """ ;
     ns1:parcours """
-M1 Data Science (DS), M1 Visual Computing (VICO), M1 Optimisation en Recherche OpÃÂ©rationnelle (ORO), M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Architecture Logicielle (ALMA), M1 CMI-OPTIM, M1 Smart Computing
+M1 Architecture Logicielle (ALMA),M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Visual Computing (VICO),M1 Data Science (DS),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 CMI-OPTIM,M1 Smart Computing
+""" .
+
+ns1:Données_massives_et_web_sémantique
+    ns1:content """
+• Identifier les services fournis pour une infrastructure de type cloud
+• Évaluer une application à l’échelle dans le cloud
+• Évaluer la fiabilité d'une application dans le contexte de cloud
+• Conception et déploiement des applications à large échelle dans un cloud
+• REST API dans le contexte de cloud
+• Stocker et accéder aux données massives dans le cloud
+• Calculer le coût d’une application web dans le cloud
 """ ;
+    ns1:level    "Master" ;
+    ns1:semester "1" ;
+    ns1:parcours """
+M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Architecture Logicielle (ALMA),M1 Data Science (DS),M1 Smart Computing
+""" .
+
+ns1:Analyse_exploratoire_de_données
+    ns1:level    "Master" ;
+    ns1:semester "1" ;
+    ns1:parcours """
+M1 Visual Computing (VICO),M1 Data Science (DS),M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing
+""" .
+
+ns1:Intelligence_Artificielle_et_Applications
+    ns1:content """
+Étude d'algorithmes de résolution d'une classe de problèmes de recherche dont l'exploration de l'espace de recherche
+correspond à un parcours d'arbre (notamment d'arbre de jeux) tels que recherche en largeur d'abord, en profondeur
+d'abord, avec heuristiques, recherche gloutonne, algorithme A*, algorithme minimax, élagage alpha-bêta, recherche
+arborescente Monte-Carlo.
+""" ;
+    ns1:level    "Master" ;
+    ns1:semester "1" ;
+    ns1:parcours """
+M1 Visual Computing (VICO),M1 Data Science (DS),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Smart Computing
+""" .
+
+ns1:Projet_d_intelligence_artificielle
+    ns1:content """
+• Analyse et modélisation d’un problème de recherche type jeu à deux joueurs
+• Implémentation de plusieurs stratégies de jeu
+• Méthodes de comparaison de stratégies
+• Algorithme minimax
+• Élagage alpha-bêta
+• Recherche avec heuristiques
+• (Optionnel) Modèles d’apprentissage
+""" ;
+    ns1:parcours """
+M1 Visual Computing (VICO),M1 Data Science (DS),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Smart Computing
+""" .
+
+ns1:Interactions_Humain_Machine
+    rdfs:label "Interactions Humain-Machine" ;
+    ns1:content """
+- Introduction à l’interaction humain-machine
+- Du côté de l'humain
+- Conception d’interactions et d’interfaces
+- Évaluation d’interactions et d’interfaces
+- Programmation d’interfaces / pattern MVC
+- Visualisation de données
+""" ;
+    ns1:level    "Master" ;
+    ns1:semester "1" ;
+    ns1:objective """
+- Analyser le contexte métier et humain d’une intervention numérique
+- Concevoir une interaction et une interface humain-machine
+- Évaluer l’expérience utilisateur liée à un outil numérique
+- Concevoir une visualisation de données
+""" ;
+    ns1:parcours """
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Data Science (DS),
+M1 Visual Computing (VICO),M1 Smart Computing
+""" .
+
+ns1:Compilation
+    rdfs:label "Compilation" ;
+    ns1:level    "Master" ;
+    ns1:semester "2" ;
+    ns1:parcours """
+M1 Data Science (DS),M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,
+M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Architecture Logicielle (ALMA),M1 Smart Computing
+""" .
+
+ns1:Professionnalisation_et_éthique
+    rdfs:label "2" ;
+    ns1:content """
+Le projet de recherche est une mise en situation d'apprentissage de compétences liées à la recherche.
+Il s'agit de travailler sur un sujet de recherche fourni par une équipe de recherche de LS2N, supervisé par un chercheur professionnel.
+L'objectif est construire une contribution scientifique sur un problème scientifique identifié. Cette contribution doit
+être clairement positionnée par rapport à l'état de l'art et validée suivant une méthodologie scientifique.
+Le travail doit être présenté sous forme d'un article de recherche respectant les codes d'un travail académique. Le
+travail doit être défendu lors d'une présentation orale devant un jury de chercheurs professionnels.
+Ce travail s'effectue tout au long du semestre et requiert des échanges scientifiques réguliers avec les chercheurs.
+Les activités visées :
+- Conception et élaboration d’une démarche de recherche et développement, d’études et prospective
+- Mise en œuvre d’une démarche de recherche et développement, d’études et prospective
+Les compétences visées :
+- Disposer d’une expertise scientifique tant générale que spécifique d’un domaine de recherche et de travail déterminé
+- Faire le point sur l’état et les limites des savoirs au sein d’un secteur d’activité déterminé, aux échelles locale, nationale et internationale
+- Identifier et résoudre des problèmes complexes et nouveaux impliquant une pluralité de domaines, en mobilisant les connaissances et savoir-faire les plus avancés.
+""" ;
+    ns1:level    "Master" ;
+    ns1:semester "2" ;
+    ns1:parcours """
+M1 Data Science (DS),M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),
+M1 CMI-OPTIM,M1 Smart Computing
+""" .
+
+ns1:Professionnalisation
+    rdfs:label "Professionnalisation" ;
+    ns1:level    "Master" ;
     ns1:semester "2" .
 
+ns1:Bases_de_données_avancées
+    ns1:level    "Master" ;
+    ns1:semester "2" ;
+    ns1:parcours """
+M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),
+M1 Data Science (DS),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 CMI-OPTIM
+""" .
+
+ns1:Introduction_au_traitement_d_image
+    rdfs:label "Introduction au traitement d'image" ;
+    ns1:content """
+Ce module permettra de découvrir les bases du traitement d'image :
+• Image numérique et échantillonnage
+• Histogramme et transformation
+• Filtrage spatial et reconstruction / débruitage
+• Représentation et filtrage fréquentiel
+• Couleur et espaces colorimétriques
+• Segmentation et morphologie mathématique
+• Extraction de caractéristiques et classification basique
+""" ;
+    ns1:level    "Master" ;
+    ns1:semester "2" ;
+    ns1:parcours """
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Visual Computing (VICO),
+M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),
+M1 Data Science (DS),M1 CMI-OPTIM
+""" .
+
+ns1:Informatique_temps_réel_et_embarquée
+    rdfs:label "Informatique temps réel et embarquée" ;
+    ns1:level    "Master" ;
+    ns1:semester "2" ;
+    ns1:parcours """
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Visual Computing (VICO),
+M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),
+M1 Data Science (DS),M1 CMI-OPTIM
+""" .
+
+ns1:Conception_et_Analyse_d_Algorithmes_Efficaces
+    rdfs:label "Conception et Analyse d'Algorithmes Efficaces" ;
+    ns1:content """
+Dans ce module, on cherche à concevoir des algorithmes efficaces (en temps) pour résoudre des problèmes,
+typiquement des problèmes d'optimisation. On y abordera trois grandes parties :
+• évaluation de la complexité d'un algorithme et comparaison de performances (en temps) de plusieurs algorithmes entre eux
+• évaluation de la complexité d'un problème (Polynomial vs NP-dur)
+• en cas de problème "difficile" (NP-dur), étude de deux stratégies de résolution : algorithmes d'approximation et complexité paramétrée (à exponentielle faible)
+""" ;
+    ns1:level    "Master" ;
+    ns1:semester "2" ;
+    ns1:parcours """
+M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),
+M1 Data Science (DS),M1 CMI-OPTIM
+""" .
+
+ns1:Ingéniérie_des_réseaux
+    ns1:content """
+L'objectif de cette UE est de proposer un panorama du domaine du traitement automatique du langage.
+Un bref historique permettra de contextualiser ce domaine dont les recherches y sont très actives.
+Des premiers modèles simples de représentation des mots seront étudiés puis des modèles plus
+complexes à l'état de l'art, en particulier s'appuyant sur les réseaux de neurones et l'apprentissage profond.
+Les enjeux sociétaux et les limites des modèles de langue actuels seront également abordés.
+Enfin, une part importante de l'UE intègrera des travaux sur machine sous forme de travaux pratiques :
+il s'agira de manipuler les concepts du traitement du langage au travers d'exercices ciblés ainsi que
+d'un petit projet permettant de résoudre un problème ciblé grâce aux techniques actuelles d'IA adaptées au langage.
+""" ;
+    ns1:level    "Master" ;
+    ns1:semester "2" ;
+    ns1:parcours """
+M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),
+M1 Data Science (DS),M1 CMI-OPTIM
+""" .
+
+ns1:Préparation_au_TOEIC
+    rdfs:label "Préparation au TOEIC" ;
+    ns1:content """
+Se préparer pour obtenir une certification en anglais (objectif B2 et plus)
+• Présentation des formats
+• Exercices d’entraînement
+• Conseils pour optimiser son score
+""" ;
+    ns1:level    "Master" ;
+    ns1:semester "2" ;
+    ns1:objective """
+À l’issue de cet enseignement, les étudiants seront capables de :
+• Reconnaitre et anticiper les formats de certifications d’anglais.
+• Compléter les réponses exigées par les tests de certifications.
+• Optimiser leurs résultats aux certifications grâce à une méthodologie de travail appliquée lors des séances d’entraînement.
+""" ;
+    ns1:parcours """
+M1 Earth and Planetary Sciences,M1 GE Ecosystèmes et Bioproduction Marine,M1 CMD InnoCare,
+M1 CMD OHNU,M1 CMD MICAS,M1 CMD M4R,M1 Biologie et médicaments,M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Architecture Logicielle (ALMA),M1 Data Science (DS),M1 Sciences de la Matière - Parcours ENR-GE (M1 EEA),
+M1 Biostatistique & Épidémiologie,M1 Electronique Énergie Électrique Automatique - Mention EEA,
+M1 Bioinformatique/Biostatistique - Mention Bioinformatique,M1 Biologie et médicaments
+""" .

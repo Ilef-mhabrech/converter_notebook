@@ -104,8 +104,12 @@ Each TTL file includes RDF prefix declarations and triples (ns1:…) describing 
 ## Validating Turtle with SPARQL
 Cleanup / Formatting :
 
-chmod +x fix_all_ttl.py 
-python3 fix_all_ttl.py master_converter/ttl
+chmod +x correction_ttl 
+python3 python3 correction_ttl.py master_converter/ttl/ ttl_corrigé/
+
+you can verifiy the content by : 
+chmod +x verify_ttl.py
+python3 verify_ttl.py ttl_corrigé/
 
 Test a Single TTL File
 

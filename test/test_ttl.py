@@ -35,7 +35,7 @@ SELECT ?ue ?label ?content ?objective ?hours ?semester ?level WHERE {
 """
 
 def main():
-    ttl_path = "master_converter/ttl/Info_M2_Data_Science_2023-2024.ttl"
+    ttl_path = "ttl_corrigé/M1_Architecture_Logicielle_Mention_Informatique.ttl"
     graph = load_graph(ttl_path)
     results = graph.query(build_query())
 

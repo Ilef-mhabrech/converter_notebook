@@ -1,0 +1,129 @@
+@prefix ns1: <http://example.org/masters/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:Information_générale
+    rdfs:label "" ;
+    ns1:objective """
+Pas de semestralisation des enseignements.
+Les EC de la partie théorique et de la partie pratique sont répartis sur l'ensemble de l'année de mi-septembre à mi-juin (sauf les EC rattachés à l'alternance qui ont lieu de début septembre à fin août).
+""" ;
+    ns1:parcours "master MIAGE" .
+
+ns1:Analyser_la_situation_d_une_organisation_en_vue_d_adapter_et_gérer_son_système_d_information
+    rdfs:label "" ;
+    ns1:content """
+Introduction générale au droit, la propriété intellectuelle, le contrat de travail et les TIC, le RGPD, les licences et logiciels, le droit des contrats.
+Les spécificités des contrats numériques, la liberté d’expression sur Internet et le droit des réseaux sociaux, cybersécurité, cybercriminalité et cryptomonnaies.
+""" ;
+    ns1:level "Master" ;
+    ns1:semester "1" ;
+    ns1:parcours "MIAGE - alternance" .
+
+ns1:Politique_de_financements
+    rdfs:label "Politique de financements" ;
+    ns1:content """
+Les annuités, les emprunts indivis, les mesures d’évaluation des investissements, le plan de financement, mode de financement et coût du financement à long terme.
+""" ;
+    ns1:level "Master" ;
+    ns1:semester "1" ;
+    ns1:parcours "MIAGE - alternance" .
+
+ns1:Ingénierie_des_Réseaux
+    rdfs:label "Ingénierie des Réseaux" ;
+    ns1:content """
+Fonctionnement des principaux protocoles utilisés sur Internet. Enjeux et évolutions de l'adressage IP.
+Principe du routage, statique et dynamique. Différents modèles de communication.
+Architectures réseaux à qualité de service (QoS) et ingénierie de trafic. Configuration des applications client-serveur (FTP, DHCP, TELNET…).
+Utilisation des principaux services (DNS,…) et outils de l’internet. Notions de sécurité (pare-feu, cybercriminalité).
+Protocoles d'échange et mise en œuvre via programmation réseau (sockets).
+""" ;
+    ns1:level "Master" ;
+    ns1:semester "1" ;
+    ns1:parcours "MIAGE - alternance" .
+
+ns1:Management_d_équipe
+    rdfs:label "" ;
+    ns1:content """
+Constitution d’équipe, organisation du travail, prise de décisions, analyse de la performance, management par objectifs, exercice du contrôle, gestion des conflits, pilotage du changement, transversalité et projets, conduite de réunion, gestion de l’information, délégation, recentrage, entretien de progrès.
+""" ;
+    ns1:objective """
+Comprendre les principes de collaboration et de communication au sein d'une équipe.
+Savoir différencier les modes de management (hiérarchique, transversal, matriciel, etc.).
+Identifier les fonctionnements individuels et les modalités d'interaction entre individus.
+Être capable de constituer une équipe en tenant compte des forces et faiblesses de chacun.
+Maîtriser les techniques d'animation de réunions.
+Mettre en place des dispositifs de contrôle et d'amélioration périodique.
+Évaluer les lacunes de l'équipe en vue de la renforcer ou de recruter.
+""" ;
+    ns1:parcours "MIAGE - alternance" .
+
+ns1:Concevoir__développer_et_tester_des_applications_dans_des_environnements_spécifiques
+    rdfs:label "Concevoir, développer et tester des applications dans des environnements spécifiques" ;
+    ns1:content """
+Expliquer les principes de la conception de SI : niveaux d’abstraction, modèles de représentation, démarches de conception.
+Conception préliminaire, architecturale, détaillée.
+Composants logiciels, services, micro-services.
+Frameworks, patterns, contrats logiciels, tests unitaires et d'intégration.
+Qualité du code (clean code, tableaux de bord).
+Bonnes pratiques (principes de conception), rétro-ingénierie.
+""" ;
+    ns1:level "Master" ;
+    ns1:semester "1" ;
+    ns1:parcours "MIAGE - alternance" .
+
+ns1:Données_sur_le_Web
+    rdfs:label "Données sur le Web" ;
+    ns1:content """
+Open Data, données semi-structurées (modélisation et exploitation ; XML, JSON).
+""" ;
+    ns1:objective """
+Comprendre les enjeux de l'Open Data.
+Mettre en œuvre un projet Open Data dans une organisation.
+Être capable de modéliser des données sous forme hiérarchique.
+Maîtriser les paradigmes de programmation pour exploiter des données hiérarchiques.
+Être capable de justifier le choix d'un algorithme en termes de complexité temporelle et spatiale.
+""" ;
+    ns1:parcours "MIAGE - alternance" .
+
+ns1:Modélisation_et_vérifications_des_modèles
+    rdfs:label "Modélisation et vérifications des modèles" ;
+    ns1:content """
+Modélisation, modèles graphiques à états et modèles logiques.
+Modélisation de programmes et interactions utilisateurs (protocoles de transmission).
+Rappels de logique prédicative.
+Vérification de propriétés logiques (linéaire) et assertions (Z, B).
+""" ;
+    ns1:level "Master" ;
+    ns1:semester "2" ;
+    ns1:objective """
+Comprendre et manipuler des modèles graphiques à états (automates, réseaux de Petri, chaînes de Markov…).
+Produire un modèle graphique (système de transitions) pour un problème concret.
+Comprendre et manipuler des formules en logique linéaire et prédicative.
+Produire les formules logiques adaptées à des propriétés en langage naturel.
+Connaître et appliquer les algorithmes de vérification formelle.
+""" ;
+    ns1:parcours "MIAGE - alternance" .
+
+ns1:Anglais
+    rdfs:label "" ;
+    ns1:content """
+En classe, un projet de groupe portera sur un scénario dont les étudiants auront analysé les données avant de proposer des solutions pragmatiques. Cette phase sera suivie d'un rapport écrit en anglais, avec présentation orale en groupe, en anglais. La notation est individuelle pour l'oral et collective pour le rapport. Les étudiants devront créer une vidéo et son texte en anglais, ainsi qu'un site web et une plateforme d'apprentissage (MOOC).
+""" ;
+    ns1:objective """
+Présenter en anglais, à l’oral et dans un registre formel, un projet de groupe après analyse des données.
+Rédiger en anglais des documents techniques pour un public de spécialistes en management et informatique.
+Présenter en anglais, individuellement et sans notes, une innovation ou actualité du management et de l'informatique.
+Présenter en anglais une étude de cas préparée en amont.
+""" ;
+    ns1:parcours "MIAGE - alternance" .
+
+ns1:Périodes_de_formation_alternées_en_milieu_pro__1
+    rdfs:label "Périodes de formation alternées en milieu pro" ;
+    ns1:objective """
+Mener une présentation orale (gestion de la parole, du corps, déplacements).
+Argumenter et étayer son point de vue (discussion, négociation).
+Synthétiser des documents et informations.
+Concevoir un support adapté à l’objectif de communication.
+Utiliser efficacement un support lors d’une présentation orale.
+""" ;
+    ns1:parcours "MIAGE - alternance" .

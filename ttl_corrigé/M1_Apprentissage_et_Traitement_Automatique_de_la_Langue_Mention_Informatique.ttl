@@ -1,0 +1,243 @@
+@prefix ns1: <http://example.org/masters/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:Anglais_scientifique ns1:level "Master" ;
+    ns1:parcours """
+M1 Architecture Logicielle (ALMA),
+M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Visual Computing (VICO),
+M1 Data Science (DS),
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 CMI-OPTIM,
+M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+ns1:Bases_de_données_avancées rdfs:label "Bases de données avancées" ;
+    ns1:content """
+Le projet de recherche est une mise en situation d'apprentissage de compétences liées à la recherche.
+Il s'agit de travailler sur un sujet fourni par une équipe du LS2N, supervisé par un chercheur professionnel.
+L'objectif est de construire une contribution scientifique clairement positionnée par rapport à l'état de l'art, validée selon une méthodologie académique.
+Le travail est présenté sous forme d'article et défendu oralement devant un jury.
+Activités visées :
+- Conception et élaboration d’une démarche de recherche et développement
+- Synthèse et rédaction de résultats
+- Présentation orale devant un jury
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Data Science (DS),
+M1 Visual Computing (VICO),
+M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Architecture Logicielle (ALMA),
+M1 CMI-OPTIM,
+M1 Smart Computing
+""" ;
+    ns1:semester "2" .
+
+ns1:Compilation rdfs:label "Compilation" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Data Science (DS),
+M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 CMI-OPTIM,
+M1 Visual Computing (VICO),
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Architecture Logicielle (ALMA),
+M1 Smart Computing
+""" ;
+    ns1:semester "2" .
+
+ns1:Conception_et_Analyse_d_Algorithmes_Efficaces rdfs:label "Conception et Analyse d'Algorithmes Efficaces" ;
+    ns1:content """
+Dans ce module, on conçoit des algorithmes efficaces (en temps) pour résoudre des problèmes d'optimisation :
+• Évaluation de la complexité d'un algorithme et comparaison de performances
+• Complexité d'un problème (Polynomial vs NP-dur)
+• Stratégies pour NP-durs : approximation, algorithmes paramétrés
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Visual Computing (VICO),
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Architecture Logicielle (ALMA),
+M1 Data Science (DS),
+M1 CMI-OPTIM
+""" ;
+    ns1:semester "2" .
+
+ns1:Données_massives_et_web_sémantique rdfs:label "Données massives et web sémantique" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Visual Computing (VICO),
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Architecture Logicielle (ALMA),
+M1 Data Science (DS),
+M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+ns1:Graphes_et_Complexité ns1:content """
+1. Introduction, rappels, exemples et applications.
+2. Efficacité des algorithmes et calcul de la complexité : cas particulier des algorithmes portant sur les graphes
+3. Graphes particuliers I (arbres, arborescences) : algorithmes et applications.
+4. Connexité, forte connexité : algorithmes et applications.
+5. Graphes particuliers II (graphes bipartis, graphes orientés sans circuits) : algorithmes et applications.
+6. Plus courts chemins : algorithmes et applications.
+""" ;
+    ns1:level "Master" ;
+    ns1:objective """
+1. Reconnaître et modéliser un problème réel adapté à la résolution par la théorie des graphes.
+2. Choisir la représentation d'un graphe la plus adaptée à chaque problème, en visant l'efficacité.
+3. Prendre en compte la complexité intrinsèque des graphes pour calculer précisément la complexité algorithmique d'une solution et évaluer son efficacité.
+4. Mettre en œuvre les principales solutions algorithmiques pour les problèmes classiques de théorie des graphes : parcours, connexité, plus courts chemins, recherche de cycles.
+""" ;
+    ns1:parcours """
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Architecture Logicielle (ALMA),
+M1 CMI-OPTIM,
+M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Data Science (DS),
+M1 Visual Computing (VICO),
+M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+ns1:Informatique_temps_réel_et_embarquée rdfs:label "Informatique temps réel et embarquée" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Visual Computing (VICO),
+M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Architecture Logicielle (ALMA),
+M1 Data Science (DS),
+M1 CMI-OPTIM
+""" ;
+    ns1:semester "2" .
+
+ns1:Ingénierie_des_réseaux rdfs:label "Ingénierie des réseaux" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Visual Computing (VICO),
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Architecture Logicielle (ALMA),
+M1 Data Science (DS),
+M1 CMI-OPTIM
+""" ;
+    ns1:semester "2" .
+
+ns1:Master_1_M1_Apprentissage_et_Traitement_Automatique_de_la_Langue__ATAL__Année_universitaire ns1:parcours "master Informatique" .
+
+ns1:Modèles_probabilistes rdfs:label "Modèles probabilistes" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Visual Computing (VICO),
+M1 Data Science (DS),
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 CMI-OPTIM
+""" ;
+    ns1:semester "2" .
+
+ns1:Métaheuristiques rdfs:label "Métaheuristiques" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 CMI-IS,
+M1 Ingénierie Statistique (IS),
+M1 Data Science (DS),
+M1 Visual Computing (VICO),
+M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 CMI-OPTIM,
+M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+ns1:Professionnalisation rdfs:label "Professionnalisation" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Ingénierie Statistique (IS),
+M1 CMI-IS,
+M1 Data Science (DS),
+M1 Visual Computing (VICO),
+M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Architecture Logicielle (ALMA),
+M1 CMI-OPTIM,
+M1 Smart Computing
+""" ;
+    ns1:semester "2" .
+
+ns1:Préparation_au_TOEIC rdfs:label "Préparation au TOEIC" ;
+    ns1:content """
+Se préparer à une certification en anglais (objectif B2+):
+• Présentation des formats
+• Exercices d’entraînement
+• Conseils pour optimiser son score
+""" ;
+    ns1:level "Master" ;
+    ns1:objective """
+À l’issue de cet enseignement, les étudiants seront capables de :
+• Reconnaître et anticiper les formats de certification.
+• Compléter les réponses exigées par les tests.
+• Optimiser leurs résultats avec une méthodologie ciblée.
+""" ;
+    ns1:parcours """
+M1 Earth and Planetary Sciences,
+M1 GE Ecosystèmes et Bioproduction Marine,
+M1 CMD InnoCare,
+M1 CMD OHNU,
+M1 CMD MICAS,
+M1 CMD M4R,
+M1 Biologie et médicaments,
+M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Visual Computing (VICO),
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Architecture Logicielle (ALMA),
+M1 Data Science (DS),
+M1 Sciences de la Matière – Parcours ENR-GE (M1 EEA),
+M1 Biostatistique & Épidémiologie,
+M1 Électronique Énergie Électrique Automatique – Mention EEA,
+M1 Bioinformatique/Biostatistique,
+M1 Biologie et médicaments
+""" ;
+    ns1:semester "2" .
+
+ns1:Structures_et_stratégies_pour_la_résolution_de_problèmes rdfs:label "Structures et stratégies pour la résolution de problèmes" ;
+    ns1:content """
+Étude d'algorithmes de résolution d'une classe de problèmes de recherche dont l'exploration de l'espace de recherche
+correspond à un parcours d'arbre (notamment d'arbre de jeux) : recherche en largeur, recherche en profondeur, heuristiques,
+recherche gloutonne, algorithme A*, algorithme minimax, élagage alpha-bêta, recherche arborescente Monte-Carlo.
+""" .
+
+ns1:Web_sémantique___Web_des_données rdfs:label "Web sémantique – Web des données" ;
+    ns1:content """
+• Identifier les services fournis pour une infrastructure de type cloud
+• Évaluer une application à l’échelle dans le cloud
+• Évaluer la fiabilité d'une application dans le contexte cloud
+• Concevoir et déployer des applications à large échelle dans un cloud
+• REST API dans le contexte cloud
+• Stocker et accéder aux données massives dans le cloud
+• Calculer le coût d’une application web dans le cloud
+""" ;
+    ns1:level "Master" ;
+    ns1:objective """
+- Comprendre le modèle de données RDF (Resource Description Framework)
+- Maîtriser RDFS (RDF Schema) et OWL (Web Ontology Language)
+- Comprendre la logique de description et les règles d’inférence
+- Savoir rédiger des requêtes SPARQL
+- Transformer et publier des données liées ouvertes
+""" ;
+    ns1:parcours """
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Visual Computing (VICO),
+M1 Architecture Logicielle (ALMA),
+M1 Data Science (DS),
+M1 CMI-OPTIM,
+M1 Smart Computing
+""" ;
+    ns1:semester "2" .
+

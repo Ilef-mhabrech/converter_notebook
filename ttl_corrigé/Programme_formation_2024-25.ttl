@@ -1,0 +1,9 @@
+@prefix ns1: <http://example.org/masters/> .
+
+ns1:Master_Informatique_2ème_année_2024_2025_En_Contrat_de_professionnalisation_Mention_Informatique_Parcours_Apprentissage_et_traitement_Automatique_de_la_Langue_2ème_année_M2_Info_Atal_ ns1:objective """
+À l’issue de la formation, les étudiants seront capables :
+• D’aborder des techniques d’apprentissage automatique
+• De mettre en œuvre de nouvelles applications prenant en compte des masses de données complexes et hétérogènes
+• D’intervenir sur la conception, le développement et la maintenance des logiciels
+""" .
+

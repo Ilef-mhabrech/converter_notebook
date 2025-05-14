@@ -1,0 +1,202 @@
+@prefix ns1: <http://example.org/masters/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:Analyse_exploratoire_de_données rdfs:label "Analyse exploratoire de données" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Visual Computing (VICO),
+M1 Data Science (DS),
+M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 CMI-OPTIM,
+M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+ns1:Applications_industrielles_sur_les_données rdfs:label "Applications industrielles sur les données" ;
+    ns1:content """
+Présentation de l’IA en industrie, cas d’usage : textes, images, données. 2 demi-journées sur site partenaire.
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Data Science (DS),
+M1 Visual Computing (VICO),
+M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+ns1:Apprentissage_automatique rdfs:label "Apprentissage automatique" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Ingénierie Statistique (IS),
+M1 CMI-IS,
+M1 Data Science (DS),
+M1 Visual Computing (VICO),
+M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Architecture Logicielle (ALMA),
+M1 CMI-OPTIM,
+M1 Smart Computing
+""" ;
+    ns1:semester "2" .
+
+ns1:Conception_de_logiciels rdfs:label "Conception de logiciels" ;
+    ns1:content """
+• Fonctionnement : cours magistraux, TD, TP, autonomie.
+• Évaluation : deux écrits (mi-semestre, fin de semestre), projet.
+• Organisation : présentiel et distanciel.
+• Évaluation continue écrite et pratique.
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours "M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing" ;
+    ns1:semester "1" .
+
+ns1:Dualité_et_optimisation_linéaire_continue rdfs:label "Dualité et optimisation linéaire continue" ;
+    ns1:content """
+1. Rappels graphiques et simplexe primal.
+2. Dualité : définition, propriétés, interprétation économique.
+3. Simplexe dual, analyse post-optimale.
+4. Méthode hongroise pour l’affectation.
+""" ;
+    ns1:level "Master" ;
+    ns1:objective """
+- Résoudre graphiquement et par simplexe primal.
+- Décrire dualité et interprétation économique.
+- Appliquer simplexe dual et post-optimisation.
+- Utiliser méthode hongroise.
+""" ;
+    ns1:parcours "M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing" ;
+    ns1:semester "1" .
+
+ns1:Développement_et_exploitation ns1:level "Master" ;
+    ns1:parcours """
+M1 CMI-OPTIM,
+M1 Architecture Logicielle (ALMA),
+M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Visual Computing (VICO),
+M1 Data Science (DS),
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+ns1:Graphes_II_et_Réseaux rdfs:label "Graphes II et Réseaux" ;
+    ns1:content """
+1. Flot maximum : Ford-Fulkerson, Edmonds-Karp, pré-flot.
+2. Flot de coût minimum : plus courts chemins, algorithme de Klein.
+3. Transbordement : simplexe réseau.
+""" ;
+    ns1:level "Master" ;
+    ns1:objective """
+1. Modéliser et résoudre flots max et min.
+2. Appliquer simplexe réseau au transport.
+3. Conduire un projet en binôme de A à Z.
+""" ;
+    ns1:parcours "M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing" ;
+    ns1:semester "1" .
+
+ns1:Graphes_et_Complexité ns1:content """
+1. Introduction, rappels, exemples et applications.
+2. Efficacité des algorithmes et calcul de la complexité : cas particulier des algorithmes sur graphes
+3. Graphes particuliers I (arbres, arborescences) : algorithmes et applications.
+4. Connexité, forte connexité : algorithmes et applications.
+5. Graphes bipartis et graphes orientés sans circuits : algorithmes et applications.
+6. Plus courts chemins : algorithmes et applications.
+""" ;
+    ns1:level "Master" ;
+    ns1:objective """
+1. Reconnaître et modéliser un problème réel via la théorie des graphes.
+2. Choisir la représentation de graphe la plus efficace.
+3. Calculer la complexité algorithmique et évaluer l’efficacité.
+4. Mettre en œuvre parcours, connexité, plus courts chemins, recherche de cycles.
+""" ;
+    ns1:parcours """
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Architecture Logicielle (ALMA),
+M1 CMI-OPTIM,
+M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Data Science (DS),
+M1 Visual Computing (VICO),
+M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+ns1:Information_générale ns1:objective """
+The Graduate Programme Smart Computing (GP SMART) trains high-level engineers and researchers capable of working at the forefront of digital technology and pushing its boundaries. The GP Smart Computing programme awards two degrees:
+• A Master’s degree after 2 years of training (M1, M2), providing expertise in both digital engineering and research. Graduates become R&D Engineers in digital technology.
+• A Ph.D. in computer science after 5 years of training (M1, M2, D1, D2, D3). Graduates become researchers in digital technology.
+Students can join GP SMART in M1, M2, or D1. GP SMART is one of six tracks in the Master in Computer Science at Nantes-Université:  
+– GP Smart Computing  
+– ALMA: Software Engineering  
+– ATAL: Natural Language Processing  
+– ORO: Operational Research  
+– DS: Data Science  
+– VICO: Visualization  
+It is possible to switch tracks at the end of M1. Compared to other tracks, GP SMART is research-oriented and best prepares for the Ph.D.
+""" ;
+    ns1:parcours "master Informatique" .
+
+ns1:Intelligence_Artificielle_et_Applications rdfs:label "Intelligence Artificielle et Applications" ;
+    ns1:content """
+Étude d’algorithmes de recherche : largeur, profondeur, heuristiques, glouton, A*, minimax, alpha-bêta, Monte-Carlo.
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Visual Computing (VICO),
+M1 Data Science (DS),
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+ns1:Objectifs__résultats_d_apprentissage_ rdfs:label "Objectifs et résultats d'apprentissage" ;
+    ns1:content """
+• Vérification et validation : besoins, spécification, défaillances, défauts, erreurs, approches.
+• Tests logiciels : processus, scénarios, suites, tests manuels vs. automatisés, unitaire vs. système vs. intégration, frameworks.
+• Méthodes fonctionnelle et structurelle pour définir des scénarios.
+• Testabilité et usage de doublures.
+• Qualité des tests : couverture, mutation.
+• Écriture de scénarios, utilisation de frameworks, mutation, couverture.
+""" .
+
+ns1:Preuves_et_Constructions_Formelles rdfs:label "Preuves et Constructions Formelles" ;
+    ns1:objective """
+1. Maîtriser formalisms (automates, logiques) pour modéliser.
+2. Comprendre vérification formelle (model checking, theorem proving).
+3. Utiliser outils (Uppaal, CoQ).
+""" .
+
+ns1:Projet_de_recherche rdfs:label "Projet de recherche" ;
+    ns1:content """
+Mise en situation sur un sujet LS2N, encadrée par un chercheur.
+Rédaction d’article et présentation orale.
+Échanges réguliers, semestre complet.
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Data Science (DS),
+M1 Visual Computing (VICO),
+M1 Optimisation en Recherche Opérationnelle (ORO),
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),
+M1 Architecture Logicielle (ALMA),
+M1 CMI-OPTIM,
+M1 Smart Computing
+""" ;
+    ns1:semester "2" .
+
+ns1:Projet_transversal rdfs:label "Projet transversal" ;
+    ns1:level "Master" ;
+    ns1:parcours "M1 Architecture Logicielle (ALMA),M1 Smart Computing" ;
+    ns1:semester "1" .
+
+ns1:Research_Discovery rdfs:label "Research Discovery" ;
+    ns1:level "Master" ;
+    ns1:parcours "M1 Smart Computing" ;
+    ns1:semester "1" .
+
+ns1:Summer_Internship__M1_SMART_ rdfs:label "Summer Internship (M1 SMART)" ;
+    ns1:level "Master" ;
+    ns1:parcours "M1 Smart Computing" ;
+    ns1:semester "2" .
+

@@ -1,249 +1,249 @@
 @prefix ns1: <http://example.org/masters/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://example.org/masters/Analyse_exploratoire_de_donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es> rdfs:label "Analyse exploratoire de donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing
-""" ;
-    ns1:semester "1" .
-
-<http://example.org/masters/Anglais_PrÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©paration_TOEIC> rdfs:label "FranÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ§ais" ;
-    ns1:content """
-Se prÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©parer pour obtenir une certification en anglais (objectif B2 et +)
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ PrÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sentation des formats
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Exercices dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂentrainement
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Conseils pour optimiser son score
-""" ;
-    ns1:level "Master" ;
-    ns1:objective """
-A lÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂissue de cet enseignement, les ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tudiants seront capables de :
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Reconnaitre et anticiper les formats de certifications dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂanglais.
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ ComplÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ter les rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ponses exigÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es par les tests de certifications.
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Pouvoir optimiser leurs rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sultats aux certifications grÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ce ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  une mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thodologie de travail appliquÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©e lors des sÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ances dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂentrainement.
-""" ;
-    ns1:parcours """
-M1 Electronique Energie Electrique Automatique - Mention EEA,M1 IngÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nierie Statistique (IS),M1 MÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©canique,M1 PFA Physique Fondamentale et Applications,M1 Sciences & SantÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©,M1 Chimie Moleculaire et Therapeutique (CMT),M1 CMI-IS,M1 MathÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©matiques Fondamentales (MF),M1 ModÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©lisation, Analyse numÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rique et Calcul Scientifique (MACS),M1 ANALYSE MOLECULES MATERIAUX MEDICAMENTS (A3M),M1 LUMIERE MOLECULE MATIERE (LUMOMAT),M1
-Bioinformatique/Biostatistique - Mention Bioinformatique,M1 Conception et rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©alisation des bÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢timents,M1 Travaux Publics, Maritimes et Maintenance - Mention GC,M1 Travaux Publics, Maritimes et Maintenance - Mention TM,M1 Biostatistique & EpidÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©miologie,M1 Earth and Planetary Sciences,M1 GE EcosystÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨mes et Bioproduction Marine,M1 CMD MICAS,M1 CMD InnoCare,M1 CMD OHNU,M1 CMD I3,M1 CMD I3,M1 Biologie et mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©dicaments,M1 Biologie et mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©dicaments,M1 Biologie et mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©dicaments,M1 Biologie et mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©dicaments,M1 CMD M4R,M1 Biologie et mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©dicaments,M1 CMI-INA,M1 CMI-OPTIM,M1 Sciences de la MatiÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨re - Parcours ENR-GE (M1 EEA),M1 CMI-ICM,M1 Technologie Marine - Parcours International Travaux publics et Maritimes
-""" ;
-    ns1:semester "1" .
+ns1:Information_générale rdfs:label "" ;
+    ns1:parcours "master Informatique" .
 
 ns1:Anglais_scientifique rdfs:label "" ;
     ns1:level "Master" ;
+    ns1:semester "1" ;
     ns1:parcours """
-M1 CMI-OPTIM,M1 Architecture Logicielle (ALMA),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Smart Computing
-""" ;
-    ns1:semester "1" .
+M1 CMI-OPTIM,M1 Architecture Logicielle (ALMA),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Smart Computing
+""" .
 
-ns1:Apprentissage_automatique rdfs:label "Apprentissage automatique" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 IngÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nierie Statistique (IS),M1 CMI-IS,M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Smart Computing
-""" ;
-    ns1:semester "2" .
-
-ns1:Compilation rdfs:label "1" ;
-    ns1:level "Master" ;
-    ns1:parcours "M1 CMI-INA,M1 CMI-IS,M1 CMI-OPTIM,M1 CMI-ICM" ;
-    ns1:semester "1" .
-
-<http://example.org/masters/DualitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©_et_optimisation_linÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©aire_continue> rdfs:label "DualitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© et optimisation linÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©aire continue" ;
-    ns1:content """
-1) Rappels : rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©solution graphique de programmes linÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©aires, algorithme primal simplexe
-2) DualitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© en programmation linÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©aire : dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©finition, principales propriÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©s, interprÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tation ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©conomique
-3) Algorithme dual simplexe
-4) Analyse post-optimale
-5) RÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©solution du problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me d'affectation linÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©aire par la mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thode hongroise
-""" ;
-    ns1:level "Master" ;
-    ns1:objective """
-Un ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tudiant suivant avec attention ce cours sera capable de :
-* RÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©soudre un programme linÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©aire graphiquement et par l'algorithme primal simplexe (A)
-* DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©crire les propriÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©s liant un programme linÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©aire (dit primal) et son dual (M)
-* Donner l'interprÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tation ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©conomique du problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me dual : comprendre le lien entre les valeurs des variables duales, les coÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»ts rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©duits des variables primales et la notion de coÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»t dual associÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  une contrainte primale (M)
-* RÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©soudre un programme linÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©aire par l'algorithme dual simplexe (A)
-* DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©crire des raffinements des algorithmes du simplexe (forme rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©visÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©e, variantes en variables bornÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es) (I)
-* DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©terminer les consÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©quences sur le tableau simplexe optimal d'une modification du problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me initial : modification de coefficients de la fonction objectif, de membres de droite d'une contrainte, ajout de variables et/ou de contraintes (A)
-* InterprÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ter correctement les notions d'intervalle de sensibilitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© d'un coefficient de la fonction objectif ou d'un second membre d'une contrainte (A)
-* RÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©optimiser un programme linÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©aire auquel des contraintes/des variables ont ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© ajoutÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es aprÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨s la rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©solution initiale (A)
-* ReconnaÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ®tre une matrice totalement unimodulaire, et dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©crire ses propriÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©s (A)
-* RÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©soudre le problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me d'affectation par la mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thode hongroise (A)
-""" ;
-    ns1:parcours """
-M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing
-""" ;
-    ns1:semester "1" .
-
-<http://example.org/masters/DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©veloppement_et_exploitation> rdfs:label "" ;
+ns1:Développement_et_exploitation rdfs:label "" ;
     ns1:content """
 1. Introduction, rappels, exemples et applications.
-2. EfficacitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© des algorithmes et calcul de la complexitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©: cas particulier des algorithmes portant sur les graphes
+2. Efficacité des algorithmes et calcul de la complexité: cas particulier des algorithmes portant sur les graphes
 3. Graphes particuliers I (arbres, arborescences): algorithmes et applications.
-4. ConnexitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©, forte connexitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©: algorithmes et applications.
-5. Graphes particuliers II (graphes bipartis, graphes orientÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©s sans circuits): algorithmes et applications.
+4. Connexité, forte connexité: algorithmes et applications.
+5. Graphes particuliers II (graphes bipartis, graphes orientés sans circuits): algorithmes et applications.
 6. Plus courts chemins: algorithmes et applications
 """ ;
     ns1:level "Master" ;
+    ns1:semester "1" ;
     ns1:objective """
-1. reconnaÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ®tre et modÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©liser un problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©el adaptÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  la rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©solution par la thÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©orie des graphes.
-2. choisir la reprÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sentation d'un graphe la plus adaptÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©e ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  chaque problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me, en visant l'efficacitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©.
-3. prendre en compte la complexitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© intrinsÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨que des graphes pour calculer prÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©cisÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ment la complexitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© algorithmique d'une solution et ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©valuer son efficacitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©.
-4. mettre en ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂuvre les principales solutions algorithmiques pour les problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨mes classiques de thÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©orie des graphes : parcours, connexitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©, plus courts chemins, recherche de cycles.
+1. reconnaître et modéliser un problème réel adapté à la résolution par la théorie des graphes.
+2. choisir la représentation d'un graphe la plus adaptée à chaque problème, en visant l'efficacité.
+3. prendre en compte la complexité intrinsèque des graphes pour calculer précisément la complexité algorithmique d'une solution et évaluer son efficacité.
+4. mettre en œuvre les principales solutions algorithmiques pour les problèmes classiques de théorie des graphes : parcours, connexité, plus courts chemins, recherche de cycles.
 """ ;
     ns1:parcours """
-M1 Architecture Logicielle (ALMA),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing
+M1 Architecture Logicielle (ALMA),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing
+""" .
+
+ns1:Dualité_et_optimisation_linéaire_continue rdfs:label "Dualité et optimisation linéaire continue" ;
+    ns1:content """
+1) Rappels : résolution graphique de programmes linéaires, algorithme primal simplexe
+2) Dualité en programmation linéaire : définition, principales propriétés, interprétation économique
+3) Algorithme dual simplexe
+4) Analyse post-optimale
+5) Résolution du problème d'affectation linéaire par la méthode hongroise
 """ ;
-    ns1:semester "1" .
+    ns1:level "Master" ;
+    ns1:semester "1" ;
+    ns1:objective """
+Un étudiant suivant avec attention ce cours sera capable de :
+* Résoudre un programme linéaire graphiquement et par l'algorithme primal simplexe (A)
+* Décrire les propriétés liant un programme linéaire (dit primal) et son dual (M)
+* Donner l'interprétation économique du problème dual : comprendre le lien entre les valeurs des variables duales, les coûts réduits des variables primales et la notion de coût dual associé à une contrainte primale (M)
+* Résoudre un programme linéaire par l'algorithme dual simplexe (A)
+* Décrire des raffinements des algorithmes du simplexe (forme révisée, variantes en variables bornées) (I)
+* Déterminer les conséquences sur le tableau simplexe optimal d'une modification du problème initial : modification de coefficients de la fonction objectif, de membres de droite d'une contrainte, ajout de variables et/ou de contraintes (A)
+* Interpréter correctement les notions d'intervalle de sensibilité d'un coefficient de la fonction objectif ou d'un second membre d'une contrainte (A)
+* Réoptimiser un programme linéaire auquel des contraintes/des variables ont été ajoutées après la résolution initiale (A)
+* Reconnaître une matrice totalement unimodulaire, et décrire ses propriétés (A)
+* Résoudre le problème d'affectation par la méthode hongroise (A)
+""" ;
+    ns1:parcours """
+M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing
+""" .
+
+ns1:Introduction_à_l_optimisation_non_linéaire_différentiable rdfs:label "" ;
+    ns1:content """
+Ce cours concerne divers problèmes de transports dans les réseaux, leurs algorithmes et leurs applications:
+1. Problème du flot maximum : algorithmes de Ford-Fulkerson, d'Edmonds-Karp, de préflot, leurs avantages et leurs limites.
+2. Problème du flot maximum de coût minimum : algorithme des plus courts chemins, algorithme de Klein, leurs avantages et leurs limites.
+3. Problèmes de transbordement : algorithme du simplexe réseau, ses avantages et ses limites.
+""" ;
+    ns1:level "Master" ;
+    ns1:semester "1" ;
+    ns1:objective """
+1. reconnaître, modéliser et résoudre un problème de flots à l'aide d'algorithmes classiques, y compris lorsque le coût compte.
+2. reconnaître, modéliser et résoudre un problème de transport à l'aide de l'algorithme du simplexe réseau.
+3. comprendre l'étendue des applications, mais aussi des limites de chacune des problématiques/méthodes.
+4. mener à bien un projet de résolution de problème à l'aide de graphes, en binôme, depuis la prise en main du sujet et jusqu'à l'évaluation des solutions/implémentations proposées
+""" ;
+    ns1:parcours """
+M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing
+""" .
+
+ns1:Métaheuristiques rdfs:label "Métaheuristiques" ;
+    ns1:level "Master" ;
+    ns1:semester "1" ;
+    ns1:parcours """
+M1 CMI-IS,M1 Ingénierie Statistique (IS),M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing
+""" .
+
+ns1:Analyse_exploratoire_de_données rdfs:label "Analyse exploratoire de données" ;
+    ns1:level "Master" ;
+    ns1:semester "1" ;
+    ns1:parcours """
+M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing
+""" .
+
+ns1:Anglais_Préparation_TOEIC rdfs:label "Français" ;
+    ns1:content """
+Se préparer pour obtenir une certification en anglais (objectif B2 et +)
+• Présentation des formats
+• Exercices d’entrainement
+• Conseils pour optimiser son score
+""" ;
+    ns1:level "Master" ;
+    ns1:semester "1" ;
+    ns1:objective """
+A l’issue de cet enseignement, les étudiants seront capables de :
+• Reconnaitre et anticiper les formats de certifications d’anglais.
+• Compléter les réponses exigées par les tests de certifications.
+• Pouvoir optimiser leurs résultats aux certifications grâce à une méthodologie de travail appliquée lors des séances d’entrainement.
+""" ;
+    ns1:parcours """
+M1 Electronique Energie Electrique Automatique - Mention EEA,M1 Ingénierie Statistique (IS),M1 Mécanique,M1 PFA Physique Fondamentale et Applications,M1 Sciences & Santé,M1 Chimie Moleculaire et Therapeutique (CMT),M1 CMI-IS,M1 Mathématiques Fondamentales (MF),M1 Modélisation, Analyse numérique et Calcul Scientifique (MACS),M1 ANALYSE MOLECULES MATERIAUX MEDICAMENTS (A3M),M1 LUMIERE MOLECULE MATIERE (LUMOMAT),M1
+Bioinformatique/Biostatistique - Mention Bioinformatique,M1 Conception et réalisation des bâtiments,M1 Travaux Publics, Maritimes et Maintenance - Mention GC,M1 Travaux Publics, Maritimes et Maintenance - Mention TM,M1 Biostatistique & Epidémiologie,M1 Earth and Planetary Sciences,M1 GE Ecosystèmes et Bioproduction Marine,M1 CMD MICAS,M1 CMD InnoCare,M1 CMD OHNU,M1 CMD I3,M1 CMD I3,M1 Biologie et médicaments,M1 Biologie et médicaments,M1 Biologie et médicaments,M1 Biologie et médicaments,M1 CMD M4R,M1 Biologie et médicaments,M1 CMI-INA,M1 CMI-OPTIM,M1 Sciences de la Matière - Parcours ENR-GE (M1 EEA),M1 CMI-ICM,M1 Technologie Marine - Parcours International Travaux publics et Maritimes
+""" .
+
+ns1:Compilation rdfs:label "1" ;
+    ns1:level "Master" ;
+    ns1:semester "1" ;
+    ns1:parcours "M1 CMI-INA,M1 CMI-IS,M1 CMI-OPTIM,M1 CMI-ICM" .
+
+ns1:Apprentissage_automatique rdfs:label "Apprentissage automatique" ;
+    ns1:level "Master" ;
+    ns1:semester "2" ;
+    ns1:parcours """
+M1 Ingénierie Statistique (IS),M1 CMI-IS,M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Smart Computing
+""" .
+
+ns1:Professionnalisation_et_éthique rdfs:label "Professionnalisation et éthique" ;
+    ns1:level "Master" ;
+    ns1:semester "2" ;
+    ns1:parcours """
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM,M1 Smart Computing
+""" .
+
+ns1:Ethique rdfs:label "Ethique" ;
+    ns1:level "Master" ;
+    ns1:semester "2" ;
+    ns1:parcours """
+M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM
+""" .
+
+ns1:Modèles_probabilistes rdfs:label "Modèles probabilistes" ;
+    ns1:level "Master" ;
+    ns1:semester "2" ;
+    ns1:parcours """
+M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM
+""" .
+
+ns1:Introduction_au_traitement_d_image rdfs:label "Introduction au traitement d'image" ;
+    ns1:content """
+Ce matière permettra de découvrir les bases du traitement d'image:
+•
+Image numérique et échantillonnage
+•
+Histogramme et transformation
+•
+Filtrage spatial et reconstruction / débruitage
+•
+Représentation et filtrage fréquentiel
+•
+Couleur et espaces colorimétriques
+•
+Segmentation et morphologie mathématique
+•
+Extraction de caractéristiques et classification basique
+""" ;
+    ns1:level "Master" ;
+    ns1:semester "2" ;
+    ns1:parcours """
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Visual Computing   (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
+""" .
+
+ns1:Informatique_temps_réel_et_embarquée rdfs:label "Informatique temps réel et embarquée" ;
+    ns1:level "Master" ;
+    ns1:semester "2" ;
+    ns1:parcours """
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Visual Computing   (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
+""" .
+
+ns1:Introduction_au_Traitement_Automatique_des_Langues rdfs:label "Introduction au Traitement Automatique des Langues" ;
+    ns1:content """
+L'objectif de cette UE est proposer un premier panorama du domaine du traitement automatique du langage. Un bref historique permettra de contextualiser ce domaine dont les recherches y sont très actives actuellement. Des premiers modèles simples de représentation des mots seront étudiés puis des modèles plus complexes à l'état-de-l'art, en particulier s'appuyant sur les réseaux de neurones  et l'apprentissage profond, seront présentés. Les enjeux sociétaux et les limites des modèles de langue actuels seront également abordés. Enfin, une part importante de l'UE intègrera des travaux sur machine sous forme de travaux pratiques : il s'agira de manipuler les concepts du traitement du langage au travers d'exercice ciblé ainsi que d'un petit projet permettant de résoudre un problème ciblé grâce au techniques actuels d'intelligence artificielle adaptées au langage.
+""" ;
+    ns1:level "Master" ;
+    ns1:semester "2" ;
+    ns1:parcours """
+M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
+""" .
+
+ns1:Optimisation_déterministe_et_stochastique rdfs:label "Optimisation déterministe et stochastique" ;
+    ns1:content """
+Optimisation déterministe :
+Convexité, différentiabilité, théorèmes d’existence d’un minimum (dimension finie et infinie) Optimisation sous contrainte : multiplicateurs de Lagrange, point-selle et dualité, conditions KKT Méthodes numériques :
+• Méthodes de Newton (rappel)
+• Méthodes de descente (pas constant, variable, optimal)
+- Application à la résolution de systèmes linéaires
+- Gradient conjugué
+• Problèmes avec contraintes : méthodes de descente et de pénalisation Optimisation stochastique :
+• Recherche aléatoire par méthodes de Monte-Carlo
+• Méthode de gradient stochastique
+• Recuit simulé
+• Algorithme Espérance/ Maximisation (EM), application au maximum de vraisemblance en présence de variables latentes non observées
+L’implémentation des méthodes d’optimisation vues en cours sera faite en langage Python.
+""" ;
+    ns1:level "Master" ;
+    ns1:semester "2" ;
+    ns1:objective """
+Au terme de cette Unité d’Enseignement, l’étudiant :
+• Formule un problème d’optimisation en dimension finie ou infinie sous contraintes et en prouve l’existence et l’unicité d’un minimum
+• Implémente sous Python les méthodes d’optimisation de Newton, de descente par gradient et par gradient stochastique, de recherche aveugle et de recuit simulé
+• Explique le principe de l’algorithme EM et cite des exemples de problèmes d’optimisation pour lequel il est adapté
+• Compare les avantages et les inconvénients de chacune des méthodes d’optimisation précédentes.
+""" ;
+    ns1:parcours """
+M1 Ingénierie Statistique (IS),M1 Modélisation, Analyse numérique et Calcul Scientifique (MACS),M1 CMI-IS,M1 CMI-OPTIM
+""" .
+
+ns1:stage_volontaire_en_informatique rdfs:label "stage volontaire en informatique" ;
+    ns1:level "Master" ;
+    ns1:semester "2" ;
+    ns1:parcours """
+M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
+""" .
 
 ns1:English_for_Scientific_Communication_Online_Course rdfs:label "English for Scientific Communication-Online Course" ;
     ns1:content """
 PROGRAMME
-Au terme du module ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂEnglish for Scientific Communication-Online CourseÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ les ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tudiants devront ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂªtre capables de :
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Consulter efficacement et ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©valuer une publication scientifique dans leur domaine de spÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©cialitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Concevoir et tenir ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  jour une banque lexicale des verbes et expressions utiles lors de la rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©daction dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂune publication scientifique
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ SÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂªtre familiarisÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©s avec des situations linguistiques courantes en recherche : traduction, rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©daction
-dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂabstracts et dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂarticles, peer-reviewing, prÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sentation orale
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Communiquer efficacement ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  lÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©crit comme ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  lÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂoral dans un contexte scientifique et institutionnel
+Au terme du module ‘English for Scientific Communication-Online Course’ les étudiants devront être capables de :
+• Consulter efficacement et évaluer une publication scientifique dans leur domaine de spécialité
+• Concevoir et tenir à jour une banque lexicale des verbes et expressions utiles lors de la rédaction d’une publication scientifique
+• S’être familiarisés avec des situations linguistiques courantes en recherche : traduction, rédaction
+d’abstracts et d’articles, peer-reviewing, présentation orale
+• Communiquer efficacement à l’écrit comme à l’oral dans un contexte scientifique et institutionnel
 CONTENU
-Articles et publications de recherche Anglais technique (recherche) Traduction et ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©dition dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂarticles
+Articles et publications de recherche Anglais technique (recherche) Traduction et édition d’articles
 """ ;
     ns1:level "Master" ;
+    ns1:semester "2" ;
     ns1:objective """
-Au terme du module ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂEnglish for Scientific Communication-Online CourseÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ les ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tudiants devront ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂªtre capables de :
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Consulter efficacement et ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©valuer une publication scientifique dans leur domaine de spÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©cialitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Concevoir et tenir ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  jour une banque lexicale des verbes et expressions utiles lors de la rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©daction dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂune publication scientifique
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ SÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂªtre familiarisÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©s avec des situations linguistiques courantes en recherche : traduction, rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©daction
-dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂabstracts et dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂarticles, peer-reviewing, prÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sentation orale
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Communiquer efficacement ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  lÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©crit comme ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  lÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂoral dans un contexte scientifique et institutionnel
+Au terme du module ‘English for Scientific Communication-Online Course’ les étudiants devront être capables de :
+• Consulter efficacement et évaluer une publication scientifique dans leur domaine de spécialité
+• Concevoir et tenir à jour une banque lexicale des verbes et expressions utiles lors de la rédaction d’une publication scientifique
+• S’être familiarisés avec des situations linguistiques courantes en recherche : traduction, rédaction
+d’abstracts et d’articles, peer-reviewing, présentation orale
+• Communiquer efficacement à l’écrit comme à l’oral dans un contexte scientifique et institutionnel
 """ ;
     ns1:parcours """
-M1 IngÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nierie Statistique (IS),M1 CMI-IS,M1 MathÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©matiques Fondamentales (MF),M1 Bioinformatique/Biostatistique - Mention Bioinformatique,M1 Bioinformatique/Biostatistique - Mention Bioinformatique,M1 Sciences & SantÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©,M1 ModÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©lisation, Analyse numÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rique et Calcul Scientifique (MACS),M1 Biostatistique & EpidÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©miologie,M1 CMI-OPTIM
-""" ;
-    ns1:semester "2" .
-
-ns1:Ethique rdfs:label "Ethique" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 CMI-OPTIM
-""" ;
-    ns1:semester "2" .
-
-<http://example.org/masters/Information_gÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rale> rdfs:label "" ;
-    ns1:parcours "master Informatique" .
-
-<http://example.org/masters/Informatique_temps_rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©el_et_embarquÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©e> rdfs:label "Informatique temps rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©el et embarquÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©e" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Visual Computing   (VICO),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
-""" ;
-    ns1:semester "2" .
-
-ns1:Introduction_au_Traitement_Automatique_des_Langues rdfs:label "Introduction au Traitement Automatique des Langues" ;
-    ns1:content """
-L'objectif de cette UE est proposer un premier panorama du domaine du traitement automatique du langage. Un bref historique permettra de contextualiser ce domaine dont les recherches y sont trÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨s actives actuellement. Des premiers modÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨les simples de reprÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sentation des mots seront ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tudiÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©s puis des modÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨les plus complexes ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  l'ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tat-de-l'art, en particulier s'appuyant sur les rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©seaux de neurones  et l'apprentissage profond, seront prÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sentÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©s. Les enjeux sociÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©taux et les limites des modÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨les de langue actuels seront ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©galement abordÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©s. Enfin, une part importante de l'UE intÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨grera des travaux sur machine sous forme de travaux pratiques : il s'agira de manipuler les concepts du traitement du langage au travers d'exercice ciblÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© ainsi que d'un petit projet permettant de rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©soudre un problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me ciblÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© grÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ce au techniques actuels d'intelligence artificielle adaptÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es au langage.
-""" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 Visual Computing (VICO),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
-""" ;
-    ns1:semester "2" .
-
-ns1:Introduction_au_traitement_d_image rdfs:label "Introduction au traitement d'image" ;
-    ns1:content """
-Ce matiÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨re permettra de dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©couvrir les bases du traitement d'image:
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢
-Image numÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rique et ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©chantillonnage
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢
-Histogramme et transformation
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢
-Filtrage spatial et reconstruction / dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©bruitage
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢
-ReprÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sentation et filtrage frÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©quentiel
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢
-Couleur et espaces colorimÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©triques
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢
-Segmentation et morphologie mathÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©matique
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢
-Extraction de caractÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ristiques et classification basique
-""" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Visual Computing   (VICO),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
-""" ;
-    ns1:semester "2" .
-
-<http://example.org/masters/Introduction_ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ _l_optimisation_non_linÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©aire_diffÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rentiable> rdfs:label "" ;
-    ns1:content """
-Ce cours concerne divers problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨mes de transports dans les rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©seaux, leurs algorithmes et leurs applications:
-1. ProblÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me du flot maximum : algorithmes de Ford-Fulkerson, d'Edmonds-Karp, de prÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©flot, leurs avantages et leurs limites.
-2. ProblÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me du flot maximum de coÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»t minimum : algorithme des plus courts chemins, algorithme de Klein, leurs avantages et leurs limites.
-3. ProblÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨mes de transbordement : algorithme du simplexe rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©seau, ses avantages et ses limites.
-""" ;
-    ns1:level "Master" ;
-    ns1:objective """
-1. reconnaÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ®tre, modÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©liser et rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©soudre un problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me de flots ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  l'aide d'algorithmes classiques, y compris lorsque le coÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»t compte.
-2. reconnaÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ®tre, modÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©liser et rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©soudre un problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me de transport ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  l'aide de l'algorithme du simplexe rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©seau.
-3. comprendre l'ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tendue des applications, mais aussi des limites de chacune des problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©matiques/mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thodes.
-4. mener ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  bien un projet de rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©solution de problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  l'aide de graphes, en binÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ´me, depuis la prise en main du sujet et jusqu'ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  l'ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©valuation des solutions/implÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©mentations proposÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es
-""" ;
-    ns1:parcours """
-M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing
-""" ;
-    ns1:semester "1" .
-
-<http://example.org/masters/ModÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨les_probabilistes> rdfs:label "ModÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨les probabilistes" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM
-""" ;
-    ns1:semester "2" .
-
-<http://example.org/masters/MÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©taheuristiques> rdfs:label "MÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©taheuristiques" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 CMI-IS,M1 IngÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nierie Statistique (IS),M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing
-""" ;
-    ns1:semester "1" .
-
-<http://example.org/masters/Optimisation_dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©terministe_et_stochastique> rdfs:label "Optimisation dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©terministe et stochastique" ;
-    ns1:content """
-Optimisation dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©terministe :
-ConvexitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©, diffÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rentiabilitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©, thÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©orÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨mes dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂexistence dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂun minimum (dimension finie et infinie) Optimisation sous contrainte : multiplicateurs de Lagrange, point-selle et dualitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©, conditions KKT MÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thodes numÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©riques :
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ MÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thodes de Newton (rappel)
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ MÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thodes de descente (pas constant, variable, optimal)
-- Application ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  la rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©solution de systÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨mes linÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©aires
-- Gradient conjuguÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ ProblÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨mes avec contraintes : mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thodes de descente et de pÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nalisation Optimisation stochastique :
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Recherche alÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©atoire par mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thodes de Monte-Carlo
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ MÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thode de gradient stochastique
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Recuit simulÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Algorithme EspÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rance/ Maximisation (EM), application au maximum de vraisemblance en prÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sence de variables latentes non observÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es
-LÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂimplÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©mentation des mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thodes dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂoptimisation vues en cours sera faite en langage Python.
-""" ;
-    ns1:level "Master" ;
-    ns1:objective """
-Au terme de cette UnitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂEnseignement, lÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tudiant :
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Formule un problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂoptimisation en dimension finie ou infinie sous contraintes et en prouve lÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂexistence et lÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂunicitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂun minimum
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ ImplÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©mente sous Python les mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thodes dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂoptimisation de Newton, de descente par gradient et par gradient stochastique, de recherche aveugle et de recuit simulÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Explique le principe de lÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂalgorithme EM et cite des exemples de problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨mes dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂoptimisation pour lequel il est adaptÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Compare les avantages et les inconvÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nients de chacune des mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thodes dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂoptimisation prÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©cÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©dentes.
-""" ;
-    ns1:parcours """
-M1 IngÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nierie Statistique (IS),M1 ModÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©lisation, Analyse numÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rique et Calcul Scientifique (MACS),M1 CMI-IS,M1 CMI-OPTIM
-""" ;
-    ns1:semester "2" .
-
-<http://example.org/masters/Professionnalisation_et_ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thique> rdfs:label "Professionnalisation et ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thique" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Visual Computing (VICO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM,M1 Smart Computing
-""" ;
-    ns1:semester "2" .
-
-ns1:stage_volontaire_en_informatique rdfs:label "stage volontaire en informatique" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
-""" ;
-    ns1:semester "2" .
+M1 Ingénierie Statistique (IS),M1 CMI-IS,M1 Mathématiques Fondamentales (MF),M1 Bioinformatique/Biostatistique - Mention Bioinformatique,M1 Bioinformatique/Biostatistique - Mention Bioinformatique,M1 Sciences & Santé,M1 Modélisation, Analyse numérique et Calcul Scientifique (MACS),M1 Biostatistique & Epidémiologie,M1 CMI-OPTIM
+""" .
 

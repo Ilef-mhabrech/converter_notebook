@@ -1,56 +1,17 @@
-@prefix ns1: <http://example.org/masters/> .
+@prefix ns1:  <http://example.org/masters/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 
-<http://example.org/masters/Algorithmique_du_gÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nome> rdfs:label "" ;
-    ns1:content """
-Ce cours prÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sente des algorithmes de recherche dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©terministes pour rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©soudre des problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨mes de satisfaction et d'optimisation non linÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©aires de maniÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨re rigoureuse.
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Algorithme branch-and-bound
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ ArithmÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tique par intervalles
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Techniques de rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©duction
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Techniques de linÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©arisation
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Certification des calculs numÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©riques
-""" ;
-    ns1:level "Master" ;
-    ns1:objective """
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Comprendre les mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thodes de calcul par intervalles et le calcul automatique de bornes d'erreurs
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Savoir linÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ariser un problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me non linÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©aire
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ ConnaÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ®tre les stratÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©gies de recherche usuelles
-ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Mettre en ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂuvre un solveur de problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨mes d'optimisation non linÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©aires
-""" ;
-    ns1:parcours """
-M2 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M2 CMI-OPTIM
-""" ;
-    ns1:semester "3" .
-
-<http://example.org/masters/ComplÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ment_en_Anglais_du_Projet_IntÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©grateur_CMI_OPTIM> rdfs:label "ComplÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ment en Anglais du Projet IntÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©grateur CMI OPTIM" ;
-    ns1:level "Master" ;
-    ns1:parcours "M2 CMI-OPTIM" ;
-    ns1:semester "3" .
-
-<http://example.org/masters/ComplÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ment_en_Anglais_du_Stage_M2_CMI_OPTIM> rdfs:label "Mixte" ;
-    ns1:level "Master" ;
-    ns1:parcours "M2 CMI-OPTIM" ;
-    ns1:semester "4" .
-
-<http://example.org/masters/Information_gÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rale> rdfs:label "" ;
+ns1:Information_générale
     ns1:parcours "master Informatique" .
 
-ns1:Optimisation_en_robotique rdfs:label "Optimisation en robotique" ;
-    ns1:content """
-Optimization in Robotics presents a number of optimization problems arising in robotics and demonstrates how the optimization techniques learnt throughout the Master allow solving them.
-""" ;
-    ns1:level "Master" ;
-    ns1:objective """
-* understand the kinematic models of various serial and parallel robotic manipulators (Understanding)
-* describe a variety of optimization problems in robotics and identify the corresponding classes of optimization problems (Analysis)
-* model a variety of robotic problems as numerical constrained optimization problems and solve them using an appropriate method (Synthesis)
-""" ;
-    ns1:parcours """
-M2 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M2 CMI-OPTIM
-""" ;
-    ns1:semester "3" .
+ns1:Programme
+    ns1:semester  "Code" ;
+    ns1:objective "XMS3IU360" .
 
-ns1:Optimisation_multi_objectif rdfs:label "" ;
+ns1:Optimisation_multi_objectif
     ns1:content """
 This course is composed of 5 chapters.
 * Introduction to multi-objective optimization
@@ -59,7 +20,8 @@ This course is composed of 5 chapters.
 * Multi-objective combinatorial optimization - main solution methods
 * Multi-objective shortest path problem
 """ ;
-    ns1:level "Master" ;
+    ns1:level     "Master" ;
+    ns1:semester  "3" ;
     ns1:objective """
 - To know the notion of feasible set, outcome set, solution, point, (weakly) efficient, (weakly) nondominated point, lexicographically optimal solution (M)
 - To know the ideal point and the nadir point, the way to compute these points and the difficulty in their computation (M)
@@ -79,12 +41,13 @@ This course is composed of 5 chapters.
 - To be able to apply a dynamic programming algorithm for multi-objective combinatorial optimization problem, application to the shortest path problem (A)
 """ ;
     ns1:parcours """
-M2 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M2 CMI-OPTIM
-""" ;
-    ns1:semester "3" .
+M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM
+""" .
 
-<http://example.org/masters/Programmation_mathÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©matique> rdfs:label "Programmation mathÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©matique" ;
-    ns1:level "Master" ;
+ns1:Programmation_mathématique
+    rdfs:label "Programmation mathématique" ;
+    ns1:level     "Master" ;
+    ns1:semester  "3" ;
     ns1:objective """
 - To learn classical modelization techniques on various problems using specific variables (A-M)
 - To know the different strategies applicable to solve mixed integer linear programs (M)
@@ -94,7 +57,7 @@ M2 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂ�
 - To know how to distinguish between valid inequalities, faces and facets, and to know the main way to prove that an inequality is a facet (M)
 - To know how to apply these techniques to graph theory or any problem that is not given under the form of a mixed integer linear program (A)
 - To be able to detect symmetry in a problem or model, and to know how to cope with this phenomenon (A-M)
-- To apprehend Lagragian relaxation with effective implementation (M)
+- To apprehend Lagrangian relaxation with effective implementation (M)
 - To discover the implementation of a column generation algorithm (I)
 - To understand the theory of Dantzig-Wolfe decomposition and to devise a column generation approach for various combinatorial optimization problems (M)
 - To know Branch-and-Price and the different ways to make it efficient (A)
@@ -102,58 +65,105 @@ M2 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂ�
 - To know how matheuristics work for both exact methods using approximate methods, and heuristics taking advantage of exact approaches (M)
 """ ;
     ns1:parcours """
-M2 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M2 CMI-OPTIM
+M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM
+""" .
+
+ns1:Algorithmique_du_génome
+    ns1:content """
+Ce cours présente des algorithmes de recherche déterministes pour résoudre des problèmes de satisfaction et d'optimisation non linéaires de manière rigoureuse.
+• Algorithme branch-and-bound
+• Arithmétique par intervalles
+• Techniques de réduction
+• Techniques de linéarisation
+• Certification des calculs numériques
 """ ;
-    ns1:semester "3" .
-
-ns1:Programme rdfs:label "" ;
-    ns1:objective "XMS3IU360" ;
-    ns1:semester "Code" .
-
-ns1:Solveurs_multi_objectifs rdfs:label "" ;
-    ns1:level "Master" ;
-    ns1:parcours """
-M2 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M2 CMI-OPTIM
-""" ;
-    ns1:semester "3" .
-
-ns1:Stage rdfs:label "Stage" ;
-    ns1:level "Master" ;
+    ns1:level     "Master" ;
+    ns1:semester  "3" ;
     ns1:objective """
-- S'intÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©grer dans le milieu professionnel de son stage, mettre en ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂuvre sa capacitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© d'analyse sur le sujet proposÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©, et ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂªtre force de proposition.
-- SynthÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tiser le travail effectuÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© dans un compte rendu de maniÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨re concise, correcte, et complÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨te.
-- PrÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©parer des supports puis prÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©senter oralement le travail effectuÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© de maniÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨re dynamique et convaincante.
+• Comprendre les méthodes de calcul par intervalles et le calcul automatique de bornes d'erreurs
+• Savoir linéariser un problème non linéaire
+• Connaître les stratégies de recherche usuelles
+• Mettre en œuvre un solveur de problèmes d'optimisation non linéaires
 """ ;
     ns1:parcours """
-M2 Architectures Logicielles (ALMA),M2 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M2 Apprentissage et Traitement Automatique de la Langue (ATAL),M2 CMI-OPTIM
+M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM
+""" .
+
+ns1:Optimisation_en_robotique
+    rdfs:label "Optimisation en robotique" ;
+    ns1:content """
+Optimization in Robotics presents a number of optimization problems arising in robotics and demonstrates how the optimization techniques learnt throughout the Master allow solving them.
 """ ;
-    ns1:semester "4" .
+    ns1:level     "Master" ;
+    ns1:semester  "3" ;
+    ns1:objective """
+* understand the kinematic models of various serial and parallel robotic manipulators (Understanding)
+* describe a variety of optimization problems in robotics and identify the corresponding classes of optimization problems (Analysis)
+* model a variety of robotic problems as numerical constrained optimization problems and solve them using an appropriate method (Synthesis)
+""" ;
+    ns1:parcours """
+M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM
+""" .
 
-<http://example.org/masters/Stage_SpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©cifique_M1_CMI_OPTIM> rdfs:label "Stage SpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©cifique M1 CMI OPTIM" ;
-    ns1:level "Master" ;
-    ns1:parcours "M2 CMI-OPTIM" ;
-    ns1:semester "3" .
+ns1:Solveurs_multi_objectifs
+    ns1:level    "Master" ;
+    ns1:semester "3" ;
+    ns1:parcours """
+M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM
+""" .
 
-ns1:Transport_et_logistique rdfs:label "Transport et logistique" ;
+ns1:Complément_en_Anglais_du_Projet_Intégrateur_CMI_OPTIM
+    rdfs:label "Complément en Anglais du Projet Intégrateur CMI OPTIM" ;
+    ns1:level    "Master" ;
+    ns1:semester "3" ;
+    ns1:parcours "M2 CMI-OPTIM" .
+
+ns1:Stage_Spécifique_M1_CMI_OPTIM
+    rdfs:label "Stage Spécifique M1 CMI OPTIM" ;
+    ns1:level    "Master" ;
+    ns1:semester "3" ;
+    ns1:parcours "M2 CMI-OPTIM" .
+
+ns1:Transport_et_logistique
+    rdfs:label "Transport et logistique" ;
     ns1:content """
 At the end of this course, the student will be able to:
 - Identify the main optimization problems that arise in the field of transportation and logistics
 - Model the core problems and their simple extensions
 - Design some exact and heuristic solving methods for these optimization problems
 """ ;
-    ns1:level "Master" ;
+    ns1:level     "Master" ;
+    ns1:semester  "3" ;
     ns1:objective """
-+ Information systems and software in transport optimization (I)
-+ Modeling classical facility location and vehicle routing problems (E)
-+ Modeling advanced facility location, network design and vehicle routing problems (M)
-+ Heuristic solving of facility location problems (I)
-+ Heuristics for vehicle routing problems (M)
-+ Metaheuristics for vehicle routing problems (A)
-+ Solving vehicle routing problems with time windows (A)
-+ Advanced exact methods for facility location and vehicle routing (Branch-and-cut, Lagrangian relaxation, column generation) (I)
++ Information systems and softwares in transport optimization I.
++ Modeling classical facility location and vehicle routing problems E
++ Modeling advanced facility location, network design and vehicle routing problems M
++ Heuristic solving of facility location problems I
++ Heuristics for vehicle routing problems M
++ Meta-heuristics for vehicle routing problems A
++ Solving vehicle routing problems with time windows A
++ Advanced exact methods for facility location and vehicle routing (Branch and cut, Lagrangean relaxation, column generation) I.
 """ ;
     ns1:parcours """
-M2 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M2 CMI-OPTIM
-""" ;
-    ns1:semester "3" .
+M2 Optimisation en Recherche Opérationnelle (ORO),M2 CMI-OPTIM
+""" .
 
+ns1:Stage
+    rdfs:label "Stage" ;
+    ns1:level    "Master" ;
+    ns1:semester "4" ;
+    ns1:objective """
+- S'intégrer dans le milieu professionnel de son stage, mettre en œuvre sa capacité d'analyse sur le sujet proposé, et être force de proposition.
+- Synthétiser le travail effectué dans un compte rendu de manière concise, correcte et complète.
+- Préparer des supports puis présenter oralement le travail effectué de manière dynamique et convaincante.
+""" ;
+    ns1:parcours """
+M2 Architectures Logicielles (ALMA),M2 Optimisation en Recherche Opérationnelle (ORO),
+M2 Apprentissage et Traitement Automatique de la Langue (ATAL),M2 CMI-OPTIM
+""" .
+
+ns1:Complément_en_Anglais_du_Stage_M2_CMI_OPTIM
+    rdfs:label "Mixte" ;
+    ns1:level    "Master" ;
+    ns1:semester "4" ;
+    ns1:parcours "M2 CMI-OPTIM" .
