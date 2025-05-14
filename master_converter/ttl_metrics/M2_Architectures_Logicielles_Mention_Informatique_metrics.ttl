@@ -1,32 +1,30 @@
 @prefix ns1: <http://example.org/masters/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-ns1:Master_2_M2_Architectures_Logicielles__ALMA__Année_universitaire 
-ns1:Middleware     ns1:volume """
-TOTAL : 24h Répartition : CM : 12h TD : 6h CI : 0h TP : 6h EAD : 0h
-""" ;
+ns1:Architectures_et_styles_d_architectures ns1:volume """
+TOTAL : 24h RÃ©partition : CM : 16h TD : 8h CI : 0h TP : 0h EAD : 0h
+""" .
 
-ns1:Deep_Learning_and_Intensive_Software_Systems__EMN_     ns1:volume """
-TOTAL : 24h Répartition : CM : 12h TD : 0h CI : 0h TP : 12h EAD : 0h
-""" ;
+ns1:Deep_Learning_and_Intensive_Software_Systems__EMN_ ns1:volume """
+TOTAL : 24h RÃ©partition : CM : 12h TD : 0h CI : 0h TP : 12h EAD : 0h
+""" .
 
-ns1:Ingénierie_dirigée_par_les_modèles     ns1:volume """
-TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h
-""" ;
+ns1:Gestion_des_logiciels ns1:volume """
+TOTAL : 45h RÃ©partition : CM : 33h TD : 12h CI : 0h TP : 0h EAD : 0h
+""" .
 
-ns1:Gestion_des_logiciels     ns1:volume """
-TOTAL : 45h Répartition : CM : 33h TD : 12h CI : 0h TP : 0h EAD : 0h
-""" ;
+<http://example.org/masters/IngÃ©nierie_dirigÃ©e_par_les_modÃ¨les> ns1:volume """
+TOTAL : 24h RÃ©partition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h
+""" .
 
-ns1:Modélisation_et_vérification_des_systèmes_concurrents     ns1:volume """
-TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h
-""" ;
+ns1:Middleware ns1:volume """
+TOTAL : 24h RÃ©partition : CM : 12h TD : 6h CI : 0h TP : 6h EAD : 0h
+""" .
 
-ns1:Architectures_et_styles_d_architectures     ns1:volume """
-TOTAL : 24h Répartition : CM : 16h TD : 8h CI : 0h TP : 0h EAD : 0h
-""" ;
+<http://example.org/masters/ModÃ©lisation_et_vÃ©rification_des_systÃ¨mes_concurrents> ns1:volume """
+TOTAL : 24h RÃ©partition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h
+""" .
 
-ns1:Stage     ns1:volume """
-TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h
-""" ;
+ns1:Stage ns1:volume """
+TOTAL : 0h RÃ©partition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h
+""" .
 

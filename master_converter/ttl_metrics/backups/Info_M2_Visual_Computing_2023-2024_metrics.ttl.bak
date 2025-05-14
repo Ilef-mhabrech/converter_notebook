@@ -1,28 +1,44 @@
 @prefix ns1: <http://example.org/masters/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-ns1:Master_2_M2_Visual_Computing__VICO__Année_universitaire_2023_2024 
-ns1:Description_des_UE     ns1:volume """
+# Master 2 VICO 2023-2024 – description générale
+ns1:Master_2_M2_Visual_Computing__VICO__Année_universitaire_2023_2024
+    ns1:volume """
 TOTAL : 48h Répartition : CM : 0h TD : 0h CI : 28h TP : 14h EAD : 6h
-""" ;
+""" .
 
-ns1:YG9U15_     ns1:volume """
+# Description des UE (même volume que ci-dessus ?)
+ns1:Description_des_UE
+    ns1:volume """
 TOTAL : 48h Répartition : CM : 0h TD : 0h CI : 28h TP : 14h EAD : 6h
-""" ;
+""" .
 
-ns1:     ns1:volume """
+# UE YG9U15
+ns1:YG9U15_
+    ns1:volume """
 TOTAL : 48h Répartition : CM : 0h TD : 0h CI : 28h TP : 14h EAD : 6h
-""" ;
+""" .
 
-ns1:     ns1:volume """
+# UE temporaire – renommez par le vrai code
+ns1:Course_1
+    ns1:volume """
+TOTAL : 48h Répartition : CM : 0h TD : 0h CI : 28h TP : 14h EAD : 6h
+""" .
+
+# UE temporaire – renommez par le vrai code
+ns1:Course_2
+    ns1:volume """
 TOTAL : 24h Répartition : CM : 0h TD : 0h CI : 14h TP : 7h EAD : 3h
-""" ;
+""" .
 
-ns1:     ns1:volume """
+# UE temporaire – renommez par le vrai code
+ns1:Course_3
+    ns1:volume """
 TOTAL : 24h Répartition : CM : 0h TD : 0h CI : 14h TP : 7h EAD : 3h
-""" ;
+""" .
 
-ns1:Evaluation     ns1:volume """
+# Évaluation
+ns1:Evaluation
+    ns1:volume """
 TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h
-""" ;
-
+""" .
