@@ -1,13 +1,13 @@
 @prefix ns1: <http://example.org/masters/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-ns1:Master_Informatique_2ème_année_2024_2025_En_Contrat_de_professionnalisation_Mention___Informatique_Parcours___Apprentissage_et_traitement_Automatique_de_la_Langue___2ème_année__M2_Info_Atal_ rdfs:label "" ;
+<http://example.org/masters/Master_Informatique_2ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me_annÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©e_2024_2025_En_Contrat_de_professionnalisation_Mention___Informatique_Parcours___Apprentissage_et_traitement_Automatique_de_la_Langue___2ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me_annÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©e__M2_Info_Atal_> rdfs:label "" ;
     ns1:objective """
-À l’issue de la formation, les étudiants seront capables :
-•      D’aborder des techniques d’apprentissage automatique
-•      De mettre en œuvre de nouvelles applications prenant en
-compte des masses de données complexes et hétérogènes
-•      D’intervenir sur la conception, le développement et d’effectuer la
-maintenance des logiciels
-""" ;
+ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ lÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂissue de la formation, les ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tudiants seront capables :
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ DÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂaborder des techniques dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂapprentissage automatique
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ De mettre en ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂuvre de nouvelles applications prenant en
+  compte des masses de donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es complexes et hÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rogÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨nes
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ DÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂintervenir sur la conception, le dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©veloppement et dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂeffectuer la
+  maintenance des logiciels
+""" .
 

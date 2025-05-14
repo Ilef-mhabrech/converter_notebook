@@ -1,154 +1,154 @@
 @prefix ns1: <http://example.org/masters/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-ns1:Information_générale rdfs:label "" ;
-    ns1:parcours "master Informatique" .
-
-ns1:Métaheuristiques rdfs:label "" ;
+<http://example.org/masters/Analyse_exploratoire_de_donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es> rdfs:label "Analyse exploratoire de donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es" ;
     ns1:level "Master" ;
-    ns1:semester "1" ;
     ns1:parcours """
-M1 CMI-IS,M1 Ingénierie Statistique (IS),M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing
-""" .
-
-ns1:Analyse_exploratoire_de_données rdfs:label "Analyse exploratoire de données" ;
-    ns1:level "Master" ;
-    ns1:semester "1" ;
-    ns1:parcours """
-M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing
-""" .
-
-ns1:Structures_et_stratégies_pour_la_résolution_de_problèmes rdfs:label "1" ;
-    ns1:content """
-Etude d'algorithmes de résolution d'une classe de problèmes de recherche dont l'exploration de l'espace de recherche correspond à un parcours d'arbre (notamment d'arbre de jeux) tels que recherche en largeur d'abord, en profondeur d'abord, avec heuristiques, recherche gloutonne, algorithme A*, algorithme minimax, élagage alpha-bêta, recherche arborescente Monte-Carlo.
+M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing
 """ ;
-    ns1:semester "1" ;
-    ns1:parcours """
-M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Smart Computing
-""" .
-
-ns1:Applications_industrielles_sur_les_données rdfs:label "Projet en binômes encadré, 5 séances x ~4h" ;
-    ns1:content """
-L’objectif de cet enseignement est de proposer une présentation globale du contexte actuel de l’Intelligence Artificielle (IA) en milieu industrielle de même qu’un état des lieux sur les principaux cas d’usages et des frameworks associés. Trois domaines au centre du secteur IA et données sont plus particulièrement visés, à savoir : l’analyse ou la génération de textes (données langagières), d’images, de données. L’EC se décomposera en 2 demi-journées à chaque fois sur le site d’un partenaire industriel.
-""" ;
-    ns1:level "Master" ;
-    ns1:semester "1" ;
-    ns1:parcours """
-M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 Smart Computing
-""" .
-
-ns1:Web_sémantique___Web_des_données rdfs:label "Web sémantique - Web des données" ;
-    ns1:content """
-Contenu:
-• Modèle de données RDF (Ressources Description Framework)
-• Langage d’ontologie RDFS, OWL
-• Logique de description et les règles d’inférences
-• Langage de requêtes SPARQL
-• Les principes de données ouvertes liées
-""" ;
-    ns1:level "Master" ;
-    ns1:semester "1" ;
-    ns1:objective """
-- Comprendre le modèle de données RDF (Ressources Description Framework)
-- Comprendre les langages de description des vocabulaires RDFS (RDF Schema)
-- Comprendre les langages de description d’ontologie OWL (Web Ontology Language)
-- Comprendre la logique de description et les règles d’inférences
-- Comprendre le langage de requêtes SPARQL
-- Etre capable d’utiliser les données liées ouvertes et de faire des requêtes SPARQL sur ces données
-- Etre capable de de transformer les données ouvertes en données liées et être capable de publier ces données liées .
-""" ;
-    ns1:parcours """
-M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Optimisation en Recherche Opérationnelle (ORO),M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Smart Computing
-""" .
-
-ns1:Développement_et_exploitation rdfs:label "Développement et exploitation" ;
-    ns1:level "Master" ;
-    ns1:semester "1" ;
-    ns1:parcours """
-M1 Architecture Logicielle (ALMA),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing
-""" .
+    ns1:semester "1" .
 
 ns1:Anglais_scientifique rdfs:label "Anglais scientifique" ;
     ns1:level "Master" ;
-    ns1:semester "1" ;
     ns1:parcours """
-M1 CMI-OPTIM,M1 Architecture Logicielle (ALMA),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Smart Computing
-""" .
+M1 CMI-OPTIM,M1 Architecture Logicielle (ALMA),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+<http://example.org/masters/Applications_industrielles_sur_les_donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es> rdfs:label "Projet en binÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ´mes encadrÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©, 5 sÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ances x ~4h" ;
+    ns1:content """
+LÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂobjectif de cet enseignement est de proposer une prÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sentation globale du contexte actuel de lÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂIntelligence Artificielle (IA) en milieu industrielle de mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂªme quÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂun ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tat des lieux sur les principaux cas dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂusages et des frameworks associÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©s. Trois domaines au centre du secteur IA et donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es sont plus particuliÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨rement visÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©s, ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  savoir : lÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂanalyse ou la gÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ration de textes (donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es langagiÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨res), dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂimages, de donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es. LÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂEC se dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©composera en 2 demi-journÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  chaque fois sur le site dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂun partenaire industriel.
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 Smart Computing
+""" ;
+    ns1:semester "1" .
 
 ns1:Apprentissage_automatique rdfs:label "" ;
     ns1:level "Master" ;
-    ns1:semester "2" ;
     ns1:parcours """
-M1 Ingénierie Statistique (IS),M1 CMI-IS,M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Smart Computing
-""" .
+M1 IngÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nierie Statistique (IS),M1 CMI-IS,M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Smart Computing
+""" ;
+    ns1:semester "2" .
 
-ns1:Professionnalisation rdfs:label "Professionnalisation" ;
+<http://example.org/masters/Bases_de_donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es_avancÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es> rdfs:label "Bases de donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es avancÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es" ;
     ns1:level "Master" ;
-    ns1:semester "2" ;
-    ns1:parcours """
-M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM
-""" .
-
-ns1:Bases_de_données_avancées rdfs:label "Bases de données avancées" ;
-    ns1:level "Master" ;
-    ns1:semester "2" ;
     ns1:parcours """
 M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Visual Computing (VICO),M1 Data Science (DS)
-""" .
-
-ns1:Introduction_au_traitement_d_image rdfs:label "2" ;
-    ns1:level "Master" ;
-    ns1:semester "2" ;
-    ns1:parcours """
-M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
-""" .
-
-ns1:Informatique_temps_réel_et_embarquée rdfs:label "Informatique temps réel et embarquée" ;
-    ns1:level "Master" ;
-    ns1:semester "2" ;
-    ns1:parcours """
-M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Visual Computing   (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
-""" .
+""" ;
+    ns1:semester "2" .
 
 ns1:Conception_et_Analyse_d_Algorithmes_Efficaces rdfs:label "Conception et Analyse d'Algorithmes Efficaces" ;
     ns1:content """
-Dans ce module, on cherche à concevoir des algorithmes efficaces (en temps) pour résoudre des problèmes, typiquement des problèmes d'optimisation. On y abordera trois grandes parties:
-• évaluation de la complexité d'un algorithme et comparaison de performances (en temps) de plusieurs algorithmes entre eux
-• évaluation de la complexité d'un problème (Polynomial vs NP-dur)
-• en cas de problème \"difficile\" (NP-dur), étude de deux stratégies de résolution: algorithmes d'approximation et complexité paramétrée (à exponentielle faible)
+Dans ce module, on cherche ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  concevoir des algorithmes efficaces (en temps) pour rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©soudre des problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨mes, typiquement des problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨mes d'optimisation. On y abordera trois grandes parties:
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©valuation de la complexitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© d'un algorithme et comparaison de performances (en temps) de plusieurs algorithmes entre eux
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©valuation de la complexitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© d'un problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me (Polynomial vs NP-dur)
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ en cas de problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me "difficile" (NP-dur), ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tude de deux stratÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©gies de rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©solution: algorithmes d'approximation et complexitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© paramÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©trÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©e (ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  exponentielle faible)
 """ ;
     ns1:level "Master" ;
-    ns1:semester "2" ;
     ns1:parcours """
-M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
-""" .
-
-ns1:Ingéniérie_des_réseaux rdfs:label "" ;
-    ns1:content """
-L'objectif de cette UE est proposer un premier panorama du domaine du traitement automatique du langage. Un bref historique permettra de contextualiser ce domaine dont les recherches y sont très actives actuellement. Des premiers modèles simples de représentation des mots seront étudiés puis des modèles plus complexes à l'état-de-l'art, en particulier s'appuyant sur les réseaux de neurones  et l'apprentissage profond, seront présentés. Les enjeux sociétaux et les limites des modèles de langue actuels seront également abordés. Enfin, une part importante de l'UE intègrera des travaux sur machine sous forme de travaux pratiques : il s'agira de manipuler les concepts du traitement du langage au travers d'exercice ciblé ainsi que d'un petit projet permettant de résoudre un problème ciblé grâce au techniques actuels d'intelligence artificielle adaptées au langage.
+M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
 """ ;
+    ns1:semester "2" .
+
+<http://example.org/masters/DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©veloppement_et_exploitation> rdfs:label "DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©veloppement et exploitation" ;
     ns1:level "Master" ;
-    ns1:semester "2" ;
     ns1:parcours """
-M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue   (ATAL),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
-""" .
+M1 Architecture Logicielle (ALMA),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing
+""" ;
+    ns1:semester "1" .
 
-ns1:Préparation_au_TOEIC rdfs:label "Préparation au TOEIC" ;
+<http://example.org/masters/Information_gÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rale> rdfs:label "" ;
+    ns1:parcours "master Informatique" .
+
+<http://example.org/masters/Informatique_temps_rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©el_et_embarquÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©e> rdfs:label "Informatique temps rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©el et embarquÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©e" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Visual Computing   (VICO),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
+""" ;
+    ns1:semester "2" .
+
+<http://example.org/masters/IngÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©niÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rie_des_rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©seaux> rdfs:label "" ;
     ns1:content """
-Se préparer pour obtenir une certification en anglais (objectif B2 et +)
-• Présentation des formats
-• Exercices d’entrainement
-• Conseils pour optimiser son score
+L'objectif de cette UE est proposer un premier panorama du domaine du traitement automatique du langage. Un bref historique permettra de contextualiser ce domaine dont les recherches y sont trÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨s actives actuellement. Des premiers modÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨les simples de reprÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sentation des mots seront ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tudiÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©s puis des modÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨les plus complexes ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  l'ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tat-de-l'art, en particulier s'appuyant sur les rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©seaux de neurones  et l'apprentissage profond, seront prÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sentÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©s. Les enjeux sociÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©taux et les limites des modÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨les de langue actuels seront ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©galement abordÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©s. Enfin, une part importante de l'UE intÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨grera des travaux sur machine sous forme de travaux pratiques : il s'agira de manipuler les concepts du traitement du langage au travers d'exercice ciblÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© ainsi que d'un petit projet permettant de rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©soudre un problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me ciblÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© grÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ce au techniques actuels d'intelligence artificielle adaptÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es au langage.
 """ ;
     ns1:level "Master" ;
-    ns1:semester "2" ;
+    ns1:parcours """
+M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue   (ATAL),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
+""" ;
+    ns1:semester "2" .
+
+ns1:Introduction_au_traitement_d_image rdfs:label "2" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
+""" ;
+    ns1:semester "2" .
+
+<http://example.org/masters/MÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©taheuristiques> rdfs:label "" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 CMI-IS,M1 IngÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nierie Statistique (IS),M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+ns1:Professionnalisation rdfs:label "Professionnalisation" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM
+""" ;
+    ns1:semester "2" .
+
+<http://example.org/masters/PrÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©paration_au_TOEIC> rdfs:label "PrÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©paration au TOEIC" ;
+    ns1:content """
+Se prÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©parer pour obtenir une certification en anglais (objectif B2 et +)
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ PrÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sentation des formats
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Exercices dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂentrainement
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Conseils pour optimiser son score
+""" ;
+    ns1:level "Master" ;
     ns1:objective """
-A l’issue de cet enseignement, les étudiants seront capables de :
-• Reconnaitre et anticiper les formats de certifications d’anglais.
-• Compléter les réponses exigées par les tests de certifications.
-• Pouvoir optimiser leurs résultats aux certifications grâce à une méthodologie de travail appliquée lors des séances d’entrainement.
+A lÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂissue de cet enseignement, les ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tudiants seront capables de :
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Reconnaitre et anticiper les formats de certifications dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂanglais.
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ ComplÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ter les rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ponses exigÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es par les tests de certifications.
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Pouvoir optimiser leurs rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sultats aux certifications grÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ce ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  une mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thodologie de travail appliquÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©e lors des sÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ances dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂentrainement.
 """ ;
     ns1:parcours """
-M1 Earth and Planetary Sciences,M1 GE Ecosystèmes et Bioproduction Marine,M1 CMD InnoCare,M1 CMD OHNU,M1 CMD MICAS,M1 CMD M4R,M1 Biologie et médicaments,M1 Biologie et médicaments,M1 Biologie et médicaments,M1 Biologie et médicaments,M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 Sciences de la Matière - Parcours ENR-GE (M1 EEA),M1 Biostatistique & Epidémiologie,M1 Electronique Energie Electrique Automatique - Mention EEA,M1 Bioinformatique/Biostatistique - Mention Bioinformatique,M1 Biologie et médicaments
-""" .
+M1 Earth and Planetary Sciences,M1 GE EcosystÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨mes et Bioproduction Marine,M1 CMD InnoCare,M1 CMD OHNU,M1 CMD MICAS,M1 CMD M4R,M1 Biologie et mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©dicaments,M1 Biologie et mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©dicaments,M1 Biologie et mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©dicaments,M1 Biologie et mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©dicaments,M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 Sciences de la MatiÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨re - Parcours ENR-GE (M1 EEA),M1 Biostatistique & EpidÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©miologie,M1 Electronique Energie Electrique Automatique - Mention EEA,M1 Bioinformatique/Biostatistique - Mention Bioinformatique,M1 Biologie et mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©dicaments
+""" ;
+    ns1:semester "2" .
+
+<http://example.org/masters/Structures_et_stratÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©gies_pour_la_rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©solution_de_problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨mes> rdfs:label "1" ;
+    ns1:content """
+Etude d'algorithmes de rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©solution d'une classe de problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨mes de recherche dont l'exploration de l'espace de recherche correspond ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  un parcours d'arbre (notamment d'arbre de jeux) tels que recherche en largeur d'abord, en profondeur d'abord, avec heuristiques, recherche gloutonne, algorithme A*, algorithme minimax, ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©lagage alpha-bÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂªta, recherche arborescente Monte-Carlo.
+""" ;
+    ns1:parcours """
+M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+<http://example.org/masters/Web_sÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©mantique___Web_des_donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es> rdfs:label "Web sÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©mantique - Web des donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es" ;
+    ns1:content """
+Contenu:
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ ModÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨le de donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es RDF (Ressources Description Framework)
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Langage dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂontologie RDFS, OWL
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Logique de description et les rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨gles dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂinfÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rences
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Langage de requÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂªtes SPARQL
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Les principes de donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es ouvertes liÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es
+""" ;
+    ns1:level "Master" ;
+    ns1:objective """
+- Comprendre le modÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨le de donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es RDF (Ressources Description Framework)
+- Comprendre les langages de description des vocabulaires RDFS (RDF Schema)
+- Comprendre les langages de description dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂontologie OWL (Web Ontology Language)
+- Comprendre la logique de description et les rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨gles dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂinfÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rences
+- Comprendre le langage de requÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂªtes SPARQL
+- Etre capable dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂutiliser les donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es liÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es ouvertes et de faire des requÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂªtes SPARQL sur ces donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es
+- Etre capable de de transformer les donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es ouvertes en donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es liÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es et ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂªtre capable de publier ces donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es liÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es .
+""" ;
+    ns1:parcours """
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Smart Computing
+""" ;
+    ns1:semester "1" .
 

@@ -1,0 +1,162 @@
+@prefix ns1: <http://example.org/masters/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/masters/Analyse_exploratoire_de_donnÃÂÃÂÃÂÃÂ©es> rdfs:label "Analyse exploratoire de donnÃÂÃÂÃÂÃÂ©es" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+ns1:Compilation rdfs:label "FranÃÂÃÂÃÂÃÂ§ais" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Data Science (DS) ,M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 CMI-OPTIM,M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Smart Computing
+""" ;
+    ns1:semester "2" .
+
+ns1:Conception_et_Analyse_d_Algorithmes_Efficaces rdfs:label "Conception et Analyse d'Algorithmes Efficaces" ;
+    ns1:content """
+Dans ce module, on cherche ÃÂÃÂÃÂÃÂ  concevoir des algorithmes efficaces (en temps) pour rÃÂÃÂÃÂÃÂ©soudre des problÃÂÃÂÃÂÃÂ¨mes, typiquement des problÃÂÃÂÃÂÃÂ¨mes d'optimisation. On y abordera trois grandes parties:
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ ÃÂÃÂÃÂÃÂ©valuation de la complexitÃÂÃÂÃÂÃÂ© d'un algorithme et comparaison de performances (en temps) de plusieurs algorithmes entre eux
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ ÃÂÃÂÃÂÃÂ©valuation de la complexitÃÂÃÂÃÂÃÂ© d'un problÃÂÃÂÃÂÃÂ¨me (Polynomial vs NP-dur)
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ en cas de problÃÂÃÂÃÂÃÂ¨me "difficile" (NP-dur), ÃÂÃÂÃÂÃÂ©tude de deux stratÃÂÃÂÃÂÃÂ©gies de rÃÂÃÂÃÂÃÂ©solution: algorithmes d'approximation et complexitÃÂÃÂÃÂÃÂ© paramÃÂÃÂÃÂÃÂ©trÃÂÃÂÃÂÃÂ©e (ÃÂÃÂÃÂÃÂ  exponentielle faible)
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
+""" ;
+    ns1:semester "2" .
+
+<http://example.org/masters/DualitÃÂÃÂÃÂÃÂ©_et_optimisation_linÃÂÃÂÃÂÃÂ©aire_continue> rdfs:label "DualitÃÂÃÂÃÂÃÂ© et optimisation linÃÂÃÂÃÂÃÂ©aire continue" ;
+    ns1:content """
+1) Rappels : rÃÂÃÂÃÂÃÂ©solution graphique de programmes linÃÂÃÂÃÂÃÂ©aires, algorithme primal simplexe
+2) DualitÃÂÃÂÃÂÃÂ© en programmation linÃÂÃÂÃÂÃÂ©aire : dÃÂÃÂÃÂÃÂ©finition, principales propriÃÂÃÂÃÂÃÂ©tÃÂÃÂÃÂÃÂ©s, interprÃÂÃÂÃÂÃÂ©tation ÃÂÃÂÃÂÃÂ©conomique
+3) Algorithme dual simplexe
+4) Analyse post-optimale
+5) RÃÂÃÂÃÂÃÂ©solution du problÃÂÃÂÃÂÃÂ¨me d'affectation linÃÂÃÂÃÂÃÂ©aire par la mÃÂÃÂÃÂÃÂ©thode hongroise
+""" ;
+    ns1:level "Master" ;
+    ns1:objective """
+Un ÃÂÃÂÃÂÃÂ©tudiant suivant avec attention ce cours sera capable de :
+* RÃÂÃÂÃÂÃÂ©soudre un programme linÃÂÃÂÃÂÃÂ©aire graphiquement et par l'algorithme primal simplexe (A)
+* DÃÂÃÂÃÂÃÂ©crire les propriÃÂÃÂÃÂÃÂ©tÃÂÃÂÃÂÃÂ©s liant un programme linÃÂÃÂÃÂÃÂ©aire (dit primal) et son dual (M)
+* Donner l'interprÃÂÃÂÃÂÃÂ©tation ÃÂÃÂÃÂÃÂ©conomique du problÃÂÃÂÃÂÃÂ¨me dual : comprendre le lien entre les valeurs des variables duales, les coÃÂÃÂÃÂÃÂ»ts rÃÂÃÂÃÂÃÂ©duits des variables primales et la notion de coÃÂÃÂÃÂÃÂ»t dual associÃÂÃÂÃÂÃÂ© ÃÂÃÂÃÂÃÂ  une contrainte primale (M)
+* RÃÂÃÂÃÂÃÂ©soudre un programme linÃÂÃÂÃÂÃÂ©aire par l'algorithme dual simplexe (A)
+* DÃÂÃÂÃÂÃÂ©crire des raffinements des algorithmes du simplexe (forme rÃÂÃÂÃÂÃÂ©visÃÂÃÂÃÂÃÂ©e, variantes en variables bornÃÂÃÂÃÂÃÂ©es) (I)
+* DÃÂÃÂÃÂÃÂ©terminer les consÃÂÃÂÃÂÃÂ©quences sur le tableau simplexe optimal d'une modification du problÃÂÃÂÃÂÃÂ¨me initial : modification de coefficients de la fonction objectif, de membres de droite d'une contrainte, ajout de variables et/ou de contraintes (A)
+* InterprÃÂÃÂÃÂÃÂ©ter correctement les notions d'intervalle de sensibilitÃÂÃÂÃÂÃÂ© d'un coefficient de la fonction objectif ou d'un second membre d'une contrainte (A)
+* RÃÂÃÂÃÂÃÂ©optimiser un programme linÃÂÃÂÃÂÃÂ©aire auquel des contraintes/des variables ont ÃÂÃÂÃÂÃÂ©tÃÂÃÂÃÂÃÂ© ajoutÃÂÃÂÃÂÃÂ©es aprÃÂÃÂÃÂÃÂ¨s la rÃÂÃÂÃÂÃÂ©solution initiale (A)
+* ReconnaÃÂÃÂÃÂÃÂ®tre une matrice totalement unimodulaire, et dÃÂÃÂÃÂÃÂ©crire ses propriÃÂÃÂÃÂÃÂ©tÃÂÃÂÃÂÃÂ©s (A)
+* RÃÂÃÂÃÂÃÂ©soudre le problÃÂÃÂÃÂÃÂ¨me d'affectation par la mÃÂÃÂÃÂÃÂ©thode hongroise (A)
+""" ;
+    ns1:parcours """
+M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+<http://example.org/masters/DÃÂÃÂÃÂÃÂ©veloppement_et_exploitation> rdfs:label "" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Architecture Logicielle (ALMA),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+<http://example.org/masters/Graphes_et_ComplexitÃÂÃÂÃÂÃÂ©> rdfs:label "" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+<http://example.org/masters/Informatique_temps_rÃÂÃÂÃÂÃÂ©el_et_embarquÃÂÃÂÃÂÃÂ©e> rdfs:label "Informatique temps rÃÂÃÂÃÂÃÂ©el et embarquÃÂÃÂÃÂÃÂ©e" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Visual Computing   (VICO),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
+""" ;
+    ns1:semester "2" .
+
+<http://example.org/masters/IngÃÂÃÂÃÂÃÂ©nierie_de_la_dÃÂÃÂÃÂÃÂ©cision> rdfs:label "" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
+""" ;
+    ns1:semester "2" .
+
+<http://example.org/masters/IngÃÂÃÂÃÂÃÂ©niÃÂÃÂÃÂÃÂ©rie_des_rÃÂÃÂÃÂÃÂ©seaux> rdfs:label "IngÃÂÃÂÃÂÃÂ©niÃÂÃÂÃÂÃÂ©rie des rÃÂÃÂÃÂÃÂ©seaux" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue   (ATAL),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
+""" ;
+    ns1:semester "2" .
+
+<http://example.org/masters/Introduction_ÃÂÃÂÃÂÃÂ _l_optimisation_non_linÃÂÃÂÃÂÃÂ©aire_diffÃÂÃÂÃÂÃÂ©rentiable> rdfs:label "" ;
+    ns1:content """
+Ce cours concerne divers problÃÂÃÂÃÂÃÂ¨mes de transports dans les rÃÂÃÂÃÂÃÂ©seaux, leurs algorithmes et leurs applications:
+1. ProblÃÂÃÂÃÂÃÂ¨me du flot maximum : algorithmes de Ford-Fulkerson, d'Edmonds-Karp, de prÃÂÃÂÃÂÃÂ©flot, leurs avantages et leurs limites.
+2. ProblÃÂÃÂÃÂÃÂ¨me du flot maximum de coÃÂÃÂÃÂÃÂ»t minimum : algorithme des plus courts chemins, algorithme de Klein, leurs avantages et leurs limites.
+3. ProblÃÂÃÂÃÂÃÂ¨mes de transbordement : algorithme du simplexe rÃÂÃÂÃÂÃÂ©seau, ses avantages et ses limites.
+""" ;
+    ns1:level "Master" ;
+    ns1:objective """
+1. reconnaÃÂÃÂÃÂÃÂ®tre, modÃÂÃÂÃÂÃÂ©liser et rÃÂÃÂÃÂÃÂ©soudre un problÃÂÃÂÃÂÃÂ¨me de flots ÃÂÃÂÃÂÃÂ  l'aide d'algorithmes classiques, y compris lorsque le coÃÂÃÂÃÂÃÂ»t compte.
+2. reconnaÃÂÃÂÃÂÃÂ®tre, modÃÂÃÂÃÂÃÂ©liser et rÃÂÃÂÃÂÃÂ©soudre un problÃÂÃÂÃÂÃÂ¨me de transport ÃÂÃÂÃÂÃÂ  l'aide de l'algorithme du simplexe rÃÂÃÂÃÂÃÂ©seau.
+3. comprendre l'ÃÂÃÂÃÂÃÂ©tendue des applications, mais aussi des limites de chacune des problÃÂÃÂÃÂÃÂ©matiques/mÃÂÃÂÃÂÃÂ©thodes.
+4. mener ÃÂÃÂÃÂÃÂ  bien un projet de rÃÂÃÂÃÂÃÂ©solution de problÃÂÃÂÃÂÃÂ¨me ÃÂÃÂÃÂÃÂ  l'aide de graphes, en binÃÂÃÂÃÂÃÂ´me, depuis la prise en main du sujet et jusqu'ÃÂÃÂÃÂÃÂ  l'ÃÂÃÂÃÂÃÂ©valuation des solutions/implÃÂÃÂÃÂÃÂ©mentations proposÃÂÃÂÃÂÃÂ©es
+""" ;
+    ns1:parcours """
+M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+<http://example.org/masters/Master_1_M1_Optimisation_en_Recherche_OpÃÂÃÂÃÂÃÂ©rationnelle__ORO__AnnÃÂÃÂÃÂÃÂ©e_universitaire> rdfs:label "" ;
+    ns1:parcours "master Informatique" .
+
+<http://example.org/masters/MÃÂÃÂÃÂÃÂ©taheuristiques> rdfs:label "MÃÂÃÂÃÂÃÂ©taheuristiques" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 CMI-IS,M1 IngÃÂÃÂÃÂÃÂ©nierie Statistique (IS),M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+ns1:Optimiser_sous_incertitude rdfs:label "Optimiser sous incertitude" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 CMI-OPTIM
+""" ;
+    ns1:semester "2" .
+
+<http://example.org/masters/Professionnalisation_et_ÃÂÃÂÃÂÃÂ©thique> rdfs:label "Professionnalisation et ÃÂÃÂÃÂÃÂ©thique" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Visual Computing (VICO),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM,M1 Smart Computing
+""" ;
+    ns1:semester "2" .
+
+ns1:Projet_de_recherche rdfs:label "Projet de recherche" ;
+    ns1:content """
+Le projet de recherche est une mise en situation d'apprentissage de compÃÂÃÂÃÂÃÂ©tences liÃÂÃÂÃÂÃÂ©es ÃÂÃÂÃÂÃÂ  la recherche.
+Il s'agit de travailler sur une sujet de recherche fourni par une ÃÂÃÂÃÂÃÂ©quipe de recherche de LS2N, supervisÃÂÃÂÃÂÃÂ© par un chercheur professionel.
+L'objectif est constuire une contribution scientifique sur un problÃÂÃÂÃÂÃÂ¨me scientifique indentifiÃÂÃÂÃÂÃÂ©.  Cette contribution doit ÃÂÃÂÃÂÃÂªtre clairement positionnÃÂÃÂÃÂÃÂ©e par rapport ÃÂÃÂÃÂÃÂ  l'ÃÂÃÂÃÂÃÂ©tat l'art et validÃÂÃÂÃÂÃÂ©e suivant une mÃÂÃÂÃÂÃÂ©thodologie scientifique.
+Le travail doit ÃÂÃÂÃÂÃÂªtre prÃÂÃÂÃÂÃÂ©sentÃÂÃÂÃÂÃÂ© sous forme d'un article de recherche respectant les codes d'un travail acadÃÂÃÂÃÂÃÂ©mique. Le travail doit ÃÂÃÂÃÂÃÂªtre dÃÂÃÂÃÂÃÂ©fendu lors d'une prÃÂÃÂÃÂÃÂ©sentation orale devant un jury de chercheurs professionels.
+Ce travail s'effectue tout au long du semestre et requiert des ÃÂÃÂÃÂÃÂ©changes scientifiques rÃÂÃÂÃÂÃÂ©gulier avec les chercheurs.
+Les activitÃÂÃÂÃÂÃÂ©s visÃÂÃÂÃÂÃÂ©es
+- Conception et ÃÂÃÂÃÂÃÂ©laboration dÃÂÃÂ¢ÃÂÃÂÃÂÃÂune dÃÂÃÂÃÂÃÂ©marche de recherche et dÃÂÃÂÃÂÃÂ©veloppement, dÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tudes et prospective
+- Mise en oeuvre dÃÂÃÂ¢ÃÂÃÂÃÂÃÂune dÃÂÃÂÃÂÃÂ©marche de recherche et dÃÂÃÂÃÂÃÂ©veloppement, dÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tudes et prospective Les compÃÂÃÂÃÂÃÂ©tences visÃÂÃÂÃÂÃÂ©es sont:
+- Disposer dÃÂÃÂ¢ÃÂÃÂÃÂÃÂune expertise scientifique tant gÃÂÃÂÃÂÃÂ©nÃÂÃÂÃÂÃÂ©rale que spÃÂÃÂÃÂÃÂ©cifique dÃÂÃÂ¢ÃÂÃÂÃÂÃÂun domaine de recherche et de travail dÃÂÃÂÃÂÃÂ©terminÃÂÃÂÃÂÃÂ©
+- Faire le point sur lÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tat et les limites des savoirs au sein dÃÂÃÂ¢ÃÂÃÂÃÂÃÂun secteur dÃÂÃÂ¢ÃÂÃÂÃÂÃÂactivitÃÂÃÂÃÂÃÂ© dÃÂÃÂÃÂÃÂ©terminÃÂÃÂÃÂÃÂ©, aux ÃÂÃÂÃÂÃÂ©chelles locale, nationale et internationale
+- Identifier et rÃÂÃÂÃÂÃÂ©soudre des problÃÂÃÂÃÂÃÂ¨mes complexes et nouveaux impliquant une pluralitÃÂÃÂÃÂÃÂ© de domaines, en mobilisant les connaissances et les savoirÃÂÃÂ¢ÃÂÃÂÃÂÃÂfaire les plus avancÃÂÃÂÃÂÃÂ©s.
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Smart Computing
+""" ;
+    ns1:semester "2" .
+
+ns1:stage_volontaire_en_informatique rdfs:label "stage volontaire en informatique" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO),M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 CMI-OPTIM
+""" ;
+    ns1:semester "2" .
+

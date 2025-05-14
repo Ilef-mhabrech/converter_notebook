@@ -1,0 +1,185 @@
+@prefix ns1: <http://example.org/masters/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:Apprentissage_automatique rdfs:label "Apprentissage automatique" ;
+    ns1:level "Master" ;
+    ns1:parcours "M1 IngÃÂÃÂÃÂÃÂ©nierie Statistique (IS), M1 CMI-IS, M1 Data Science (DS), M1 Visual Computing (VICO), M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO), M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Architecture Logicielle (ALMA), M1 CMI-OPTIM, M1 Smart Computing" ;
+    ns1:semester "2" .
+
+ns1:Conception_de_logiciels rdfs:label "Fonctionnement" ;
+    ns1:content """
+- En sÃÂÃÂÃÂÃÂ©ance : cours magistraux pour la thÃÂÃÂÃÂÃÂ©orie, TD pour l'application sur papier, TP pour application machine.
+- En distanciel/autonomie : TP complÃÂÃÂÃÂÃÂ©mentaires, lecture et comprÃÂÃÂÃÂÃÂ©hension autonome.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ ÃÂÃÂÃÂÃÂvaluation : CCE ÃÂÃÂÃÂÃÂ©crit (mi-semestre et fin), CCP pratique.
+- In class: lectures, tutorials, practical work.
+- Outside class: additional work, chapter reading, group project.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ Evaluation: two written tests and one evaluated project.
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours "M1 Architecture Logicielle (ALMA), M1 Smart Computing" ;
+    ns1:semester "1" .
+
+<http://example.org/masters/DonnÃÂÃÂÃÂÃÂ©es_massives_et_cloud> rdfs:label "DonnÃÂÃÂÃÂÃÂ©es massives et cloud" ;
+    ns1:content """
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ Identifier les services fournis pour une infrastructure de type cloud.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ ÃÂÃÂÃÂÃÂvaluer sur une application passant ÃÂÃÂÃÂÃÂ  lÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©chelle dans le cloud.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ ÃÂÃÂÃÂÃÂvaluer la fiabilitÃÂÃÂÃÂÃÂ© d'une application dans le contexte de cloud.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ Conception et dÃÂÃÂÃÂÃÂ©ploiement des applications ÃÂÃÂÃÂÃÂ  large ÃÂÃÂÃÂÃÂ©chelle dans un cloud.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ REST API dans le contexte de cloud.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ Stocker et accÃÂÃÂÃÂÃÂ©der aux donnÃÂÃÂÃÂÃÂ©es massives dans le cloud.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ Calculer le coÃÂÃÂÃÂÃÂ»t dÃÂÃÂ¢ÃÂÃÂÃÂÃÂune application web dans le cloud.
+""" .
+
+<http://example.org/masters/DÃÂÃÂÃÂÃÂ©veloppement_et_exploitation> rdfs:label "" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 CMI-OPTIM, M1 Architecture Logicielle (ALMA), M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO), M1 Visual Computing (VICO), M1 Data Science (DS), M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+<http://example.org/masters/Graphes_et_ComplexitÃÂÃÂÃÂÃÂ©> rdfs:label "" ;
+    ns1:content """
+1. Introduction, rappels, exemples et applications.
+2. EfficacitÃÂÃÂÃÂÃÂ© des algorithmes et calcul de la complexitÃÂÃÂÃÂÃÂ©: cas particulier des algorithmes portant sur les graphes.
+3. Graphes particuliers I (arbres, arborescences): algorithmes et applications.
+4. ConnexitÃÂÃÂÃÂÃÂ©, forte connexitÃÂÃÂÃÂÃÂ©: algorithmes et applications.
+5. Graphes particuliers II (graphes bipartis, graphes orientÃÂÃÂÃÂÃÂ©s sans circuits): algorithmes et applications.
+6. Plus courts chemins: algorithmes et applications.
+""" ;
+    ns1:level "Master" ;
+    ns1:objective """
+1. ReconnaÃÂÃÂÃÂÃÂ®tre et modÃÂÃÂÃÂÃÂ©liser un problÃÂÃÂÃÂÃÂ¨me rÃÂÃÂÃÂÃÂ©el adaptÃÂÃÂÃÂÃÂ© ÃÂÃÂÃÂÃÂ  la rÃÂÃÂÃÂÃÂ©solution par la thÃÂÃÂÃÂÃÂ©orie des graphes.
+2. Choisir la reprÃÂÃÂÃÂÃÂ©sentation d'un graphe la plus adaptÃÂÃÂÃÂÃÂ©e ÃÂÃÂÃÂÃÂ  chaque problÃÂÃÂÃÂÃÂ¨me, en visant l'efficacitÃÂÃÂÃÂÃÂ©.
+3. Prendre en compte la complexitÃÂÃÂÃÂÃÂ© intrinsÃÂÃÂÃÂÃÂ¨que des graphes pour calculer prÃÂÃÂÃÂÃÂ©cisÃÂÃÂÃÂÃÂ©ment la complexitÃÂÃÂÃÂÃÂ© algorithmique d'une solution et ÃÂÃÂÃÂÃÂ©valuer son efficacitÃÂÃÂÃÂÃÂ©.
+4. Mettre en ÃÂÃÂÃÂÃÂuvre les principales solutions algorithmiques pour les problÃÂÃÂÃÂÃÂ¨mes classiques de thÃÂÃÂÃÂÃÂ©orie des graphes : parcours, connexitÃÂÃÂÃÂÃÂ©, plus courts chemins, recherche de cycles.
+""" ;
+    ns1:parcours """
+M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Architecture Logicielle (ALMA), M1 CMI-OPTIM, M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO), M1 Data Science (DS), M1 Visual Computing (VICO), M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+<http://example.org/masters/Informatique_temps_rÃÂÃÂÃÂÃÂ©el_et_embarquÃÂÃÂÃÂÃÂ©e> rdfs:label "Informatique temps rÃÂÃÂÃÂÃÂ©el et embarquÃÂÃÂÃÂÃÂ©e" ;
+    ns1:level "Master" ;
+    ns1:parcours "M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Visual Computing (VICO), M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO), M1 Architecture Logicielle (ALMA), M1 Data Science (DS), M1 CMI-OPTIM" ;
+    ns1:semester "2" .
+
+<http://example.org/masters/IngÃÂÃÂÃÂÃÂ©niÃÂÃÂÃÂÃÂ©rie_des_rÃÂÃÂÃÂÃÂ©seaux> rdfs:label "IngÃÂÃÂÃÂÃÂ©niÃÂÃÂÃÂÃÂ©rie des rÃÂÃÂÃÂÃÂ©seaux" ;
+    ns1:level "Master" ;
+    ns1:parcours "M1 Visual Computing (VICO), M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO), M1 Architecture Logicielle (ALMA), M1 Data Science (DS), M1 CMI-OPTIM" ;
+    ns1:semester "2" .
+
+ns1:Introduction_au_Traitement_Automatique_des_Langues rdfs:label "Introduction au Traitement Automatique des Langues" ;
+    ns1:content """
+L'objectif est de proposer un panorama du domaine du traitement automatique du langage, historique, modÃÂÃÂÃÂÃÂ¨les simples puis avancÃÂÃÂÃÂÃÂ©s (rÃÂÃÂÃÂÃÂ©seaux de neurones, apprentissage profond), enjeux sociÃÂÃÂÃÂÃÂ©taux et limites, travaux pratiques et projet.
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours "M1 Visual Computing (VICO), M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO), M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Architecture Logicielle (ALMA), M1 Data Science (DS), M1 CMI-OPTIM" ;
+    ns1:semester "2" .
+
+ns1:Introduction_au_traitement_d_image rdfs:label "Introduction au traitement d'image" ;
+    ns1:content """
+Ce module prÃÂÃÂÃÂÃÂ©sente :
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ Image numÃÂÃÂÃÂÃÂ©rique et ÃÂÃÂÃÂÃÂ©chantillonnage.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ Histogramme et transformation.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ Filtrage spatial et dÃÂÃÂÃÂÃÂ©bruitage.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ ReprÃÂÃÂÃÂÃÂ©sentation et filtrage frÃÂÃÂÃÂÃÂ©quentiel.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ Couleur et espaces colorimÃÂÃÂÃÂÃÂ©triques.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ Segmentation et morphologie mathÃÂÃÂÃÂÃÂ©matique.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ Extraction de caractÃÂÃÂÃÂÃÂ©ristiques et classification basique.
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours "M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Visual Computing (VICO), M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO), M1 Architecture Logicielle (ALMA), M1 Data Science (DS), M1 CMI-OPTIM" ;
+    ns1:semester "2" .
+
+<http://example.org/masters/Master_1_M1_Architecture_Logicielle__ALMA__AnnÃÂÃÂÃÂÃÂ©e_universitaire> rdfs:label "" ;
+    ns1:parcours "master Informatique" .
+
+<http://example.org/masters/Objectifs__rÃÂÃÂÃÂÃÂ©sultats_d_apprentissage_> rdfs:label "Motiver et dÃÂÃÂÃÂÃÂ©finir la vÃÂÃÂÃÂÃÂ©rification et validation" ;
+    ns1:content """
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ Notions de besoins, d'exigences, de vÃÂÃÂÃÂÃÂ©rification, de validation.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ Concepts gÃÂÃÂÃÂÃÂ©nÃÂÃÂÃÂÃÂ©raux du test logiciel : processus, scÃÂÃÂÃÂÃÂ©nario, architecture d'un framework.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ MÃÂÃÂÃÂÃÂ©thode fonctionnelle et structurelle pour dÃÂÃÂÃÂÃÂ©finir des scÃÂÃÂÃÂÃÂ©narios de test.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ ProblÃÂÃÂÃÂÃÂ¨mes de testabilitÃÂÃÂÃÂÃÂ© et utilisation de doublures de test.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ QualitÃÂÃÂÃÂÃÂ© d'une suite de tests et mÃÂÃÂÃÂÃÂ©thodes de mesure (couverture, mutation analysis).
+""" ;
+    ns1:objective """
+- Notions de besoin et de spÃÂÃÂÃÂÃÂ©cification.
+- Notions de dÃÂÃÂÃÂÃÂ©faillance, de dÃÂÃÂÃÂÃÂ©faut, dÃÂÃÂ¢ÃÂÃÂÃÂÃÂerreur.
+- Comprendre pourquoi les logiciels ont des dÃÂÃÂÃÂÃÂ©fauts.
+- Savoir la diffÃÂÃÂÃÂÃÂ©rence entre vÃÂÃÂÃÂÃÂ©rification et validation.
+- Savoir citer diffÃÂÃÂÃÂÃÂ©rentes approches de vÃÂÃÂÃÂÃÂ©rification et les comparer sur des critÃÂÃÂÃÂÃÂ¨res pertinents.
+- Motiver et dÃÂÃÂÃÂÃÂ©finir le test logiciel : comprendre le processus, scÃÂÃÂÃÂÃÂ©nario de test, suite de tests.
+- Distinguer test manuel ou automatisÃÂÃÂÃÂÃÂ©, test unitaire, systÃÂÃÂÃÂÃÂ¨me ou dÃÂÃÂ¢ÃÂÃÂÃÂÃÂintÃÂÃÂÃÂÃÂ©gration.
+- Comprendre la dÃÂÃÂÃÂÃÂ©finition, lÃÂÃÂ¢ÃÂÃÂÃÂÃÂimportance et la nÃÂÃÂÃÂÃÂ©cessitÃÂÃÂÃÂÃÂ© des frameworks de test.
+- Comprendre les mÃÂÃÂÃÂÃÂ©thodes fonctionnelle et structurelle pour dÃÂÃÂÃÂÃÂ©finir des scÃÂÃÂÃÂÃÂ©narios de test.
+- Comprendre le problÃÂÃÂÃÂÃÂ¨me de la testabilitÃÂÃÂÃÂÃÂ© et la notion de doublure de test.
+- ConnaÃÂÃÂÃÂÃÂ®tre des mÃÂÃÂÃÂÃÂ©triques mesurant la qualitÃÂÃÂÃÂÃÂ© des tests (couverture et mutation).
+""" .
+
+ns1:Preuves_et_Constructions_Formelles rdfs:label "Preuves et Constructions Formelles" ;
+    ns1:content """
+Une prÃÂÃÂÃÂÃÂ©occupation de l'Informaticien : comprendre besoins et exigences d'un projet, analyser, modÃÂÃÂÃÂÃÂ©liser, structurer, stocker, programmer.
+Ce module donne des bases sur ces aspects logiciels ; nÃÂÃÂÃÂÃÂ©cessaires pour tout ÃÂÃÂÃÂÃÂ©tudiant.
+Contenu :
+- Notions d'IngÃÂÃÂÃÂÃÂ©nierie des exigences.
+- Normes qualitÃÂÃÂÃÂÃÂ© et sÃÂÃÂÃÂÃÂ©curitÃÂÃÂÃÂÃÂ© (IEC 61508, SIL.).
+- Logiques, modÃÂÃÂÃÂÃÂ¨les et propriÃÂÃÂÃÂÃÂ©tÃÂÃÂÃÂÃÂ©s des logiciels.
+- Exploration de modÃÂÃÂÃÂÃÂ¨les logiciels/systÃÂÃÂÃÂÃÂ¨mes.
+- Introduction aux prouveurs de propriÃÂÃÂÃÂÃÂ©tÃÂÃÂÃÂÃÂ©s.
+- Prototypage et simulation.
+""" ;
+    ns1:objective """
+1. MaÃÂÃÂÃÂÃÂ®triser les formalismes thÃÂÃÂÃÂÃÂ©oriques pour modÃÂÃÂÃÂÃÂ©lisation de problÃÂÃÂÃÂÃÂ¨mes logiciels.
+2. Comprendre la vÃÂÃÂÃÂÃÂ©rification formelle : model checking, theorem proving.
+3. Mettre en ÃÂÃÂÃÂÃÂuvre modÃÂÃÂÃÂÃÂ©lisation et vÃÂÃÂÃÂÃÂ©rification avec outils (Uppaal, CoQ).
+""" .
+
+ns1:Professionnalisation rdfs:label "Professionnalisation" ;
+    ns1:level "Master" ;
+    ns1:parcours "M1 Architecture Logicielle (ALMA)" ;
+    ns1:semester "2" .
+
+<http://example.org/masters/Professionnalisation_et_ÃÂÃÂÃÂÃÂ©thique> rdfs:label "" ;
+    ns1:content """
+Le projet de recherche est une mise en situation d'apprentissage supervisÃÂÃÂÃÂÃÂ©.
+Objectif : construire une contribution scientifique, la prÃÂÃÂÃÂÃÂ©senter oralement et par ÃÂÃÂÃÂÃÂ©crit.
+ActivitÃÂÃÂÃÂÃÂ©s :
+- Conception et ÃÂÃÂÃÂÃÂ©laboration dÃÂÃÂ¢ÃÂÃÂÃÂÃÂune dÃÂÃÂÃÂÃÂ©marche de R&D.
+- Mise en ÃÂÃÂÃÂÃÂuvre dÃÂÃÂ¢ÃÂÃÂÃÂÃÂune dÃÂÃÂÃÂÃÂ©marche de R&D.
+CompÃÂÃÂÃÂÃÂ©tences :
+- Expertise scientifique gÃÂÃÂÃÂÃÂ©nÃÂÃÂÃÂÃÂ©rale et spÃÂÃÂÃÂÃÂ©cifique.
+- Identifier et rÃÂÃÂÃÂÃÂ©soudre des problÃÂÃÂÃÂÃÂ¨mes complexes.
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours "M1 Data Science (DS), M1 Visual Computing (VICO), M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO), M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Architecture Logicielle (ALMA), M1 CMI-OPTIM, M1 Smart Computing" ;
+    ns1:semester "2" .
+
+<http://example.org/masters/Programmation_distribuÃÂÃÂÃÂÃÂ©e> rdfs:label "Programmation distribuÃÂÃÂÃÂÃÂ©e" ;
+    ns1:level "Master" ;
+    ns1:parcours "M1 Architecture Logicielle (ALMA)" ;
+    ns1:semester "2" .
+
+ns1:Projet_transversal rdfs:label "Projet transversal" ;
+    ns1:level "Master" ;
+    ns1:parcours "M1 Architecture Logicielle (ALMA), M1 Smart Computing" ;
+    ns1:semester "1" .
+
+<http://example.org/masters/PrÃÂÃÂÃÂÃÂ©paration_au_TOEIC> rdfs:label "PrÃÂÃÂÃÂÃÂ©paration au TOEIC" ;
+    ns1:content """
+Se prÃÂÃÂÃÂÃÂ©parer pour obtenir une certification en anglais (objectif B2+).
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ PrÃÂÃÂÃÂÃÂ©sentation des formats.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ Exercices dÃÂÃÂ¢ÃÂÃÂÃÂÃÂentraÃÂÃÂÃÂÃÂ®nement.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ Conseils pour optimiser son score.
+""" ;
+    ns1:level "Master" ;
+    ns1:objective """
+ÃÂÃÂÃÂÃÂ lÃÂÃÂ¢ÃÂÃÂÃÂÃÂissue de cet enseignement, les ÃÂÃÂÃÂÃÂ©tudiants seront capables de :
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ ReconnaÃÂÃÂÃÂÃÂ®tre et anticiper les formats de certifications dÃÂÃÂ¢ÃÂÃÂÃÂÃÂanglais.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ ComplÃÂÃÂÃÂÃÂ©ter les rÃÂÃÂÃÂÃÂ©ponses exigÃÂÃÂÃÂÃÂ©es par les tests.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ Optimiser leurs rÃÂÃÂÃÂÃÂ©sultats grÃÂÃÂÃÂÃÂ¢ce ÃÂÃÂÃÂÃÂ  une mÃÂÃÂÃÂÃÂ©thodologie de travail.
+""" ;
+    ns1:parcours """
+M1 Earth and Planetary Sciences, M1 GE ÃÂÃÂÃÂÃÂcosystÃÂÃÂÃÂÃÂ¨mes et Bioproduction Marine, M1 CMD InnoCare, M1 CMD OHNU, M1 CMD MICAS, M1 CMD M4R, M1 Biologie et MÃÂÃÂÃÂÃÂ©dicaments, M1 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO), M1 Visual Computing (VICO), M1 Apprentissage et Traitement Automatique de la Langue (ATAL), M1 Architecture Logicielle (ALMA), M1 Data Science (DS), M1 Sciences de la MatiÃÂÃÂÃÂÃÂ¨re - Parcours ENR-GE (M1 EEA), M1 Biostatistique & ÃÂÃÂÃÂÃÂpidÃÂÃÂÃÂÃÂ©miologie, M1 ÃÂÃÂÃÂÃÂlectronique ÃÂÃÂÃÂÃÂnergie ÃÂÃÂÃÂÃÂlectrique Automatique - Mention EEA, M1 Bioinformatique/Biostatistique - Mention Bioinformatique
+""" ;
+    ns1:semester "2" .
+

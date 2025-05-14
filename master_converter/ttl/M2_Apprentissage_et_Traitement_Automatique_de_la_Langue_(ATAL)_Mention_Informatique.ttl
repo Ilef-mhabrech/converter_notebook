@@ -1,99 +1,99 @@
 @prefix ns1: <http://example.org/masters/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-ns1:Master_2_M2_Apprentissage_et_Traitement_Automatique_de_la_Langue__ATAL__Année_universitaire rdfs:label "" ;
-    ns1:parcours "master Informatique" .
-
-ns1:Research_methodology rdfs:label "" ;
+ns1:Communication_scientifique rdfs:label "Communication scientifique" ;
     ns1:content """
-The first block of the Research Methodology teaching unit is dedicated to understanding what scientific knowledge production means, how scientific knowledge develops with scientific publishing, what scientific disciplines are and to discuss the relations between science and society. Then we focus on the content of scientific documents, how to read them, and how to write scientific material, before addressing the topic of how to search for scientific material with the tools at hand and organize them in a bibliography.
+* RÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©alisation d'ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tude bibliographique et de prÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sentation d'articles dans le domaine
+* Participation ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  sÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©minaires "Petit SÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©minaires ATAL"
+* Construction de poster, rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©daction en latex, gestion bibliographique
 """ ;
     ns1:level "Master" ;
-    ns1:semester "3" ;
     ns1:parcours """
-M2 Apprentissage et Traitement Automatique de la Langue (ATAL),M2 Visual Computing (VICO)
-""" .
+M2 Apprentissage et Traitement Automatique de la Langue (ATAL)
+""" ;
+    ns1:semester "3" .
+
+<http://example.org/masters/DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©veloppement_logiciel_et_IA_dans_les_entreprises> rdfs:label "" ;
+    ns1:content """
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Construction de corpus (typologie, constitution, mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ta-donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es, codage, corpus et jeux de donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es de rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©fÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rences...) et de lexiques
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Annotation (procÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©dure, guide d'annotation, outils, mesure d'accord)
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Valorisation (diffusion de jeux de donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es/modÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨les, licence)
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Evaluation, mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©triques, campagnes
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Prompting for LLM application development
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Retrieval Augmented Generation (RAG)
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M2 Apprentissage et Traitement Automatique de la Langue (ATAL)
+""" ;
+    ns1:semester "3" .
 
 ns1:Experimental_methodology_and_statistics rdfs:label "Experimental methodology and statistics" ;
     ns1:content """
 The third block of the Research Methodology teaching unit offers a comprehensive exploration of experimental methodologies, starting with the hypothetico-deductive method and extending to exploratory science and data collection aimed at modeling and prediction. Students will gain an understanding of both qualitative and quantitative variables, as well as dependent variables (VD) and factors influencing experiments. The curriculum delves into experimental design plans, covering both between-subjects and within-subjects designs. Additionally, the course provides a solid foundation in descriptive statistics, including the examination of various distributions such as Poisson and Bernoulli. To equip students with the tools for rigorous data analysis, the course also covers inferential statistics tailored for experimental data.
 """ ;
     ns1:level "Master" ;
-    ns1:semester "3" ;
     ns1:parcours """
 M2 Data Science (DS) ,M2 Visual Computing (VICO),M2 Apprentissage et Traitement Automatique de la Langue (ATAL)
-""" .
-
-ns1:Modélisation_des_langues rdfs:label "Modélisation des langues" ;
-    ns1:content """
-• Architectures et modèles (statique, contextuel, mécanisme d'attention, transformer, encodeur et génératif, multimodalité, compression)
-• Apprentissage (pré-entrainement, entraînement, renforcement, fine-tuning, continuous learning, adversarial, adaptation au domaine, Parameter-Efficient Fine-Tuning)
-• Représentation profonde des mots, des phrases, des séquences longues
-• Injection de connaissances, augmentation de données
-• Analyse et interprétabilité (biais)
 """ ;
-    ns1:level "Master" ;
-    ns1:semester "3" ;
-    ns1:parcours """
-M2 Apprentissage et Traitement Automatique de la Langue (ATAL)
-""" .
+    ns1:semester "3" .
 
-ns1:Développement_logiciel_et_IA_dans_les_entreprises rdfs:label "" ;
-    ns1:content """
-• Construction de corpus (typologie, constitution, méta-données, codage, corpus et jeux de données de références...) et de lexiques
-• Annotation (procédure, guide d'annotation, outils, mesure d'accord)
-• Valorisation (diffusion de jeux de données/modèles, licence)
-• Evaluation, métriques, campagnes
-• Prompting for LLM application development
-• Retrieval Augmented Generation (RAG)
-""" ;
+<http://example.org/masters/Gestion_des_donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es_distribuÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es_ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ _large_ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©chelle> rdfs:label "Gestion des donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es distribuÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  large ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©chelle" ;
     ns1:level "Master" ;
-    ns1:semester "3" ;
-    ns1:parcours """
-M2 Apprentissage et Traitement Automatique de la Langue (ATAL)
-""" .
-
-ns1:Communication_scientifique rdfs:label "Communication scientifique" ;
-    ns1:content """
-* Réalisation d'étude bibliographique et de présentation d'articles dans le domaine
-* Participation à séminaires \"Petit Séminaires ATAL\"
-* Construction de poster, rédaction en latex, gestion bibliographique
-""" ;
-    ns1:level "Master" ;
-    ns1:semester "3" ;
-    ns1:parcours """
-M2 Apprentissage et Traitement Automatique de la Langue (ATAL)
-""" .
-
-ns1:Gestion_des_données_distribuées_à_large_échelle rdfs:label "Gestion des données distribuées à large échelle" ;
-    ns1:level "Master" ;
-    ns1:semester "3" ;
     ns1:objective """
-• To understand how big are big data and how distributed infrastructures are able to handle them
-• To understand why traditional databases cannot handle big data
-• To know online transaction processing, online analytical processing and streaming processing on big data.
-• To know representative distributed datastore for big data OLTP ie. CouchBase, Google BigTable...
-• To know how to program with Map-Reduce, resilient data structures, and stream processing ie. Hadoop, SPARK, Flink
-• To know consistent hashing, linear hashing, distributed linear hashing, sharding
-• To know multi-version concurrency control and consistency issues in large scale datastore
-• To be able to understand how current datastore are built, what they can do and what are their limitations.
-• To be able to use large scale datastore for OLTP, OLAP and stream processing.
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ To understand how big are big data and how distributed infrastructures are able to handle them
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ To understand why traditional databases cannot handle big data
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ To know online transaction processing, online analytical processing and streaming processing on big data.
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ To know representative distributed datastore for big data OLTP ie. CouchBase, Google BigTable...
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ To know how to program with Map-Reduce, resilient data structures, and stream processing ie. Hadoop, SPARK, Flink
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ To know consistent hashing, linear hashing, distributed linear hashing, sharding
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ To know multi-version concurrency control and consistency issues in large scale datastore
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ To be able to understand how current datastore are built, what they can do and what are their limitations.
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ To be able to use large scale datastore for OLTP, OLAP and stream processing.
 """ ;
     ns1:parcours """
 M2 Architectures Logicielles (ALMA),M2 Apprentissage et Traitement Automatique de la Langue (ATAL)
-""" .
+""" ;
+    ns1:semester "3" .
 
-ns1:Périodes_de_formation_alternées_en_milieu_professionnel__M2_ATAL_ rdfs:label "Périodes de formation alternées en milieu professionnel (M2 ATAL)" ;
+<http://example.org/masters/Master_2_M2_Apprentissage_et_Traitement_Automatique_de_la_Langue__ATAL__AnnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©e_universitaire> rdfs:label "" ;
+    ns1:parcours "master Informatique" .
+
+<http://example.org/masters/ModÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©lisation_des_langues> rdfs:label "ModÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©lisation des langues" ;
+    ns1:content """
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Architectures et modÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨les (statique, contextuel, mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©canisme d'attention, transformer, encodeur et gÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ratif, multimodalitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©, compression)
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Apprentissage (prÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©-entrainement, entraÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ®nement, renforcement, fine-tuning, continuous learning, adversarial, adaptation au domaine, Parameter-Efficient Fine-Tuning)
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ ReprÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sentation profonde des mots, des phrases, des sÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©quences longues
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Injection de connaissances, augmentation de donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Analyse et interprÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tabilitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© (biais)
+""" ;
     ns1:level "Master" ;
-    ns1:semester "3" ;
     ns1:parcours """
 M2 Apprentissage et Traitement Automatique de la Langue (ATAL)
-""" .
+""" ;
+    ns1:semester "3" .
 
-ns1:Période_de_suivi_en_formation_par_alternance__M2_ATAL_ rdfs:label "Période de suivi en formation par alternance (M2 ATAL)" ;
+<http://example.org/masters/PÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©riode_de_suivi_en_formation_par_alternance__M2_ATAL_> rdfs:label "PÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©riode de suivi en formation par alternance (M2 ATAL)" ;
     ns1:level "Master" ;
-    ns1:semester "4" ;
     ns1:parcours """
 M2 Apprentissage et Traitement Automatique de la Langue (ATAL)
-""" .
+""" ;
+    ns1:semester "4" .
+
+<http://example.org/masters/PÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©riodes_de_formation_alternÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es_en_milieu_professionnel__M2_ATAL_> rdfs:label "PÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©riodes de formation alternÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es en milieu professionnel (M2 ATAL)" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M2 Apprentissage et Traitement Automatique de la Langue (ATAL)
+""" ;
+    ns1:semester "3" .
+
+ns1:Research_methodology rdfs:label "" ;
+    ns1:content """
+The first block of the Research Methodology teaching unit is dedicated to understanding what scientific knowledge production means, how scientific knowledge develops with scientific publishing, what scientific disciplines are and to discuss the relations between science and society. Then we focus on the content of scientific documents, how to read them, and how to write scientific material, before addressing the topic of how to search for scientific material with the tools at hand and organize them in a bibliography.
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M2 Apprentissage et Traitement Automatique de la Langue (ATAL),M2 Visual Computing (VICO)
+""" ;
+    ns1:semester "3" .
 

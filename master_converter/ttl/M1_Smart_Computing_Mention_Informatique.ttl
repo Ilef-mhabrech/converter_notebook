@@ -1,389 +1,252 @@
 @prefix ns1: <http://example.org/masters/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-ns1:Information_générale rdfs:label "" ;
-    ns1:objective """
-The Graduate Programme Smart Computing   (GP SMART) trains high-level engineers and researchers capable of working at the forefront of digital technology and pushing its boundaries. The GP Smart Computing programme awards two degrees:
-• A Master's degree after 2 years of training (M1, M2), providing expertise in both digital engineering and research. The GP Smart Computing Master's programme enables graduates to become Research and Development Engineers in the field of digital technology.
-• A Ph.D. in computer science after 5 years of training (M1, M2, D1, D2, D3). The Ph.D. programme allows individuals to become researchers in the field of digital technology.
-Students can integrate the GP smart computing in Master 1, Master 2 and D1. The GP SMART programme is one of the six programmes of the Master in Computer Science of Nantes-Université : GP Smart Computing, ALMA: Software engineering, ATAL: Natural Language Processing, ORO : Operational research, DS: Data Science, VICO: Visualisation. It is possible for students to switch to another programme of the Master at the end of M1. Compared to other programmes of the Master, the GP Smart Computing is research oriented and better prepared for the Ph.D.
+<http://example.org/masters/Analyse_exploratoire_de_donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es> rdfs:label "Analyse exploratoire de donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 VICO,M1 DS,M1 ORO,M1 ATAL,M1 CMI-OPTIM,M1 Smart Computing
 """ ;
-    ns1:parcours "master Informatique" .
+    ns1:semester "1" .
 
-ns1:Graphes_et_Complexité rdfs:label "" ;
+<http://example.org/masters/Applications_industrielles_sur_les_donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es> rdfs:label "Applications industrielles sur les donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es" ;
     ns1:content """
-1. Introduction, rappels, exemples et applications.
-2. Efficacité des algorithmes et calcul de la complexité: cas particulier des algorithmes portant sur les graphes
-3. Graphes particuliers I (arbres, arborescences): algorithmes et applications.
-4. Connexité, forte connexité: algorithmes et applications.
-5. Graphes particuliers II (graphes bipartis, graphes orientés sans circuits): algorithmes et applications.
-6. Plus courts chemins: algorithmes et applications
+PrÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sentation globale de lÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂIA en industrie et des principaux cas dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂusage :  
+- Textes (NLP)  
+- Images  
+- DonnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es  
+Deux demi-journÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es sur site partenaire industriel.  
 """ ;
     ns1:level "Master" ;
-    ns1:semester "1" ;
-    ns1:objective """
-1. reconnaître et modéliser un problème réel adapté à la résolution par la théorie des graphes.
-2. choisir la représentation d'un graphe la plus adaptée à chaque problème, en visant l'efficacité.
-3. prendre en compte la complexité intrinsèque des graphes pour calculer précisément la complexité algorithmique d'une solution et évaluer son efficacité.
-4. mettre en œuvre les principales solutions algorithmiques pour les problèmes classiques de théorie des graphes : parcours, connexité, plus courts chemins, recherche de cycles.
-""" ;
     ns1:parcours """
-M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Optimisation en Recherche Opérationnelle (ORO),M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Smart Computing
-""" .
-
-ns1:Développement_et_exploitation rdfs:label "" ;
-    ns1:level "Master" ;
-    ns1:semester "1" ;
-    ns1:parcours """
-M1 CMI-OPTIM,M1 Architecture Logicielle (ALMA),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Smart Computing
-""" .
-
-ns1:Objectifs__résultats_d_apprentissage_ rdfs:label "• Motiver et et définir la vérification et validation :
-- notions de besoin et de spécification,
-- notions de défaillance, de défaut, d’erreur,
-- comprendre pourquoi les logiciels ont des défauts,
-- savoir la différence entre vérification et validation,
-- savoir citer différentes approches de vérification et les comparer sur des critères pertinents.
-• Motiver et définir le test logiciel :
-- comprendre le processus général du test logiciel,
-- comprendre ce qu’est un scénario de test et une suite de tests,
-- comprendre comment exécuter un scénario de test,
-- distinguer test manuel ou automatisé,
-- distinguer test unitaire, système ou d’intégration,
-- comprendre la définition, l’importance et la nécessité des frameworks de test,
-- comprendre la méthode fonctionnelle pour définir des scénarios de test,
-- comprendre la méthode structurelle pour définir des scénarios de test,
-- comprendre le problème de la testabilité,
-- comprendre la notion de doublure et son intérêt,
-- connaître des métriques mesurant la qualité des tests (couverture et mutation).
-• Pratiquer le test logiciel :
-- savoir écrire des scénarios de test en suivant une méthode fonctionnelle,
-- savoir écrire des scénarios de test en suivant une méthode structurelle,
-- savoir utiliser correctement un framework de test,
-- savoir créer et utiliser des doublures,
-- savoir appliquer des opérateurs de mutation,
-- savoir utiliser un outil de mutation et interpréter les résultats,
-- savoir utiliser un outil de couverture et interpréter les résultats.
-• Motivate and and define verification and validation:
-- notions of need and specification,
-- notions of failure, fault, error,
-- understand why software has flaws,
-- know the difference between verification and validation,
-- know how to cite different verification approaches and compare them on the basis of relevant criteria.
-• Motivate and define software testing:
-- understand the general process of software testing,
-- understand what a test case and a test suite is,
-- understand how to run a test case,
-- distinguish manual or automated test,
-- distinguish unit, system or integration test,
-- understand the definition, importance and necessity of test frameworks,
-- understand the functional method to define test scenarios,
-- understand the structural method to define test cases,
-- understand the problem of testability,
-- understand the notion of test doubles and its interest,
-- know metrics to measure the quality of tests (coverage and mutation analysis).
-• Practice software testing:
-- know how to write test scenarios by following a functional method,
-- know how to write test scenarios by following a structural method,
-- know how to correctly use a test framework,
-- know how to create and use test doubles,
-- know how to apply mutation operators,
-- know how to use a mutation analysis tool and interpret the results,
-- know how to use a test coverage tool and interpret the results." ;
-    ns1:content """
-• Notions de besoins, d'exigences, de vérification, de validation
-• Concepts généraux du test logiciel : processus, scénario de test, architecture d'un framework de test logiciel
-• Méthode fonctionnelle pour définir des scénarios de test à partir des exigences
-• Méthode structurelle pour définir des scénarios de test à partir du code source
-• Problèmes de testabilité d'un logiciel, utilisation de doublures de test pour faire face à de tels problèmes
-• Qualité d'une suite de tests et méthodes pour la mesurer (couverture, analyse de mutation)
-• Notions of needs, requirements, verification, validation
-• General concepts of software testing: process, test case, architecture of a software testing framework
-• Functional method to define test cases from requirements
-• Structural method for defining test cases from source code
-• Software testability issues, using test doubles to deal with such issues
-• Quality of a test suite and methods to measure it (coverage, mutation analysis)
+M1 ATAL,M1 DS,M1 VICO,M1 Smart Computing
 """ ;
-    ns1:objective """
-• Motiver et et définir la vérification et validation :
-- notions de besoin et de spécification,
-- notions de défaillance, de défaut, d’erreur,
-- comprendre pourquoi les logiciels ont des défauts,
-- savoir la différence entre vérification et validation,
-- savoir citer différentes approches de vérification et les comparer sur des critères pertinents.
-• Motiver et définir le test logiciel :
-- comprendre le processus général du test logiciel,
-- comprendre ce qu’est un scénario de test et une suite de tests,
-- comprendre comment exécuter un scénario de test,
-- distinguer test manuel ou automatisé,
-- distinguer test unitaire, système ou d’intégration,
-- comprendre la définition, l’importance et la nécessité des frameworks de test,
-- comprendre la méthode fonctionnelle pour définir des scénarios de test,
-- comprendre la méthode structurelle pour définir des scénarios de test,
-- comprendre le problème de la testabilité,
-- comprendre la notion de doublure et son intérêt,
-- connaître des métriques mesurant la qualité des tests (couverture et mutation).
-• Pratiquer le test logiciel :
-- savoir écrire des scénarios de test en suivant une méthode fonctionnelle,
-- savoir écrire des scénarios de test en suivant une méthode structurelle,
-- savoir utiliser correctement un framework de test,
-- savoir créer et utiliser des doublures,
-- savoir appliquer des opérateurs de mutation,
-- savoir utiliser un outil de mutation et interpréter les résultats,
-- savoir utiliser un outil de couverture et interpréter les résultats.
-• Motivate and and define verification and validation:
-- notions of need and specification,
-- notions of failure, fault, error,
-- understand why software has flaws,
-- know the difference between verification and validation,
-- know how to cite different verification approaches and compare them on the basis of relevant criteria.
-• Motivate and define software testing:
-- understand the general process of software testing,
-- understand what a test case and a test suite is,
-- understand how to run a test case,
-- distinguish manual or automated test,
-- distinguish unit, system or integration test,
-- understand the definition, importance and necessity of test frameworks,
-- understand the functional method to define test scenarios,
-- understand the structural method to define test cases,
-- understand the problem of testability,
-- understand the notion of test doubles and its interest,
-- know metrics to measure the quality of tests (coverage and mutation analysis).
-• Practice software testing:
-- know how to write test scenarios by following a functional method,
-- know how to write test scenarios by following a structural method,
-- know how to correctly use a test framework,
-- know how to create and use test doubles,
-- know how to apply mutation operators,
-- know how to use a mutation analysis tool and interpret the results,
-- know how to use a test coverage tool and interpret the results.
-""" ;
-
-ns1:Conception_de_logiciels rdfs:label "• Fonctionnement
-- En séance : cours magistraux pour la théorie (avec support de cours complet en version web et papier), travaux dirigés pour l'application \"sur papier\", travaux pratiques pour l'application sur machine
-- En distanciel / autonomie : travaux pratiques complémentaires, lecture et compréhension en autonomie d'un chapitre non étudié en séance.
-• Évaluation
-- Controle Continu Écrit (CCE) en deux épreuves (mi semestre puis fin de semestre)
-- Contrôle Continu Pratique (CCP).
-• Organization
-- In class: lectures to learn theory (with full course available in web and paper version), tutorials without computers, practical work on computers
-- Outside class: additional practical work, reading and understanding an additional chapter not studied in class, group work on a project given at the end of the semester (see below)
-• Evaluation
-- Two written tests (mid semester then end of semester)
-- One evaluated project to be submitted at the end of the semester" ;
-    ns1:level "Master" ;
-    ns1:semester "1" ;
-    ns1:parcours """
-M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing
-""" .
-
-ns1:Graphes_II_et_Réseaux rdfs:label "Graphes II et Réseaux" ;
-    ns1:content """
-Ce cours concerne divers problèmes de transports dans les réseaux, leurs algorithmes et leurs applications:
-1. Problème du flot maximum : algorithmes de Ford-Fulkerson, d'Edmonds-Karp, de préflot, leurs avantages et leurs limites.
-2. Problème du flot maximum de coût minimum : algorithme des plus courts chemins, algorithme de Klein, leurs avantages et leurs limites.
-3. Problèmes de transbordement : algorithme du simplexe réseau, ses avantages et ses limites.
-""" ;
-    ns1:level "Master" ;
-    ns1:semester "1" ;
-    ns1:objective """
-1. reconnaître, modéliser et résoudre un problème de flots à l'aide d'algorithmes classiques, y compris lorsque le coût compte.
-2. reconnaître, modéliser et résoudre un problème de transport à l'aide de l'algorithme du simplexe réseau.
-3. comprendre l'étendue des applications, mais aussi des limites de chacune des problématiques/méthodes.
-4. mener à bien un projet de résolution de problème à l'aide de graphes, en binôme, depuis la prise en main du sujet et jusqu'à l'évaluation des solutions/implémentations proposées
-""" ;
-    ns1:parcours """
-M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing
-""" .
-
-ns1:Dualité_et_optimisation_linéaire_continue rdfs:label "Dualité et optimisation linéaire continue" ;
-    ns1:content """
-1) Rappels : résolution graphique de programmes linéaires, algorithme primal simplexe
-2) Dualité en programmation linéaire : définition, principales propriétés, interprétation économique
-3) Algorithme dual simplexe
-4) Analyse post-optimale
-5) Résolution du problème d'affectation linéaire par la méthode hongroise
-""" ;
-    ns1:level "Master" ;
-    ns1:semester "1" ;
-    ns1:objective """
-Un étudiant suivant avec attention ce cours sera capable de :
-* Résoudre un programme linéaire graphiquement et par l'algorithme primal simplexe (A)
-* Décrire les propriétés liant un programme linéaire (dit primal) et son dual (M)
-* Donner l'interprétation économique du problème dual : comprendre le lien entre les valeurs des variables duales, les coûts réduits des variables primales et la notion de coût dual associé à une contrainte primale (M)
-* Résoudre un programme linéaire par l'algorithme dual simplexe (A)
-* Décrire des raffinements des algorithmes du simplexe (forme révisée, variantes en variables bornées) (I)
-* Déterminer les conséquences sur le tableau simplexe optimal d'une modification du problème initial : modification de coefficients de la fonction objectif, de membres de droite d'une contrainte, ajout de variables et/ou de contraintes (A)
-* Interpréter correctement les notions d'intervalle de sensibilité d'un coefficient de la fonction objectif ou d'un second membre d'une contrainte (A)
-* Réoptimiser un programme linéaire auquel des contraintes/des variables ont été ajoutées après la résolution initiale (A)
-* Reconnaître une matrice totalement unimodulaire, et décrire ses propriétés (A)
-* Résoudre le problème d'affectation par la méthode hongroise (A)
-""" ;
-    ns1:parcours """
-M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing
-""" .
-
-ns1:Analyse_exploratoire_de_données rdfs:label "Analyse exploratoire de données" ;
-    ns1:level "Master" ;
-    ns1:semester "1" ;
-    ns1:parcours """
-M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 CMI-OPTIM,M1 Smart Computing
-""" .
-
-ns1:Intelligence_Artificielle_et_Applications rdfs:label "Intelligence Artificielle et Applications" ;
-    ns1:content """
-Etude d'algorithmes de résolution d'une classe de problèmes de recherche dont l'exploration de l'espace de recherche correspond à un parcours d'arbre (notamment d'arbre de jeux) tels que recherche en largeur d'abord, en profondeur d'abord, avec heuristiques, recherche gloutonne, algorithme A*, algorithme minimax, élagage alpha-bêta, recherche arborescente Monte-Carlo.
-""" ;
-    ns1:level "Master" ;
-    ns1:semester "1" ;
-    ns1:parcours """
-M1 Visual Computing (VICO),M1 Data Science (DS) ,M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Smart Computing
-""" .
-
-ns1:Applications_industrielles_sur_les_données rdfs:label "Applications industrielles sur les données" ;
-    ns1:content """
-L’objectif de cet enseignement est de proposer une présentation globale du contexte actuel de l’Intelligence Artificielle (IA) en milieu industrielle de même qu’un état des lieux sur les principaux cas d’usages et des frameworks associés. Trois domaines au centre du secteur IA et données sont plus particulièrement visés, à savoir : l’analyse ou la génération de textes (données langagières), d’images, de données. L’EC se décomposera en 2 demi-journées à chaque fois sur le site d’un partenaire industriel.
-""" ;
-    ns1:level "Master" ;
-    ns1:semester "1" ;
-    ns1:parcours """
-M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Smart Computing
-""" .
-
-ns1:Projet_transversal rdfs:label "Projet transversal" ;
-    ns1:level "Master" ;
-    ns1:semester "1" ;
-    ns1:parcours "M1 Architecture Logicielle (ALMA),M1 Smart Computing" .
-
-ns1:Preuves_et_Constructions_Formelles rdfs:label "Preuves et Constructions Formelles" ;
-    ns1:objective """
-1. Maîtriser et savoir manipuler les formalismes théoriques pour la modélisation de problèmes logiciels à base d'automates et logiques.
-2. Comprendre le concept de vérification formelle et être capable d'utiliser des techniques adaptées telles que le model checking ou le theorem proving.
-3. Etre capable de mettre en oeuvre les techniques de modélisation et de vérification formelle à l'aide d'outils adaptés, par ex. Uppaal et CoQ.
-""" ;
-
-ns1:Programmation_concurrente_en_multi_threads rdfs:label "Une préoccupation de l'Informaticien, quel que soit son domaine, est de comprendre les besoins et les exigences d'un projet, de les analyser, de les modéliser, de les structurer, de les stocker, de les programmer. Ce module donne des bases sur ces aspects Logiciel ; ces bases sont nécessaires dans le socle de connaissances de tout étudiant du secteur Logiciel, qui va forcément se confronter au \"logiciel\". On retrouve ces bases dans les curricula de l'ACM ou de l'IEEE (Software engineering body of knowledge) pour le niveau Master.
-Le contenu couvre aussi bien des aspects fondamentaux que ceux directement liés aux environnements professionnels industriels.
-Objectifs : Donner aux étudiants, quel que soit leur parcours en Master Informatique, les bases et les outils pour la construction ou l'analyse de logiciels complexes. Ces bases recouvrent aussi bien les fondamentaux académiques que le contexte professionnel industriel.
-- Notions d'Ingénierie des exigences (avec diverses méthodes)
-- Les normes (ou standard) de qualité et de sécurité des logiciels (IEC 61508, SIL, etc)
-- Logiques, Modèles et Propriétés des logiciels
-- Exploration de modèles de logiciels/systèmes
-- Introduction aux prouveurs de propriétés
-- Prototypage, simulation Détails du contenu:
-- Notions d'Ingénierie des exigences
-La bonne compréhension et la formulation des exigences d'un projet/problème est primordial pour bien le traiter et le faire évoluer.
-Il y a diverses méthodes pour cela, et toute un pan de discipline 'Requirement Engineering' se développe.
-- Les normes (ou standard) de qualité et de sécurité des logiciels (IEC 61508, SIL, etc) Le développement de logiciels répond à un certain niveau de complexité ou de sécurité, à des normes de développement, qui doivent intégrer dès le debut des projets logiciels.
-- Logiques et Modèles
-Pour analyser les exigences et spécifier les logiciels
-- Propriétés des logiciels
-Pour exprimer les attentes d'un logiciel)
-- Exploration de modèles de logiciels/systèmes
-Découvrir les techniques d'analyse du logiciel (model-checking) et pour permettre d'analyser des parties de logiciels
-- Introduction aux prouveurs de propriétés Découvrir des techniques d'analyse du logiciel
-- Prototypage, simulation
-Découvrir techniques et outils d'aide au passage des modèles aux logiciels" ;
-    ns1:content """
-Une préoccupation de l'Informaticien, quel que soit son domaine, est de comprendre les besoins et les exigences d'un projet, de les analyser, de les modéliser, de les structurer, de les stocker, de les programmer. Ce module donne des bases sur ces aspects Logiciel ; ces bases sont nécessaires dans le socle de connaissances de tout étudiant du secteur Logiciel, qui va forcément se confronter au \"logiciel\". On retrouve ces bases dans les curricula de l'ACM ou de l'IEEE (Software engineering body of knowledge) pour le niveau Master.
-Le contenu couvre aussi bien des aspects fondamentaux que ceux directement liés aux environnements professionnels industriels.
-Objectifs : Donner aux étudiants, quel que soit leur parcours en Master Informatique, les bases et les outils pour la construction ou l'analyse de logiciels complexes. Ces bases recouvrent aussi bien les fondamentaux académiques que le contexte professionnel industriel.
-- Notions d'Ingénierie des exigences (avec diverses méthodes)
-- Les normes (ou standard) de qualité et de sécurité des logiciels (IEC 61508, SIL, etc)
-- Logiques, Modèles et Propriétés des logiciels
-- Exploration de modèles de logiciels/systèmes
-- Introduction aux prouveurs de propriétés
-- Prototypage, simulation Détails du contenu:
-- Notions d'Ingénierie des exigences
-La bonne compréhension et la formulation des exigences d'un projet/problème est primordial pour bien le traiter et le faire évoluer.
-Il y a diverses méthodes pour cela, et toute un pan de discipline 'Requirement Engineering' se développe.
-- Les normes (ou standard) de qualité et de sécurité des logiciels (IEC 61508, SIL, etc) Le développement de logiciels répond à un certain niveau de complexité ou de sécurité, à des normes de développement, qui doivent intégrer dès le debut des projets logiciels.
-- Logiques et Modèles
-Pour analyser les exigences et spécifier les logiciels
-- Propriétés des logiciels
-Pour exprimer les attentes d'un logiciel)
-- Exploration de modèles de logiciels/systèmes
-Découvrir les techniques d'analyse du logiciel (model-checking) et pour permettre d'analyser des parties de logiciels
-- Introduction aux prouveurs de propriétés Découvrir des techniques d'analyse du logiciel
-- Prototypage, simulation
-Découvrir techniques et outils d'aide au passage des modèles aux logiciels
-""" ;
-    ns1:level "Master" ;
-    ns1:semester "1" ;
-    ns1:parcours """
-M1 Visual Computing (VICO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 Data Science (DS) ,M1 Smart Computing
-""" .
-
-ns1:Données_massives_et_cloud rdfs:label "Données massives et cloud" ;
-    ns1:content """
-• Indentifier les services fournis pour une infrastructure de type cloud
-• Evaluer sur une applciation passe à l’échelle dans le cloud,
-• Evaluer la fiabilité d'une appllication dans le contexte de cloud
-• Conception et déploiement des applications à large échelle dans un cloud
-• REST API dans le contexte de cloud
-• Stocker et accéder des données massives dans le cloud
-• Calculer le coût d’une application web dans le cloud
-""" ;
-
-ns1:Optimisation_discrète_et_combinatoire rdfs:label "Contenu:
-• Modèle de données RDF (Ressources Description Framework)
-• Langage d’ontologie RDFS, OWL
-• Logique de description et les règles d’inférences
-• Langage de requêtes SPARQL
-• Les principes de données ouvertes liées" ;
-    ns1:content """
-Contenu:
-• Modèle de données RDF (Ressources Description Framework)
-• Langage d’ontologie RDFS, OWL
-• Logique de description et les règles d’inférences
-• Langage de requêtes SPARQL
-• Les principes de données ouvertes liées
-""" ;
-    ns1:level "Master" ;
-    ns1:semester "1" ;
-    ns1:parcours """
-M1 Optimisation en Recherche Opérationnelle (ORO),M1 CMI-OPTIM,M1 Smart Computing
-""" .
-
-ns1:Research_Discovery rdfs:label "Research Discovery" ;
-    ns1:level "Master" ;
-    ns1:semester "1" ;
-    ns1:parcours "M1 Smart Computing" .
+    ns1:semester "1" .
 
 ns1:Apprentissage_automatique rdfs:label "Apprentissage automatique" ;
     ns1:level "Master" ;
-    ns1:semester "2" ;
     ns1:parcours """
-M1 Ingénierie Statistique (IS),M1 CMI-IS,M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Smart Computing
-""" .
+M1 IS,M1 CMI-IS,M1 DS,M1 VICO,M1 ORO,M1 ATAL,M1 ALMA,M1 CMI-OPTIM,M1 Smart Computing
+""" ;
+    ns1:semester "2" .
 
-ns1:Projet_de_recherche rdfs:label "Projet de recherche" ;
+ns1:Conception_de_logiciels rdfs:label "" ;
     ns1:content """
-Le projet de recherche est une mise en situation d'apprentissage de compétences liées à la recherche.
-Il s'agit de travailler sur une sujet de recherche fourni par une équipe de recherche de LS2N, supervisé par un chercheur professionel.
-L'objectif est constuire une contribution scientifique sur un problème scientifique indentifié.  Cette contribution doit être clairement positionnée par rapport à l'état l'art et validée suivant une méthodologie scientifique.
-Le travail doit être présenté sous forme d'un article de recherche respectant les codes d'un travail académique. Le travail doit être défendu lors d'une présentation orale devant un jury de chercheurs professionels.
-Ce travail s'effectue tout au long du semestre et requiert des échanges scientifiques régulier avec les chercheurs.
-Les activités visées
-- Conception et élaboration d’une démarche de recherche et développement, d’études et prospective
-- Mise en oeuvre d’une démarche de recherche et développement, d’études et prospective Les compétences visées sont:
-- Disposer d’une expertise scientifique tant générale que spécifique d’un domaine de recherche et de travail déterminé
-- Faire le point sur l’état et les limites des savoirs au sein d’un secteur d’activité déterminé, aux échelles locale, nationale et internationale
-- Identifier et résoudre des problèmes complexes et nouveaux impliquant une pluralité de domaines, en mobilisant les connaissances et les savoir–faire les plus avancés.
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ En sÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ance : cours magistraux (thÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©orie), travaux dirigÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©s (papier), travaux pratiques (machine)  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ En autonomie : TP complÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©mentaires, lecture dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂun chap. non ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tudiÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© en classe  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂvaluation :  
+  - CCE ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©crit (mi-semestre & fin de semestre)  
+  - CCP pratique  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Organization: lectures, tutorials, practical projects  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Evaluation: two written tests and one evaluated project  
 """ ;
     ns1:level "Master" ;
-    ns1:semester "2" ;
     ns1:parcours """
-M1 Data Science (DS) ,M1 Visual Computing (VICO),M1 Optimisation en Recherche Opérationnelle (ORO),M1 Apprentissage et Traitement Automatique de la Langue (ATAL),M1 Architecture Logicielle (ALMA),M1 CMI-OPTIM,M1 Smart Computing
+M1 ORO,M1 CMI-OPTIM,M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+<http://example.org/masters/DonnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es_massives_et_cloud> rdfs:label "DonnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es massives et cloud" ;
+    ns1:content """
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Identifier les services cloud  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂvaluer la montÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©e en charge et fiabilitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Concevoir et dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ployer ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  large ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©chelle  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ REST API  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Stockage et accÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨s aux donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es massives  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Calculer le coÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»t dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂune appli web dans le cloud  
+""" .
+
+<http://example.org/masters/DualitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©_et_optimisation_linÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©aire_continue> rdfs:label "DualitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© et optimisation linÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©aire continue" ;
+    ns1:content """
+1) Graphical resolution of LP, primal simplex  
+2) Duality in LP : definition, properties, economic interpretation  
+3) Dual simplex algorithm  
+4) PostÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂoptimality analysis  
+5) Assignment problem via Hungarian method  
+""" ;
+    ns1:level "Master" ;
+    ns1:objective """
+* RÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©soudre graphiquement et par simplex primal (A)  
+* DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©crire les propriÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©s primal/dual (M)  
+* InterprÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tation ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©conomique des variables duales (M)  
+* Appliquer le simplex dual (A)  
+* Variantes du simplex (rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©visÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©, bornÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©) (I)  
+* Analyse de sensibilitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© et rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©optimisation (A)  
+* ReconnaÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ®tre les matrices unimodulaires (A)  
+* MÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thode hongroise pour l'affectation (A)  
+""" ;
+    ns1:parcours """
+M1 ORO,M1 CMI-OPTIM,M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+<http://example.org/masters/DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©veloppement_et_exploitation> rdfs:label "" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 CMI-OPTIM,M1 ALMA,M1 ORO,M1 VICO,M1 DS,M1 ATAL,M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+<http://example.org/masters/Graphes_II_et_RÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©seaux> rdfs:label "Graphes II et RÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©seaux" ;
+    ns1:content """
+Ce cours concerne divers problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨mes de transports dans les rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©seaux, leurs algorithmes et leurs applications :
+1. ProblÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me du flot maximum : Ford-Fulkerson, Edmonds-Karp, prÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©flot ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ avantages/limites
+2. Flot max ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  coÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»t min : plus courts chemins, algorithme de Klein ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ avantages/limites
+3. Transbordement : simplexe rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©seau ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ avantages/limites
+""" ;
+    ns1:level "Master" ;
+    ns1:objective """
+1. ModÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©liser et rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©soudre un problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me de flots (coÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»t inclus)  
+2. Appliquer l'algorithme du simplexe rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©seau pour la planification  
+3. Comprendre applications et limites des mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thodes  
+4. Mener un projet de rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©solution de problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me par graphes en binÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ´me  
+""" ;
+    ns1:parcours """
+M1 ORO,M1 CMI-OPTIM,M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+<http://example.org/masters/Graphes_et_ComplexitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©> rdfs:label "" ;
+    ns1:content """
+1. Introduction, rappels, exemples et applications.
+2. EfficacitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© des algorithmes et calcul de la complexitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© : cas particulier des algorithmes portant sur les graphes
+3. Graphes particuliers I (arbres, arborescences) : algorithmes et applications.
+4. ConnexitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©, forte connexitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© : algorithmes et applications.
+5. Graphes particuliers II (graphes bipartis, graphes orientÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©s sans circuits) : algorithmes et applications.
+6. Plus courts chemins : algorithmes et applications.
+""" ;
+    ns1:level "Master" ;
+    ns1:objective """
+1. ReconnaÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ®tre et modÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©liser un problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©el adaptÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  la rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©solution par la thÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©orie des graphes.
+2. Choisir la reprÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sentation d'un graphe la plus adaptÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©e ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  chaque problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me, en visant l'efficacitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©.
+3. Prendre en compte la complexitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© intrinsÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨que des graphes pour calculer prÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©cisÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ment la complexitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© algorithmique d'une solution et ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©valuer son efficacitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©.
+4. Mettre en ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂuvre les principales solutions algorithmiques pour les problÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨mes classiques de thÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©orie des graphes : parcours, connexitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©, plus courts chemins, recherche de cycles.
+""" ;
+    ns1:parcours """
+M1 ATAL,R1 ALMA,M1 CMI-OPTIM,M1 ORO,M1 DS,M1 VICO,M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+<http://example.org/masters/Information_gÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rale> rdfs:label "" ;
+    ns1:objective """
+The Graduate Programme Smart Computing (GP SMART) trains high-level engineers and researchers capable of working at the forefront of digital technology and pushing its boundaries. The GP Smart Computing programme awards two degrees:
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ A Master's degree after 2 years of training (M1, M2), providing expertise in both digital engineering and research. The GP Smart Computing Master's programme enables graduates to become Research and Development Engineers in the field of digital technology.
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ A Ph.D. in computer science after 5 years of training (M1, M2, D1, D2, D3). The Ph.D. programme allows individuals to become researchers in the field of digital technology.
+Students can integrate the GP Smart Computing in Master 1, Master 2 and D1. The GP SMART programme is one of the six programmes of the Master in Computer Science of Nantes-UniversitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©: GP Smart Computing, ALMA: Software engineering, ATAL: Natural Language Processing, ORO: Operational research, DS: Data Science, VICO: Visualisation. It is possible for students to switch to another programme of the Master at the end of M1. Compared to other programmes of the Master, the GP Smart Computing is research oriented and better prepared for the Ph.D.
+""" ;
+    ns1:parcours "master Informatique" .
+
+ns1:Intelligence_Artificielle_et_Applications rdfs:label "Intelligence Artificielle et Applications" ;
+    ns1:content """
+ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂtude d'algorithmes de recherche arborescente : BFS, DFS, heuristiques, greedy, A*, minimax, alpha-beta, MCTS.
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 VICO,M1 DS,M1 ATAL,M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+<http://example.org/masters/Objectifs__rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sultats_d_apprentissage_> rdfs:label "" ;
+    ns1:content """
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Notions de besoins, d'exigences, de vÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rification et de validation  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Concepts gÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©raux du test logiciel : processus, scÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nario de test, architecture d'un framework de test  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ MÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thode fonctionnelle pour dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©finir des scÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©narios de test ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  partir des exigences  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ MÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thode structurelle pour dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©finir des scÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©narios de test ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  partir du code source  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ ProblÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨mes de testabilitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© et utilisation de doublures pour y remÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©dier  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ QualitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© d'une suite de tests et mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thodes pour la mesurer (couverture, mutation analysis)  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ General concepts of software testing: process, test case, test framework architecture  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Functional and structural methods for defining test cases  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Testability issues and test-doubles  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Coverage and mutation analysis for test quality measurement  
+""" ;
+    ns1:objective """
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Motiver et dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©finir la vÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rification et la validation  
+  - notions de besoin et de spÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©cification  
+  - notions de dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©faillance, de dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©faut, dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂerreur  
+  - comprendre pourquoi les logiciels ont des dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©fauts  
+  - diffÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rence entre vÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rification et validation  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Motiver et dÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©finir le test logiciel  
+  - processus gÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ral, scÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nario de test, suite de tests  
+  - test manuel vs automatisÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©  
+  - unitaire vs systÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨me vs intÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©gration  
+  - importance des frameworks de test  
+  - mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©thodes fonctionnelle et structurelle  
+  - testabilitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© et test-doubles  
+  - mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©triques : couverture, mutation  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Practice software testing  
+  - ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©crire des scÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©narios (fonctionnelle & structurelle)  
+  - utiliser un framework de test  
+  - crÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©er et utiliser des doublures  
+  - appliquer et interprÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©ter mutations et couvertures  
+""" ;
+    ns1:parcours "M1 Smart Computing" .
+
+<http://example.org/masters/Optimisation_discrÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨te_et_combinatoire> rdfs:label "Optimisation discrÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨te et combinatoire" ;
+    ns1:content """
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ RDF, RDFS, OWL, logique de description  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ SPARQL  
+ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ Principes de donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es liÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es ouvertes  
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 ORO,M1 CMI-OPTIM,M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+ns1:Preuves_et_Constructions_Formelles rdfs:label "Preuves et Constructions Formelles" ;
+    ns1:objective """
+1. Manipuler formalismes thÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©oriques (automates, logiques)  
+2. Utiliser model checking et theorem proving  
+3. Appliquer Uppaal et CoQ pour vÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©rification formelle  
 """ .
 
 ns1:Professionnalisation rdfs:label "Professionnalisation" ;
     ns1:level "Master" ;
-    ns1:semester "2" ;
-    ns1:parcours "M1 Smart Computing" .
+    ns1:parcours "M1 Smart Computing" ;
+    ns1:semester "2" .
+
+ns1:Programmation_concurrente_en_multi_threads rdfs:label "" ;
+    ns1:content """
+Le module donne les bases pour la construction et lÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂanalyse de logiciels complexes :  
+- IngÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©nierie des exigences  
+- Normes de qualitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©/sÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©curitÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© (IEC 61508, SILÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¦)  
+- Logiques et modÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨les  
+- PropriÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©s des logiciels  
+- Model-checking  
+- Prouveurs de propriÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©s  
+- Prototypage et simulation  
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 VICO,M1 ATAL,M1 ALMA,M1 DS,M1 Smart Computing
+""" ;
+    ns1:semester "1" .
+
+ns1:Projet_de_recherche rdfs:label "Projet de recherche" ;
+    ns1:content """
+Le projet de recherche est une mise en situation :  
+- Travail supervisÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© par LS2N  
+- RÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©daction dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂun article acadÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©mique  
+- PrÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©sentation orale devant un jury  
+- ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂchanges scientifiques rÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©guliers  
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours """
+M1 DS,M1 VICO,M1 ORO,M1 ATAL,M1 ALMA,M1 CMI-OPTIM,M1 Smart Computing
+""" ;
+    ns1:semester "2" .
+
+ns1:Projet_transversal rdfs:label "Projet transversal" ;
+    ns1:level "Master" ;
+    ns1:parcours "M1 ALMA,M1 Smart Computing" ;
+    ns1:semester "1" .
+
+ns1:Research_Discovery rdfs:label "Research Discovery" ;
+    ns1:level "Master" ;
+    ns1:parcours "M1 Smart Computing" ;
+    ns1:semester "1" .
 
 ns1:Summer_Internship__M1_SMART_ rdfs:label "Summer Internship (M1 SMART)" ;
     ns1:level "Master" ;
-    ns1:semester "2" ;
-    ns1:parcours "M1 Smart Computing" .
+    ns1:parcours "M1 Smart Computing" ;
+    ns1:semester "2" .
 

@@ -1,0 +1,105 @@
+@prefix ns1: <http://example.org/masters/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:Architectures_et_styles_d_architectures rdfs:label "Architectures et styles d'architectures" ;
+    ns1:content """
+- Introduction aux paradigmes objet, composant,agent, service et modÃÂÃÂÃÂÃÂ¨le dans les Architectures logicielles
+- Introduction aux styles Architecturaux
+- Un ModÃÂÃÂÃÂÃÂ¨le de style d'architecture
+- Dimensions quantitative et qualitative d'une architecture
+- Usage des styles d'architectures
+- ModÃÂÃÂÃÂÃÂ¨le d'ÃÂÃÂÃÂÃÂ©volution d'une architecture
+""" ;
+    ns1:level "Master" ;
+    ns1:objective """
+- Comprendre les concepts clÃÂÃÂÃÂÃÂ©s des Architectures Logicielles (I)
+- Comprendre et savoir classifier les langages de modÃÂÃÂÃÂÃÂ¨lisation d'architectures en soulignant leurs diffÃÂÃÂÃÂÃÂ©rents modes de reprÃÂÃÂÃÂÃÂ©sentation, leurs supports de conception et leurs mÃÂÃÂÃÂÃÂ©canismes d'adaptation (M)
+- Etre capable d'identifier et de dÃÂÃÂÃÂÃÂ©velopper diffÃÂÃÂÃÂÃÂ©rents styles architecturaux   (A)
+- Comprendre les principales difficultÃÂÃÂÃÂÃÂ©s qui interviennent lors du passage ÃÂÃÂÃÂÃÂ  l'echelle(A)
+- Etre capable de maitriser la complexitÃÂÃÂÃÂÃÂ© des architectures logicielles ÃÂÃÂÃÂÃÂ  un haut niveau d'abstraction   (M)
+- Comprendre et distinguer les diffÃÂÃÂÃÂÃÂ©rents styles architecturaux orientÃÂÃÂÃÂÃÂ©s agents, objets, composants et modÃÂÃÂÃÂÃÂ¨les.(M)
+""" ;
+    ns1:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ns1:semester "3" .
+
+ns1:Deep_Learning_and_Intensive_Software_Systems__EMN_ rdfs:label "" ;
+    ns1:level "Master" ;
+    ns1:objective """
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ To understand how big are big data and how distributed infrastructures are able to handle them
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ To understand why traditional databases cannot handle big data
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ To know online transaction processing, online analytical processing and streaming processing on big data.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ To know representative distributed datastore for big data OLTP ie. CouchBase, Google BigTable...
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ To know how to program with Map-Reduce, resilient data structures, and stream processing ie. Hadoop, SPARK, Flink
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ To know consistent hashing, linear hashing, distributed linear hashing, sharding
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ To know multi-version concurrency control and consistency issues in large scale datastore
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ To be able to understand how current datastore are built, what they can do and what are their limitations.
+ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¢ To be able to use large scale datastore for OLTP, OLAP and stream processing.
+""" ;
+    ns1:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ns1:semester "3" .
+
+ns1:Gestion_des_logiciels rdfs:label "Gestion des logiciels" ;
+    ns1:level "Master" ;
+    ns1:objective """
+- Etre capable d'appliquer les mÃÂÃÂÃÂÃÂ©thodes et outils pour dÃÂÃÂÃÂÃÂ©velopper un "Senior Capstone Project" t (A)
+- Etre capable d'identifier les diffÃÂÃÂÃÂÃÂ©rentes ÃÂÃÂÃÂÃÂ©tapes de gestion d'un projet   (M)
+- Etre capable d'estimer les couts et durÃÂÃÂÃÂÃÂ©es d'un projet (M)
+- Comprendre les outils et l'organisation d'un travail collaboratif   (M).
+""" ;
+    ns1:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ns1:semester "3" .
+
+<http://example.org/masters/IngÃÂÃÂÃÂÃÂ©nierie_dirigÃÂÃÂÃÂÃÂ©e_par_les_modÃÂÃÂÃÂÃÂ¨les> rdfs:label "IngÃÂÃÂÃÂÃÂ©nierie dirigÃÂÃÂÃÂÃÂ©e par les modÃÂÃÂÃÂÃÂ¨les" ;
+    ns1:level "Master" ;
+    ns1:objective """
+1. Comprendre les principes et les objectifs de l'ingÃÂÃÂÃÂÃÂ©nierie dirigÃÂÃÂÃÂÃÂ©e par sur les modÃÂÃÂÃÂÃÂ¨les.
+2. Comprendre les diffÃÂÃÂÃÂÃÂ©rences entre la modÃÂÃÂÃÂÃÂ©lisation et la mÃÂÃÂÃÂÃÂ©ta-modÃÂÃÂÃÂÃÂ©lisation.
+3. Comprendre les diffÃÂÃÂÃÂÃÂ©rences entre les langages spÃÂÃÂÃÂÃÂ©cifiques au domaine et les langages gÃÂÃÂÃÂÃÂ©nÃÂÃÂÃÂÃÂ©riques.
+4. ConnaÃÂÃÂÃÂÃÂ®tre les diffÃÂÃÂÃÂÃÂ©rences entre la syntaxe abstraite , la syntaxe concrÃÂÃÂÃÂÃÂ¨te et la sÃÂÃÂÃÂÃÂ©mantique d'un langage.
+5. ÃÂÃÂÃÂÃÂtre capable de concevoir un langage spÃÂÃÂÃÂÃÂ©cifique au domaine.
+6. ÃÂÃÂÃÂÃÂtre capable d'intÃÂÃÂÃÂÃÂ©grer l'ingÃÂÃÂÃÂÃÂ©nierie basÃÂÃÂÃÂÃÂ©e sur les modÃÂÃÂÃÂÃÂ¨les dans le processus de dÃÂÃÂÃÂÃÂ©veloppement logiciel.
+7. ÃÂÃÂÃÂÃÂtre capable de rÃÂÃÂÃÂÃÂ©aliser des transformations de modÃÂÃÂÃÂÃÂ¨le ÃÂÃÂÃÂÃÂ  modÃÂÃÂÃÂÃÂ¨le.
+8. ÃÂÃÂÃÂÃÂtre capable de rÃÂÃÂÃÂÃÂ©aliser effectuer des transformations de modÃÂÃÂÃÂÃÂ¨le ÃÂÃÂÃÂÃÂ  texte (gÃÂÃÂÃÂÃÂ©nÃÂÃÂÃÂÃÂ©ration de code).
+""" ;
+    ns1:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ns1:semester "3" .
+
+<http://example.org/masters/Master_2_M2_Architectures_Logicielles__ALMA__AnnÃÂÃÂÃÂÃÂ©e_universitaire> rdfs:label "" ;
+    ns1:parcours "master Informatique" .
+
+ns1:Middleware rdfs:label "" ;
+    ns1:level "Master" ;
+    ns1:objective """
+- Comprendre les fondements de la synchronisation liÃÂÃÂÃÂÃÂ©s ÃÂÃÂÃÂÃÂ  la concurrence
+- Comprendre les architecture n-tiers (e.g. J2E) et les technologies associÃÂÃÂÃÂÃÂ©es
+- ConnaÃÂÃÂÃÂÃÂ®tre les limites thÃÂÃÂÃÂÃÂ©oriques des applications distribuÃÂÃÂÃÂÃÂ©es
+- Etre capable de mettre en place une architecture client/serveur utilisant des objets distants
+- Comprendre les principe de HTTP et Websocket
+- Etre capable de concevoir une API fondÃÂÃÂÃÂÃÂ©e sur REST
+- Etre capable de crÃÂÃÂÃÂÃÂ©er un web service en utilisant le framework Spring
+- Comprendre les concepts d'authentification et de sÃÂÃÂÃÂÃÂ©curitÃÂÃÂÃÂÃÂ©
+- Comprendre les concepts de services basÃÂÃÂÃÂÃÂ©s composants et de micro services
+""" ;
+    ns1:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ns1:semester "3" .
+
+<http://example.org/masters/ModÃÂÃÂÃÂÃÂ©lisation_et_vÃÂÃÂÃÂÃÂ©rification_des_systÃÂÃÂÃÂÃÂ¨mes_concurrents> rdfs:label "ModÃÂÃÂÃÂÃÂ©lisation et vÃÂÃÂÃÂÃÂ©rification des systÃÂÃÂÃÂÃÂ¨mes concurrents" ;
+    ns1:content """
+Le cours est consacrÃÂÃÂÃÂÃÂ© ÃÂÃÂÃÂÃÂ  la modÃÂÃÂÃÂÃÂ©lisation et ÃÂÃÂÃÂÃÂ  la vÃÂÃÂÃÂÃÂ©rification par model-checking de systÃÂÃÂÃÂÃÂ¨mes concurrents
+""" ;
+    ns1:level "Master" ;
+    ns1:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ns1:semester "3" .
+
+ns1:Stage rdfs:label "Stage" ;
+    ns1:level "Master" ;
+    ns1:objective """
+- S'intÃÂÃÂÃÂÃÂ©grer dans le milieu professionel de son stage, mettre en oeuvre sa capacitÃÂÃÂÃÂÃÂ© d'analyse sur le sujet proposÃÂÃÂÃÂÃÂ©, et ÃÂÃÂÃÂÃÂªtre force de proposition.
+- SynthÃÂÃÂÃÂÃÂ©tiser le travail effectuÃÂÃÂÃÂÃÂ© dans un compte rendu de maniÃÂÃÂÃÂÃÂ¨re concise, correcte, et complÃÂÃÂÃÂÃÂ¨te.
+- PrÃÂÃÂÃÂÃÂ©parer des supports puis prÃÂÃÂÃÂÃÂ©senter oralement le travail effectuÃÂÃÂÃÂÃÂ© de maniÃÂÃÂÃÂÃÂ¨re dynamique et convaincante.
+""" ;
+    ns1:parcours """
+M2 Architectures Logicielles (ALMA),M2 Optimisation en Recherche OpÃÂÃÂÃÂÃÂ©rationnelle (ORO),M2 Apprentissage et Traitement Automatique de la Langue (ATAL),M2 CMI-OPTIM
+""" ;
+    ns1:semester "4" .
+

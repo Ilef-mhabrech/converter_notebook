@@ -1,6 +1,6 @@
 # 🎓 Masters Converter Notebook
 
-Bulk-convert university Master’s program outlines (PDF → Excel → CSV & Turtle) in one go.
+A toolkit to bulk-convert university Master’s program outlines (PDF → Excel → CSV & Turtle).
 
 ---
 
@@ -8,30 +8,29 @@ Bulk-convert university Master’s program outlines (PDF → Excel → CSV & Tur
 
 1. [Installation](#installation)  
 2. [Prerequisites](#prerequisites)  
-3. [Processing Steps](#processing-steps)  
+3. [Processing Workflow](#processing-workflow)  
 4. [Usage](#usage)  
-5. [How It Works](#how-it-works)  
-6. [Output Structure](#output-structure) 
-7. [Testing Turtle Outputs with Python](#Testing-Turtle-Outputs-with-Python) 
+5. [Output Structure](#output-structure)  
+6. [How It Works](#how-it-works)  
+7. [Validating Turtle with SPARQL](#validating-turtle-with-sparql)  
 
 ---
 
-##  Installation
+## Installation
 
-1. **Clone** this repository:
-   ```bash
-   git clone https://github.com/Ilef-mhabrech/converter_notebook.git
-   cd converter_notebook
+```bash
+# 1. Clone the repository
+git clone https://github.com/Ilef-mhabrech/converter_notebook.git
+cd converter_notebook
 
- # (Optional) Create & activate a virtual env
+# 2. (Optional) Create and activate a virtual environment
+python3 -m venv .venv
+source .venv/bin/activate    # macOS / Linux
 
-   python3 -m venv .venv
-   source .venv/bin/activate      # macOS/Linux
-
-
-# Install dependencies
+# 3. Install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
+
 
 ##  Prerequisites
 Python ≥ 3.7
@@ -101,3 +100,20 @@ Each TTL file includes RDF prefix declarations and triples (ns1:…) describing 
 ├── ttl/             # Metadata Turtle files
 ├── csv_metrics/     # Volume & ECTS CSV files
 └── ttl_metrics/     # Volume & ECTS Turtle files
+
+## Validating Turtle with SPARQL
+Cleanup / Formatting :
+
+chmod +x fix_all_ttl.py 
+python3 fix_all_ttl.py master_converter/ttl
+
+Test a Single TTL File
+
+chmod +x test/test_ttl.py
+python3 test/test_ttl.py 
+
+or Test All TTL Files : 
+
+chmod +x test/parse_all_ttl.py
+python3 test/parse_all_ttl.py 
+python3 test/parse_all_ttl.py  master_converter/ttl results.md
