@@ -1,0 +1,28 @@
+Pages: 142-143
+
+HOURS
+	CS Core = 0
+	KA Core = 0
+
+FPL-Code: Code Generation
+Non-core:
+1. Instruction sets (See also: AR-Assembly)
+2. Control flow
+3. Memory management (See also: AR-Memory, OS-Memory)
+4. Procedure calls and method dispatching
+5. Separate compilation; linking
+6. Instruction selection
+7. Instruction scheduling (e.g., pipelining)
+8. Register allocation
+9. Code optimization as a form of program analysis (See also: FPL-Analysis)
+10. Program generation through generative AI
+Illustrative learning outcomes:
+Non-core:
+1. Identify all essential steps for automatically converting source code into assembly or other low-level
+languages.
+2. Explain the low-level code necessary for calling functions/methods in modern languages.
+3. Discuss why separate compilation requires uniform calling conventions.
+4. Discuss why separate compilation limits optimization because of unknown effects of calls.
+5. Discuss opportunities for optimization introduced by naive translation and approaches for achieving.
+optimization, such as instruction selection, instruction scheduling, register allocation, and peephole
+optimization.

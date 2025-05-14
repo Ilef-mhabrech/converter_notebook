@@ -1,0 +1,63 @@
+Pages: 135-136
+
+HOURS
+	CS Core = 2 + 1 (PDC)
+	KA Core = 2
+
+FPL-Parallel: Parallel and Distributed Computing
+CS Core:
+1. Safety and liveness (See also: PDC-Evaluation)
+a. Race conditions (See also: OS-Concurrency)
+b. Dependencies/preconditions
+c. Fault models (See also: OS-Faults)
+d. Termination (See also: PDC-Coordination)
+2. Programming models (See also: PDC-Programs)
+One or more of the following:
+a. Actor models
+b. Procedural and reactive models
+c. Synchronous/asynchronous programming models
+d. Data parallelism
+3. Properties (See also: PDC-Programs, PDC-Coordination)
+a. Order-based properties
+i. Commutativity
+ii. Independence
+b. Consistency-based properties
+i. Atomicity
+ii. Consensus
+4. Execution control: (See also: PDC-Coordination, SF-Foundations)
+a. Async await
+b. Promises
+c. Threads
+5. Communication and coordination (See also: OS-Process, PDC-Communication, PDC-Coordination)
+a. Mutexes
+b. Message-passing
+c. Shared memory
+d. Cobegin-coend
+e. Monitors
+f. Channels
+g. Threads
+h. Guards
+KA Core:
+6. Futures
+7. Language support for data parallelism such as forall, loop unrolling, map/reduce
+8. Effect of memory-consistency models on language semantics and correct code generation
+9. Representational State Transfer Application Programming Interfaces (REST APIs)
+10. Technologies and approaches: cloud computing, high performance computing, quantum computing,
+ubiquitous computing
+11. Overheads of message-passing
+12. Granularity of program for efficient exploitation of concurrency
+13. Concurrency and other programming paradigms (e.g., functional)
+Illustrative learning outcomes:
+CS Core:
+1. Explain why programming languages do not guarantee sequential consistency in the presence of
+data races and what programmers must do as a result.
+2. Implement correct concurrent programs using multiple programming models, such as shared
+memory, actors, futures, synchronization constructs, and data-parallelism primitives.
+3. Use a message-passing model to analyze a communication protocol.
+4. Use synchronization constructions such as monitor/synchronized methods in a simple program.
+5. Modeling data dependency using simple programming constructs involving variables, read and
+write.
+6. Modeling control dependency using simple constructs such as selection and iteration.
+KA Core:
+7. Explain how REST API's integrate applications and automate processes.
+8. Explain benefits, constraints and challenges related to distributed and parallel computing.

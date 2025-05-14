@@ -1,0 +1,49 @@
+Pages: 118-119
+
+HOURS
+	CS Core = 0
+	KA Core = 4
+
+DM-Processing: Query Processing
+KA Core:
+1. Page structures
+2. Index structures
+a. B+ trees (See also: AL-Foundational)
+b. Hash indices: static and dynamic (See also: AL-Foundational, SEC-Foundations)
+c. Index creation in SQL
+3. File structures (See also: OS-Files)
+a. Heap files
+b. Hash files
+4. Algorithms for query operators
+a. External Sorting (See also: AL-Foundational)
+b. Selection
+c. Projection; with and without duplicate elimination
+d. Natural Joins: Nested loop, Sort-merge, Hash join
+e. Analysis of algorithm efficiency (See also: AL-Complexity)
+5. Query transformations
+6. Query optimization
+a. Access paths
+b. Query plan construction
+c. Selectivity estimation
+d. Index-only plans
+7. Parallel Query Processing (e.g., parallel scan, parallel join, parallel aggregation) (See also: PDC-
+Algorithms)
+8. Database tuning/performance
+a. Index selection
+b. Impact of indices on query performance (See also: SF-Performance, SEP-Sustainability)
+c. Denormalization
+Illustrative Learning Outcomes:
+KA Core:
+1. Describe the purpose and organization of both B+ tree and hash index structures.
+2. Compose an SQL command to create an index (any kind).
+3. Specify the steps for the various query operator algorithms: external sorting, projection with
+duplicate elimination, sort-merge join, hash-join, block nested-loop join.
+4. Derive the run-time (in I/O requests) for each of the above algorithms.
+5. Transform a query in relational algebra to its equivalent appropriate for a left-deep, pipelined
+execution.
+6. Compute selectivity estimates for a given selection and/or join operation.
+7. Describe how to modify an index structure to facilitate an index-only operation for a given relation.
+8. For a given scenario decide on which indices to support for the efficient execution of a set of
+queries.
+9. Describe how DBMSs leverage parallelism to speed up query processing by dividing the work
+across multiple processors or nodes.

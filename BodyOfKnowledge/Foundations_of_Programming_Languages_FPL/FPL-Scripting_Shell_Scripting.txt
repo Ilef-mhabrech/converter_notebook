@@ -1,0 +1,22 @@
+Pages: 133-134
+
+HOURS
+	CS Core = 2
+	KA Core = 0
+
+FPL-Scripting: Shell Scripting
+CS Core:
+1. Error/exception handling
+2. Piping (See also: AR-Organization, SF-Overview, OS-Process)
+3. System commands (See also: SF-Overview)
+a. Interface with operating systems (See also: SF-Overview, OS-Principles)
+4. Environment variables (See also: SF-Overview)
+5. File abstraction and operators (See also: SDF-Fundamentals, OS-Files, SF-Resource)
+6. Data structures, such as arrays and lists. (See also: AL-Foundational, SDF-Fundamentals, SDFData-Structures)
+7. Regular expressions (See also: AL-Models)
+8. Programs and processes (See also: OS-Process)
+9. Workflow
+Illustrative learning outcomes:
+CS Core:
+1. Create and execute automated scripts to manage various system tasks.
+2. Solve various text processing problems through scripting.

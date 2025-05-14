@@ -1,0 +1,40 @@
+Pages: 143-144
+
+HOURS
+	CS Core = 0
+	KA Core = 0
+
+FPL-Run-Time: Run-time Behavior and Systems
+Non-core:
+1. Process models using stacks and heaps to allocate and deallocate activation records and
+recovering environments using frame pointers and return addresses during a procedure call
+including parameter-passing examples
+2. Schematics of code lookup using hash tables for methods in implementations of object-oriented
+programs
+3. Data layout for objects and activation records
+4. Object allocation in heap
+5. Implementing virtual entities and virtual methods; virtual method tables and their application
+6. Run-time behavior of object-oriented programs
+7. Compare and contrast allocation of memory during information exchange using parameter-passing
+and non-local variables (using chain of static links).
+8. Dynamic memory management approaches and techniques: malloc/free, garbage collection (marksweep, copying, reference counting), regions (also known as arenas or zones)
+9. Just-in-time compilation and dynamic recompilation
+10. Interface to operating system (e.g., for program initialization)
+11. Interoperability between programming languages including parameter-passing mechanisms and
+data representation (See also: AR-Representation)
+a. Big endian, little endian
+b. Data layout of composite data types such as arrays
+12. Other common features of virtual machines, such as class loading, threads, and security checking
+13. Sandboxing
+Illustrative learning outcomes:
+Non-core:
+1. Discuss benefits and limitations of automatic memory management.
+2. Explain the use of metadata in run-time representations of objects and activation records, such as
+class pointers, array lengths, return addresses, and frame pointers.
+3. Compare and contrast static allocation vs stack-based allocation vs heap-based allocation of data
+elements.
+4. Explain why some data elements cannot be automatically deallocated at the end of a
+procedure/method call (need for garbage collection).
+5. Discuss advantages, disadvantages, and difficulties of just-in-time and dynamic recompilation.
+6. Discuss the use of sandboxing in mobile code.
+7. Identify the services provided by modern language run-time systems.

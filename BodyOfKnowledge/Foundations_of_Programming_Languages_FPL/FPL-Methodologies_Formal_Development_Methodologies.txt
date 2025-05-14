@@ -1,0 +1,27 @@
+Pages: 146
+
+HOURS
+	CS Core = 0
+	KA Core = 0
+
+FPL-Methodologies: Formal Development Methodologies
+1. Formal specification languages and methodologies
+2. Theorem provers, proof assistants, and logics
+3. Constraint checkers (See also: FPL-Formalism)
+4. Dependent types (universal quantification as dependent function, existential quantification as
+dependent product) (See also: FPL-Types, FPL-Formalism)
+5. Specification and proof discharge for fully verified software systems using pre/post conditions,
+refinement types, etc.
+6. Formal modeling and manual refinement/implementation of software systems.
+7. Use of symbolic testing and fuzzing in software development.
+8. Model checking.
+9. Understanding of situations where formal methods can be effectively applied and how to structure
+development to maximize their value.
+Illustrative learning outcomes:
+Non-core:
+1. Use formal modeling techniques to develop and validate architectures.
+2. Use proof assisted programming languages to develop fully specified and verified software artifacts.
+3. Use verifier and specification support in programming languages to formally validate system
+properties.
+4. Integrate symbolic validation tooling into a programming workflow.
+5. Discuss when and how formal methods can be effectively used in the development process.

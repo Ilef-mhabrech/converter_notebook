@@ -1,0 +1,83 @@
+Pages: 136-137-138
+
+HOURS
+	CS Core = 3
+	KA Core = 3
+
+FPL-Types: Type Systems
+CS Core:
+1. A type as a set of values together with a set of operations
+a. Primitive types (e.g., numbers, Booleans) (See also: SDF-Fundamentals)
+b. Compound types built from other types (e.g., records/structs, unions, arrays, lists, functions,
+references using set operations) (See also: SDF-Data-Structures)
+2. Association of types to variables, arguments, results, and fields
+3. Type safety as an aspect of program correctness (See also: FPL-Formalism)
+4. Type safety and errors caused by using values inconsistently given their intended types
+5. Goals and limitations of static and dynamic typing: detecting and eliminating errors as early as
+possible.
+6. Generic types (parametric polymorphism)
+a. Definition and advantages of polymorphism: parametric, subtyping, overloading, and coercion
+b. Comparison of monomorphic and polymorphic types
+c. Comparison with ad-hoc polymorphism (overloading) and subtype polymorphism
+d. Generic parameters and typing
+e. Use of generic libraries such as collections
+f. Comparison with ad hoc polymorphism (overloading) and subtype polymorphism
+g. Prescriptive vs descriptive polymorphism
+h. Implementation models of polymorphic types
+i. Subtyping
+KA Core:
+7. Type equivalence: structural vs name equivalence
+8. Complementary benefits of static and dynamic typing:
+a. Errors early vs errors late/avoided
+b. Enforce invariants during code development and code maintenance vs postpone typing
+decisions while prototyping and conveniently allow flexible coding patterns such as
+heterogeneous collections.
+c. Typing rules for function, product, and sum types
+d. Avoiding misuse of code vs allowing more code reuse
+e. Detect incomplete programs vs allow incomplete programs to run
+f. Relationship to static analysis
+g. Decidability
+Non-core:
+9. Compositional type constructors, such as product types (for aggregates), sum types (for unions),
+function types, quantified types, and recursive types
+10. Type checking
+11. Subtyping: (See also: FPL-OOP)
+a. Subtype polymorphism; implicit upcasts in typed languages
+b. Notion of behavioral replacement: subtypes acting like supertype
+c. Relationship between subtyping and inheritance
+12. Type safety as preservation plus progress
+13. Type inference
+14. Static overloading
+15. Propositions as types (implication as a function, conjunction as a product, disjunction as a sum)
+(See also: FPL-Formalism)
+16. Dependent types (universal quantification as dependent function, existential quantification as
+dependent product). (See also: FPL-Formalism)
+Illustrative learning outcomes:
+CS Core:
+1. Describe, for both a primitive and a compound type, the values that have that type.
+2. Describe, for a language with a static type system, the operations that are forbidden statically, such
+as passing the wrong type of value to a function or method.
+3. Describe examples of program errors detected by a type system.
+4. Identify program properties, for multiple programming languages, that are checked statically and
+program properties that are checked dynamically.
+5. Describe an example program that does not type-check in a particular language and yet would have
+no error if run.
+6. Use types and type-error messages to write and debug programs.
+KA Core:
+7. Explain how typing rules define the set of operations that are legal for a type.
+8. List the type rules governing the use of a particular compound type.
+9. Explain why undecidability requires type systems to conservatively approximate program behavior.
+10. Define and use program pieces (such as functions, classes, methods) that use generic types,
+including for collections.
+11. Discuss the differences among generics, subtyping, and overloading.
+12. Explain multiple benefits and limitations of static typing in writing, maintaining, and debugging
+software.
+Non-core:
+13. Define a type system precisely and compositionally.
+14. For various foundational type constructors, identify the values they describe and the invariants they
+enforce.
+15. Precisely describe the invariants preserved by a sound type system.
+16. Prove type safety for a simple language in terms of preservation and progress theorems.
+17. Implement a unification-based type-inference algorithm for a simple language.
+18. Explain how static overloading and associated resolution algorithms influence the dynamic behavior
+of programs.

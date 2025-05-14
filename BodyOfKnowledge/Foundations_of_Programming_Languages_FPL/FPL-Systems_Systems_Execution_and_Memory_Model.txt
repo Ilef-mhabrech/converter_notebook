@@ -1,0 +1,38 @@
+Pages: 138-139
+
+HOURS
+	CS Core = 2 + 1 (AR and OS)
+	KA Core = 0
+
+FPL-Systems: Systems Execution and Memory Model
+CS Core:
+1. Data structures for translation, execution, translation, and code mobility such as stack, heap,
+aliasing (sharing using pointers), indexed sequence and string
+2. Direct, indirect, and indexed access to memory location
+3. Run-time representation of data abstractions such as variables, arrays, vectors, records, pointerbased data elements such as linked-lists and trees, and objects
+4. Abstract low-level machine with simple instruction, stack, and heap to explain translation and
+execution
+5. Run-time layout of memory: activation record (with various pointers), static data, call-stack, heap
+(See also: AR-Memory, OS-Memory)
+a. Translating selection and iterative constructs to control-flow diagrams
+b. Translating control-flow diagrams to low level abstract code
+c. Implementing loops, recursion, and tail calls
+d. Translating function/procedure calls and return from calls, including different parameter-passing
+mechanisms using an abstract machine
+6. Memory management: (See also: AR-Memory, OS-Memory)
+a. Low level allocation and accessing of high-level data structures such as basic data types, ndimensional array, vector, record, and objects
+b. Return from procedure as automatic deallocation mechanism for local data elements in the
+stack
+c. Manual memory management: allocating, de-allocating, and reusing heap memory
+d. Automated memory management: garbage collection as an automated technique using the
+notion of reachability
+7. Green computing. (See also: SEP-Sustainability)
+Illustrative learning outcomes:
+CS Core:
+1. Explain how a core language construct, such as data abstractions and control abstractions, is
+executed.
+2. Explain how programming language implementations typically organize memory into global data,
+text, heap, and stack sections and how features such as recursion and memory management map
+to this memory model.
+3. Explain why memory leaks and dangling pointer problems occur, and what can be done by a
+programmer to avoid/fix them.

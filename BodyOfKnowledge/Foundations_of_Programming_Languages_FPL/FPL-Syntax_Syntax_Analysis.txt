@@ -1,0 +1,27 @@
+Pages: 141
+
+HOURS
+	CS Core = 0
+	KA Core = 0
+
+FPL-Syntax: Syntax Analysis
+Non-core:
+1. Regular grammars vs context-free grammars (See also: AL-Models)
+2. Scanning and parsing based on language specifications
+3. Lexical analysis using regular expressions
+4. Tokens and their use
+5. Parsing strategies including top-down (e.g., recursive descent, or LL) and bottom-up (e.g., LR or
+GLR) techniques
+a. Lookahead tables and their application to parsing
+6. Language theory:
+a. Chomsky hierarchy (See also: AL-Models)
+b. Left-most/right-most derivation and ambiguity
+c. Grammar transformation
+7. Parser error recovery mechanisms
+8. Generating scanners and parsers from declarative specifications
+Illustrative learning outcomes:
+Non-core:
+1. Use formal grammars to specify the syntax of languages.
+2. Illustrate the role of lookahead tables in parsing.
+3. Use declarative tools to generate parsers and scanners.
+4. Recognize key issues in syntax definitions: ambiguity, associativity, precedence.

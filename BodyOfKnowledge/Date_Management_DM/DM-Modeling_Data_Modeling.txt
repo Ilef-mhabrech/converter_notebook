@@ -1,0 +1,32 @@
+Pages: 116-117
+
+HOURS
+	CS Core = 2
+	KA Core = 3
+
+DM-Modeling: Data Modeling
+CS Core:
+1. Data modeling (See also: SE-Requirements)
+2. Relational data model (See also: MSF-Discrete)
+KA Core:
+3. Conceptual models (e.g., entity-relationship, UML diagrams)
+4. Semi-structured data models (expressed using DTD, XML, or JSON Schema, for example)
+Non-core:
+5. Spreadsheet models
+6. Object-oriented models (See also: FPL-OOP)
+a. GraphQL
+7. New features in SQL
+8. Specialized Data Modeling topics
+a. Time series data (aggregation, join)
+b. Graph data (link traversal)
+c. Techniques for avoiding inefficient raw data access (e.g., “avg daily price”): materialized views
+and special data structures (e.g., Hyperloglog, bitmap)
+d. Geo-Spatial data (e.g., GIS databases) (See also: SPD-Interactive)
+Illustrative Learning Outcomes:
+CS Core:
+1. Describe the components of the relational data model.
+2. Model 1:1, 1:n, and n:m relationships using the relational data model.
+KA Core:
+3. Describe the components of the E-R (or some other non-relational) data model.
+4. Model a given environment using a conceptual data model.
+5. Model a given environment using the document-based or key-value store-based data model.

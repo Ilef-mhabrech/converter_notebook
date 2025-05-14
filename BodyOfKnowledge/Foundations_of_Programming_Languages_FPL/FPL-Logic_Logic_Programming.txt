@@ -1,0 +1,40 @@
+Pages: 133
+
+HOURS
+	CS Core = 0
+	KA Core = 2 + 1 (MSF)
+
+FPL-Logic: Logic Programming
+KA Core:
+1. Universal vs existential quantifiers. (See also: AI-LRR, MSF-Discrete)
+2. First order predicate logic vs higher order logic. (See also: AI-LRR, MSF-Discrete)
+3. Expressing complex relations using logical connectives and simpler relations.
+4. Definitions of Horn clause, facts, goals and subgoals.
+5. Unification and unification algorithm; unification vs assertion vs expression evaluation.
+6. Mixing relations with functions. (See also: MSF-Discrete)
+7. Cuts, backtracking, and non-determinism.
+8. Closed-world vs open-world assumptions.
+Non-core:
+9. Memory overhead of variable copying in handling iterative programs.
+10. Programming constructs to store partial computation and pruning search trees.
+11. Mixing functional programming and logic programming using concepts such as equational logic,
+narrowing, residuation, and semantic unification. (See also: FPL-Functional)
+12. Higher-order, constraint, and inductive logic programming. (See also: AI-LRR)
+13. Integration with other programming paradigms such as object-oriented programming.
+14. Advance programming constructs such as difference-lists, creating user defined data structures, set
+of, etc.
+Illustrative learning outcomes:
+KA Core:
+1. Use a logic language to implement a conventional algorithm.
+2. Use a logic language to implement an algorithm employing implicit search using clauses, relations,
+and cuts.
+3. Use a simple illustrative example to show correspondence between First Order Predicate Logic
+(FOPL) and logic programs using Horn clauses.
+4. Use examples to illustrate the unification algorithm and its role of parameter-passing in query
+reduction.
+5. Use simple logic programs interleaving relations, functions, and recursive programming such as
+factorial and Fibonacci numbers and simple complex relationships between entities and illustrate
+execution and parameter-passing using unification and backtracking.
+Non-core:
+6. Illustrate computation of simple programs such as Fibonacci and show overhead of recomputation,
+and then show how to improve execution overhead.

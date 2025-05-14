@@ -1,0 +1,34 @@
+Pages: 139-140
+
+HOURS
+	CS Core = 2
+	KA Core = 3
+
+FPL-Translation: Language Translation and Execution
+CS Core:
+1. Execution models for JIT (Just-In-Time), compiler, interpreter
+2. Use of intermediate code, e.g., bytecode
+3. Limitations and benefits of JIT, compiler, and interpreter
+4. Cross compilers/transpilers
+5. BNF and extended BNF representation of context-free grammar
+6. Parse tree using a simple sentence such as arithmetic expression or if-then-else statement
+7. Execution as native code or within a virtual machine
+8. Language translation pipeline: syntax analysis, parsing, optional type-checking, translation/code
+generation and optimization, linking, loading, execution
+KA Core:
+9. Run-time representation of core language constructs such as objects (method tables) and functions
+that can be passed as parameters to and returned from functions (closures)
+10. Secure compiler development (See also: SEC-Foundations, SEC-Coding)
+Illustrative learning outcomes:
+CS Core:
+1. Explain and understand the differences between compiled, JIT, and interpreted language
+implementations, including the benefits and limitations of each.
+2. Differentiate syntax and parsing from semantics and evaluation.
+3. Use BNF and extended BNF to specify the syntax of simple constructs such as if-then-else, type
+declaration and iterative constructs for known languages such as C++ or Python.
+4. Illustrate the parse tree using a simple sentence/arithmetic expression.
+5. Illustrate translation of syntax diagrams to BNF/extended BNF for simple constructs such as if-thenelse, type declaration, iterative constructs, etc.
+6. Illustrate ambiguity in parsing using nested if-then-else/arithmetic expression and show resolution
+using precedence order.
+KA-Core:
+7. Discuss the benefits and limitations of garbage collection, including the notion of reachability.

@@ -1,0 +1,27 @@
+Pages: 121-122
+
+HOURS
+	CS Core = 0
+	KA Core = 3
+
+DM-Analytics: Data Analytics
+KA Core:
+1. Exploratory data techniques (motivation, representation, descriptive statistics, visualizations)
+2. Data science lifecycle: business understanding, data understanding, data preparation, modeling,
+evaluation, deployment, and user acceptance (See also: AI-ML)
+3. Data mining and machine learning algorithms: e.g., classification, clustering, association, regression
+(See also: AI-ML)
+4. Data acquisition and governance (See also: SEC-Governance)
+5. Data security and privacy considerations (See also: SEP-Security, SEP-Privacy, SEC-Foundations)
+6. Data fairness and bias (See also: SEP-Security, AI-SEP)
+7. Data visualization techniques and their use in data analytics (See also: GIT-Visualization)
+8. Entity Resolution
+Illustrative Learning Outcomes:
+KA Core:
+1. Describe several data exploration approaches, including visualization, to understanding unfamiliar
+datasets.
+2. Apply several data exploration approaches to understanding unfamiliar datasets.
+3. Describe basic machine learning/data mining algorithms and when they are appropriate for use.
+4. Apply several machine learning/data mining algorithms.
+5. Describe legal and ethical considerations in acquiring, using, and modifying datasets.
+6. Describe issues of fairness and bias in data collection and usage.

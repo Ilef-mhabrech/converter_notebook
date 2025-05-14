@@ -1,0 +1,28 @@
+Pages: 144-145
+
+HOURS
+	CS Core = 0
+	KA Core = 0
+
+FPL-Pragmatics: Language Pragmatics
+Non-core:
+1. Effect of technology needs and software requirements on programming language development and
+evolution
+2. Problem domains and programming paradigm
+3. Criteria for good programming language design
+a. Principles of language design such as orthogonality
+b. Defining control and iteration constructs
+c. Modularization of large software
+4. Evaluation order, precedence, and associativity
+5. Eager vs delayed evaluation
+6. Defining control and iteration constructs
+7. External calls and system libraries
+Illustrative learning outcomes:
+Non-core:
+1. Discuss the role of concepts such as orthogonality and well-chosen defaults in language design.
+2. Objectively evaluate and justify language-design decisions.
+3. Implement an example program whose result can differ under different rules for evaluation order,
+precedence, or associativity.
+4. Illustrate uses of delayed evaluation, such as user-defined control abstractions.
+5. Discuss the need for allowing calls to external calls and system libraries and the consequences for
+language implementation.

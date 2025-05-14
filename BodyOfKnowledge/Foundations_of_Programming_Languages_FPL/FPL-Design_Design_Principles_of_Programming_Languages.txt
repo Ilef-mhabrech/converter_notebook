@@ -1,0 +1,26 @@
+Pages: 146-147
+
+HOURS
+	CS Core = 0
+	KA Core = 0
+
+FPL-Design: Design Principles of Programming Languages
+Non-core:
+1. Language design principles
+a. Simplicity
+b. Security (See also: SEC-Coding)
+c. Fast translation
+d. Efficient object code
+e. Orthogonality
+f. Readability
+g. Completeness
+h. Implementation strategies
+2. Designing a language to fit a specific domain or problem
+3. Interoperability between programming languages
+4. Language portability
+5. Formal description of a programming language
+6. Green computing principles (See also: SEP-Sustainability)
+Illustrative Learning Outcomes:
+Non-core:
+1. Understand what constitutes good language design and apply that knowledge to evaluate a real
+programming language.

@@ -1,0 +1,40 @@
+Pages: 117-118
+
+HOURS
+	CS Core = 1
+	KA Core = 3
+
+DM-Relational: Relational Databases
+CS Core:
+1. Entity and referential integrity: Candidate key, superkeys
+2. Relational database design
+KA Core:
+3. Mapping conceptual schema to a relational schema
+4. Physical database design: file and storage structures (See also: OS-Files)
+5. Introduction to Functional dependency theory
+6. Normalization Theory
+a. Decomposition of a schema; lossless-join, and dependency-preservation properties of a
+decomposition
+b. Normal forms (BCNF)
+c. Denormalization (for efficiency)
+Non-core:
+7. Functional dependency theory
+a. Closure of a set of attributes
+b. Canonical Cover
+8. Normalization theory
+a. Multi-valued dependency (4NF)
+b. Join dependency (PJNF, 5NF)
+c. Representation theory
+Illustrative Learning Outcomes:
+CS Core:
+1. Describe the defining characteristics behind the relational data model.
+2. Comment on the difference between a foreign key and a superkey.
+3. Enumerate the different types of integrity constraints.
+KA Core:
+4. Compose a relational schema from a conceptual schema which contains 1:1, 1:n, and n:m
+relationships.
+5. Map appropriate file structure to relations and indices.
+6. Describe how functional dependency theory generalizes the notion of key.
+7. Defend a given decomposition as lossless and or dependency preserving.
+8. Detect which normal form a given decomposition yields.
+9. Comment on reasons for denormalizing a relation.

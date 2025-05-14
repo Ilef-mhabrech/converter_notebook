@@ -1,0 +1,20 @@
+Pages: 147
+
+HOURS
+	CS Core = SEP hours
+	KA Core = SEP hours
+
+FPL-SEP: Society, Ethics, and the Profession
+Non-core:
+1. Impact of English-centric programming languages
+2. Enhancing accessibility and inclusivity for people with disabilities – Supporting assistive
+technologies
+3. Human factors related to programming languages and usability
+a. Impact of syntax on accessibility
+b. Supporting cultural differences (e.g., currency, decimals, dates)
+c. Neurodiversity
+4. Etymology of terms such as “class,” “master,” and “slave” in programming languages
+5. Increasing accessibility by supporting multiple languages within applications (UTF)
+Illustrative learning outcomes:
+Non-core:
+1. Consciously design programming languages to be inclusive and non-offensive.

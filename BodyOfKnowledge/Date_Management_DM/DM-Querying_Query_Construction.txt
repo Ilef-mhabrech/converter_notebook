@@ -1,0 +1,31 @@
+Pages: 118
+
+HOURS
+	CS Core = 2
+	KA Core = 4
+
+DM-Querying: Query Construction
+CS Core:
+1. SQL Query Formation
+a. Interactive SQL execution
+b. Programmatic execution of an SQL query
+KA Core:
+2. Relational Algebra
+3. SQL
+a. Data definition including integrity and other constraint specifications
+b. Update sublanguage
+Non-core:
+4. Relational Calculus
+5. QBE and 4th-generation environments
+6. Different ways to invoke non-procedural queries in conventional languages
+7. Introduction to other major query languages (e.g., XPATH, SPARQL)
+8. Stored procedures
+Illustrative Learning Outcomes:
+CS Core:
+1. Compose SQL queries that incorporate select, project, join, union, intersection, set difference, and
+set division.
+2. Determine when a nested SQL query is correlated or not.
+3. Iterate over data retrieved programmatically from a database via an SQL query.
+KA Core:
+4. Define, in SQL, a relation schema, including all integrity constraints and delete/update triggers.
+5. Compose an SQL query to update a tuple in a relation.

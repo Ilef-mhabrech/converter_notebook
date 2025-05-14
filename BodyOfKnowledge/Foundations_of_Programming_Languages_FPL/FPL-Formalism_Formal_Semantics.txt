@@ -1,0 +1,32 @@
+Pages: 145-146
+
+HOURS
+	CS Core = 0
+	KA Core = 0
+
+FPL-Formalism: Formal Semantics
+Non-core:
+1. Syntax vs semantics
+2. Approaches to semantics: axiomatic, operational, denotational, type-based
+3. Axiomatic semantics of abstract constructs such as assignment, selection, iteration using precondition, post-conditions, and loop invariant
+4. Operational semantics analysis of abstract constructs and sequence of such as assignment,
+expression evaluation, selection, iteration using environment and store
+a. Symbolic execution
+b. Constraint checkers
+5. Denotational semantics
+a. Lambda Calculus. (See also: AL-Models, FPL-Functional)
+6. Proofs by induction over language semantics
+7. Formal definitions and proofs for type systems (See also: FPL-Types)
+a. Propositions as types (implication as a function, conjunction as a product, disjunction as a sum)
+b. Dependent types (universal quantification as dependent function, existential quantification as
+dependent product)
+c. Parametricity
+Illustrative learning outcomes:
+Non-core:
+1. Construct formal semantics for a small language.
+2. Write a lambda-calculus program and show its evaluation to a normal form.
+3. Discuss the different approaches of operational, denotational, and axiomatic semantics.
+4. Use induction to prove properties of all programs in a language.
+5. Use induction to prove properties of all programs in a language that is well-typed according to a
+formally defined type system.
+6. Use parametricity to establish the behavior of code given only its type.

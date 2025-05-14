@@ -1,0 +1,34 @@
+Pages: 121
+
+HOURS
+	CS Core = 1
+	KA Core = 2
+
+DM-Security: Data Security and Privacy
+CS Core:
+1. Differences between data security and data privacy (See also: SEC-Foundations)
+2. Protecting data and database systems from attacks, including injection attacks such as SQL
+injection (See also: SEC-Foundations)
+3. Personally identifying information (PII) and its protection (See also: SEC-Foundations, SEP-
+Security, SEP-Privacy)
+4. Ethical considerations in ensuring the security and privacy of data (See also: SEC-SEP, SEP-
+Ethical-Analysis, SEP-Security, SEP-Privacy)
+KA Core:
+5. Need for, and different approaches to securing data at rest, in transit, and during processing (See
+also: SEC-Foundations, SEC-Crypto)
+6. Database auditing and its role in digital forensics (See also: SEC-Forensics)
+7. Data inferencing and preventing attacks (See also: SEC-Crypto)
+8. Laws and regulations governing data security and data privacy (See also: SEP-Security, SEP-
+Privacy, SEC-Foundations, SEC-Governance)
+Non-core:
+9. Typical risk factors and prevention measures for ensuring data integrity (See also: SEC-
+Governance)
+10. Ransomware and prevention of data loss and destruction (See also: SEC-Coding, SEC-Forensics)
+Illustrative Learning Outcomes:
+CS Core:
+1. Describe the differences in the goals for data security and data privacy.
+2. Identify and mitigate risks associated with different approaches to protecting data.
+3. Describe legal and ethical considerations of end-to-end data security and privacy.
+KA Core:
+4. Develop a database auditing system given risk considerations.
+5. Apply several data exploration approaches to understanding unfamiliar datasets.

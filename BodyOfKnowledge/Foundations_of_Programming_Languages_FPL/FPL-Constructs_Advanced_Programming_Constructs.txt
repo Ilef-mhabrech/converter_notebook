@@ -1,0 +1,28 @@
+Pages: 144
+
+HOURS
+	CS Core = 0
+	KA Core = 0
+
+FPL-Constructs: Advanced Programming Constructs
+Non-core:
+1. Encapsulation mechanisms
+2. Delayed evaluation and infinite streams
+3. Compare and contrast delayed evaluation vs eager evaluation
+4. Unification vs assertion vs expression evaluation
+5. Control abstractions: exception handling, continuations, monads.
+6. Object-oriented abstractions: multiple inheritance, mixins, traits, multimethods
+7. Metaprogramming: macros, generative programming, model-based development
+8. String manipulation via pattern-matching (regular expressions)
+9. Dynamic code evaluation ("eval")
+10. Language support for checking assertions, invariants, and pre/post-conditions
+11. Domain specific languages, such as database languages, data science languages, embedded
+computing languages, synchronous languages, hardware interface languages
+12. Massive parallel high performance computing models and languages
+Illustrative learning outcomes:
+Non-core:
+1. Use various advanced programming constructs and idioms correctly.
+2. Discuss how various advanced programming constructs aim to improve program structure, software
+quality, and programmer productivity.
+3. Discuss how various advanced programming constructs interact with the definition and
+implementation of other language features.

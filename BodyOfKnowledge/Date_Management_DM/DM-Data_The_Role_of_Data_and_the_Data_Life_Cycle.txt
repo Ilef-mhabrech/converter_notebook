@@ -1,0 +1,14 @@
+Pages: 115
+
+HOURS
+	CS Core = 2
+	KA Core = 0
+
+DM-Data: The Role of Data and the Data Life Cycle
+CS Core:
+1. The Data Life Cycle: Creation-Processing-Review/Reporting-Retention/Retrieval-Destruction (See
+also: SEP-Context, SEP-Ethical-Analysis, SEP-Professional-Ethics, SEP-Privacy, SEP-Security,
+SEC-Foundations)
+Illustrative Learning Outcomes:
+CS Core:
+1. Identify the five stages of the Data Life Cycle.

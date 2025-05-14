@@ -1,0 +1,29 @@
+Pages: 123
+
+HOURS
+	CS Core = Included in SEP hours
+	KA Core = Included in SEP hours
+
+DM-SEP: Society, Ethics, and the Profession
+CS Core:
+1. Issues related to scale (See also: SEP-Economies)
+2. Data privacy overall (See also: SEP-Privacy, SEP-Ethical-Analysis)
+a. Privacy compliance by design (See also: SEP-Privacy)
+3. Data anonymity (See also: SEP-Privacy)
+4. Data ownership/custodianship (See also: SEP-Professional-Ethics)
+5. Intended and unintended applications of stored data (See also: SEP-Professional-Ethics, SECFoundations)
+KA Core:
+6. Reliability of data (See also: SEP-Security)
+7. Provenance, data lineage, and metadata management (See also: SEP-Professional-Ethics)
+8. Data security (See also: DM-Security, SEP-Security)
+Illustrative Learning Outcomes:
+CS Core:
+1. Enumerate three social and three legal issues related to large data collections.
+2. Describe the value of data privacy.
+3. Identify the competing stakeholders with respect to data ownership.
+4. Enumerate three negative unintended consequences from a given (well known) data-centric
+application (e.g., Facebook, LastPass, Ashley Madison).
+KA Core:
+5. Describe the meaning of data provenance and lineage.
+6. Identify how a database might contribute to data security as well as how it may introduce
+insecurities.

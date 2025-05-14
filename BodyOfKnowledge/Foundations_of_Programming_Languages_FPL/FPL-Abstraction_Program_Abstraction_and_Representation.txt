@@ -1,0 +1,47 @@
+Pages: 140-141
+
+HOURS
+	CS Core = 0
+	KA Core = 3
+
+FPL-Abstraction: Program Abstraction and Representation
+KA Core:
+1. BNF and regular expressions
+2. Programs that take (other) programs as input such as interpreters, compilers, type-checkers,
+documentation generators
+3. Components of a language:
+a. Definitions of alphabets, delimiters, sentences, syntax, and semantics
+b. Syntax vs semantics
+4. Program as a set of non-ambiguous meaningful sentences
+5. Basic programming abstractions: constants, variables, declarations (including nested declarations),
+command, expression, assignment, selection, definite and indefinite iteration, iterators, function,
+procedure, modules, exception handling (See also: SDF-Fundamentals)
+6. Mutable vs immutable variables: advantages and disadvantages of reusing existing memory
+location vs advantages of copying and keeping old values; storing partial computation vs
+recomputation
+7. Types of variables: static, local, nonlocal, global; need and issues with nonlocal and global
+variables.
+8. Scope rules: static vs dynamic; visibility of variables; side-effects.
+9. Side-effects induced by nonlocal variables, global variables and aliased variables.
+Non-core:
+10. L-values and R-values: mapping mutable variable-name to L-values; mapping immutable variablenames to R-values
+11. Environment vs store and their properties
+12. Data and control abstraction
+13. Mechanisms for information exchange between program units such as procedures, functions, and
+modules: nonlocal variables, global variables, parameter-passing, import-export between modules
+14. Data structures to represent code for execution, translation, or transmission.
+15. Low level instruction representation such as virtual machine instructions, assembly language, and
+binary representation (See also: AR-Representation, AR-Assembly)
+16. Lambda calculus, variable binding, and variable renaming. (See also: AL-Models, FPL-Formalism)
+17. Types of semantics: operational, axiomatic, denotational, behavioral; define and use abstract
+syntax trees; contrast with concrete syntax.
+Illustrative learning outcomes:
+KA Core:
+1. Illustrate the scope of variables and visibility using simple programs.
+2. Illustrate different types of parameter-passing using simple pseudo programming language.
+3. Explain side-effect using global and nonlocal variables and how to fix such programs.
+4. Explain how programs that process other programs treat the other programs as their input data.
+5. Describe a grammar and an abstract syntax tree for a small language.
+6. Describe the benefits of having program representations other than strings of source code.
+7. Implement a program to process some representation of code for some purpose, such as an
+interpreter, an expression optimizer, or a documentation generator.

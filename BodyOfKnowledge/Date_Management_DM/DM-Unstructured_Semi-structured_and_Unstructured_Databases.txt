@@ -1,0 +1,22 @@
+Pages: 122-123
+
+HOURS
+	CS Core = 0
+	KA Core = 0
+
+DM-Unstructured: Semi-structured and Unstructured Databases
+Non-core:
+1. Vectorized unstructured data (text, video, audio, etc.) and vector storage
+a. TF-IDF Vectorizer with ngram
+b. Word2Vec
+c. Array database or array data type handling
+2. Semi-structured databases (e.g., JSON)
+a. Storage
+i. Encoding and compression of nested data types
+b. Indexing
+i. Btree, skip index, Bloom filter
+ii. Inverted index and bitmap compression
+iii. Space filling curve indexing for semi-structured geo-data
+c. Query processing for OLTP and OLAP use cases
+i. Insert, Select, update/delete tradeoffs
+ii. Case studies on Postgres/JSON, MongoDB, and Snowflake/JSON

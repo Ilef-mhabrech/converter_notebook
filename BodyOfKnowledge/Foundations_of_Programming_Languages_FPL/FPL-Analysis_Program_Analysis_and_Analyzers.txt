@@ -1,0 +1,28 @@
+Pages: 142
+
+HOURS
+	CS Core = 0
+	KA Core = 0
+
+FPL-Analysis: Program Analysis and Analyzers
+Non-core:
+4. Relevant program representations, such as basic blocks, control-flow graphs, def-use chains, and
+static single assignment
+5. Undecidability and consequences for program analysis
+6. Flow-insensitive analysis, such as type-checking and scalable pointer and alias analysis
+7. Flow-sensitive analysis, such as forward and backward dataflow analyses
+8. Path-sensitive analysis, such as software model checking and software verification
+9. Tools and frameworks for implementing analyzers
+10. Role of static analysis in program optimization and data dependency analysis during exploitation of
+concurrency (See also: FPL-Code)
+11. Role of program analysis in (partial) verification and bug-finding (See also: FPL-Code)
+12. Parallelization:
+a. Analysis for auto-parallelization
+b. Analysis for detecting concurrency bugs
+Illustrative learning outcomes:
+Non-core:
+1. Explain the difference between dataflow graph and control flow graph.
+2. Explain why non-trivial sound program analyses must be approximate.
+3. Argue why an analysis is correct (sound and terminating).
+4. Explain why potential aliasing limits sound program analysis and how alias analysis can help.
+5. Use the results of a program analysis for program optimization and/or partial program correctness.

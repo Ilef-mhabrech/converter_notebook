@@ -1,0 +1,24 @@
+Pages: 120-121
+
+HOURS
+	CS Core = 0
+	KA Core = 2
+
+DM-NoSQL: NoSQL Systems
+KA Core:
+1. Why NoSQL? (e.g., Impedance mismatch between Application [CRUD] and RDBMS)
+2. Key-Value and Document data model
+Non-core:
+3. Storage systems (e.g., Key-Value systems, Data Lakes)
+4. Distribution Models (Sharding and Replication) (See also: PDC-Communication)
+5. Graph Databases
+6. Consistency Models (Update and Read, Quorum consistency, CAP theorem) (See also: PDC-
+Communication)
+7. Processing model (e.g., Map-Reduce, multi-stage map-reduce, incremental map-reduce) (See also:
+PDC-Communication)
+8. Case Studies: Cloud storage system (e.g., S3); Graph databases; “When not to use NoSQL” (See
+also: SPD-Web)
+Illustrative Learning Outcomes:
+KA Core:
+1. Develop a use case for the use of NoSQL over RDBMS.
+2. Describe the defining characteristics behind Key-Value and Document-based data models.

@@ -1,0 +1,30 @@
+Pages: 134-135
+
+HOURS
+	CS Core = 2
+	KA Core = 2
+
+FPL-Event-Driven: Event-Driven and Reactive Programming
+CS Core:
+1. Procedural programming vs reactive programming: advantages of reactive programming in
+capturing events.
+2. Components of reactive programming: event-source, event signals, listeners and dispatchers, event
+objects, adapters, event-handlers. (See also: GIT-Interaction, SPD-Web, SPD-Mobile, SPD-Robot,
+SPD-Embedded, SPD-Game, SPD-Interactive)
+3. Stateless and state-transition models of event-based programming.
+4. Canonical uses such as GUIs, mobile devices, robots, servers. (See also: GIT-Interaction, GITImage, SPD-Web, SPD-Mobile, SPD-Robot, SPD-Embedded, SPD-Game, SPD-Interactive)
+KA Core:
+5. Using a reactive framework:
+a. Defining event handlers/listeners
+b. Parameterization of event senders and event arguments
+c. Externally generated events and program-generated events
+6. Separation of model, view, and controller
+7. Event-driven and reactive programs as state-transition systems
+Illustrative learning outcomes:
+CS Core:
+1. Implement event handlers for use in reactive systems, such as GUIs.
+2. Examine why an event-driven programming style is natural in domains where programs react to
+external events.
+KA Core:
+3. Define and use a reactive framework.
+4. Describe an interactive system in terms of a model, a view, and a controller.

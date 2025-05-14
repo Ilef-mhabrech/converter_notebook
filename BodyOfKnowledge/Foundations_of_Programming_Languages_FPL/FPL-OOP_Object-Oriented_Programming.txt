@@ -1,0 +1,50 @@
+Pages: 130-131
+
+HOURS
+	CS Core = 4 + 1 (SDF)
+	KA Core = 1
+
+FPL-OOP: Object-Oriented Programming
+CS Core:
+1. Imperative programming as a subset of object-oriented programming.
+2. Object-oriented design:
+a. Decomposition into objects carrying state and having behavior.
+b. Class-hierarchy design for modeling.
+3. Definition of classes: fields, methods, and constructors. (See also: SDF-Fundamentals)
+4. Subclasses, inheritance (including multiple inheritance), and method overriding.
+5. Dynamic dispatch: definition of method-call.
+6. Exception handling. (See also: SDF-Fundamentals, PDC-Coordination, SE-Construction)
+7. Object-oriented idioms for encapsulation:
+a. Privacy, data hiding, and visibility of class members.
+b. Interfaces revealing only method signatures.
+c. Abstract base classes, traits and mixins.
+8. Dynamic vs static properties.
+9. Composition vs inheritance.
+10. Subtyping:
+a. Subtype polymorphism; implicit upcasts in typed languages.
+b. Notion of behavioral replacement: subtypes acting like supertype.
+c. Relationship between subtyping and inheritance.
+KA Core:
+11. Collection classes, iterators, and other common library components.
+12. Metaprogramming and reflection.
+Illustrative Learning Outcomes:
+CS Core:
+1. Enumerate the differences between imperative and object-oriented programming paradigms.
+2. Compose a class through design, implementation, and testing to meet behavioral requirements.
+3. Build a simple class hierarchy utilizing subclassing that allows code to be reused for distinct
+subclasses.
+4. Predict and validate control flow in a program using dynamic dispatch.
+5. Compare and contrast how computational solutions to a problem differ in procedural, functional,
+and object-oriented approaches.
+6. Compare and contrast mechanisms to define and protect data elements within procedural,
+functional, and object-oriented approaches.
+7. Compare and contrast the benefits and costs/impact of using inheritance (subclasses) and
+composition (specifically, how to base composition on higher order functions).
+8. Explain the relationship between object-oriented inheritance (code-sharing and overriding) and
+subtyping (the idea of a subtype being usable in a context that expects the supertype).
+9. Use object-oriented encapsulation mechanisms such as interfaces and private members.
+10. Define and use iterators and other operations on aggregates, including operations that take
+functions as arguments, in multiple programming languages, selecting the most natural idioms for
+each language. (See also: FPL-Functional)
+KA Core:
+11. Use collection classes and iterators effectively to solve a problem.

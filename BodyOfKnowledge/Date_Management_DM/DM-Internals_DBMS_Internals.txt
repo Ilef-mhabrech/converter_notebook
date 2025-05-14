@@ -1,0 +1,32 @@
+Pages: 119-120
+
+HOURS
+	CS Core = 0
+	KA Core = 4
+
+DM-Internals: DBMS Internals
+KA Core:
+1. DB Buffer Management (See also: OS-Memory, SF-Resource)
+2. Transaction Management (See also: PDC-Coordination)
+a. Isolation Levels
+b. ACID
+c. Serializability
+d. Distributed Transactions
+3. Concurrency Control: (See also: OS-Concurrency)
+a. 2-Phase Locking
+b. Deadlocks handling strategies
+c. Quorum-based consistency models
+4. Recovery Manager
+a. Relation with Buffer Manager
+Non-core:
+5. Concurrency Control:
+a. Optimistic concurrency control
+b. Timestamp concurrency control
+6. Recovery Manager
+a. Write-Ahead logging
+b. ARIES recovery system (Analysis, REDO, UNDO)
+Illustrative Learning Outcomes:
+KA Core:
+1. Describe how a DBMS manages its Buffer Pool.
+2. Describe the four properties for a correct transaction manager.
+3. Outline the principle of serializability.
