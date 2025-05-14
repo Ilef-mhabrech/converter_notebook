@@ -107,6 +107,10 @@ Cleanup / Formatting :
 chmod +x correction_ttl 
 python3 python3 correction_ttl.py master_converter/ttl/ ttl_corrigé/
 
+you can verify metrics also :
+chmod +x fix_metrics_ttl.py
+python3 fix_metrics_ttl.py
+
 you can verifiy the content by : 
 chmod +x verify_ttl.py
 python3 verify_ttl.py ttl_corrigé/

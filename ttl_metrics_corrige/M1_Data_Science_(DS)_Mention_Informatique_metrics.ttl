@@ -1,0 +1,33 @@
+@prefix ns1: <http://example.org/masters/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:Métaheuristiques ns1:volume """ TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h """ .
+
+ns1:Analyse_exploratoire_de_données ns1:volume """ TOTAL : 23.99h Répartition : CM : 10.66h TD : 5.33h CI : 0h TP : 8h EAD : 0h """ .
+
+ns1:Structures_et_stratégies_pour_la_résolution_de_problèmes ns1:volume """ TOTAL : 48.01h Répartition : CM : 5.33h TD : 42.68h CI : 0h TP : 0h EAD : 0h """ .
+
+ns1:Applications_industrielles_sur_les_données ns1:volume """ TOTAL : 5.33h Répartition : CM : 0h TD : 5.33h CI : 0h TP : 0h EAD : 0h """ .
+
+ns1:Web_sémantique___Web_des_données ns1:volume """ TOTAL : 24.65h Répartition : CM : 9.33h TD : 6.66h CI : 0h TP : 8.66h EAD : 0h """ .
+
+ns1:Développement_et_exploitation ns1:volume """ TOTAL : 23.99h Répartition : CM : 10.66h TD : 0h CI : 0h TP : 13.33h EAD : 0h """ .
+
+ns1:Anglais_scientifique ns1:volume """ TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h """ .
+
+ns1:Apprentissage_automatique ns1:volume """ TOTAL : 23.99h Répartition : CM : 12h TD : 5.33h CI : 0h TP : 6.66h EAD : 0h """ .
+
+ns1:Professionnalisation ns1:volume """ TOTAL : 11.99h Répartition : CM : 5.33h TD : 6.66h CI : 0h TP : 0h EAD : 0h """ .
+
+ns1:Bases_de_données_avancées ns1:volume """ TOTAL : 24h Répartition : CM : 0h TD : 24h CI : 0h TP : 0h EAD : 0h """ .
+
+ns1:Introduction_au_traitement_d_image ns1:volume """ TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h """ .
+
+ns1:Informatique_temps_réel_et_embarquée ns1:volume """ TOTAL : 24h Répartition : CM : 12h TD : 5.33h CI : 0h TP : 6.67h EAD : 0h """ .
+
+ns1:Conception_et_Analyse_d_Algorithmes_Efficaces ns1:volume """ TOTAL : 24h Répartition : CM : 12h TD : 8h CI : 0h TP : 4h EAD : 0h """ .
+
+ns1:Ingéniérie_des_réseaux ns1:volume """ TOTAL : 24h Répartition : CM : 12h TD : 8h CI : 0h TP : 4h EAD : 0h """ .
+
+ns1:Préparation_au_TOEIC ns1:volume """ TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h """ .
+

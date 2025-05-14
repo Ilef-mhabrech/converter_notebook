@@ -1,0 +1,5 @@
+@prefix ns1: <http://example.org/masters/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:Master_Informatique_2ème_année_2024_2025_En_Contrat_de_professionnalisation_Mention___Informatique_Parcours___Apprentissage_et_traitement_Automatique_de_la_Langue___2ème_année__M2_Info_Atal_
+

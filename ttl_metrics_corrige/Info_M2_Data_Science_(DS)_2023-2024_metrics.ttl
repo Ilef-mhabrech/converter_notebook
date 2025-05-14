@@ -1,0 +1,7 @@
+@prefix ns1: <http://example.org/masters/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:Description_des_UE ns1:volume """ TOTAL : 17.5h Répartition : CM : 0h TD : 0h CI : 15h TP : 0h EAD : 2.5h """ .
+
+ns1:Langue_d_enseignement ns1:volume """ TOTAL : 24h Répartition : CM : 0h TD : 0h CI : 14h TP : 7.5h EAD : 2.5h """ .
+

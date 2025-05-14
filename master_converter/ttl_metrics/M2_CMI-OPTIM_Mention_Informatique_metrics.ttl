@@ -1,45 +1,52 @@
 @prefix ns1: <http://example.org/masters/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-ns1:Information_générale 
-ns1:Programme 
-ns1:Optimisation_multi_objectif     ns1:volume """
+ns1:Optimisation_multi_objectif
+ns1:volume """
 TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h
 """ ;
 
-ns1:Programmation_mathématique     ns1:volume """
+ns1:Programmation_mathématique
+ns1:volume """
 TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h
 """ ;
 
-ns1:Algorithmique_du_génome     ns1:volume """
+ns1:Algorithmique_du_génome
+ns1:volume """
 TOTAL : 24h Répartition : CM : 10.67h TD : 13.33h CI : 0h TP : 0h EAD : 0h
 """ ;
 
-ns1:Optimisation_en_robotique     ns1:volume """
+ns1:Optimisation_en_robotique
+ns1:volume """
 TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h
 """ ;
 
-ns1:Solveurs_multi_objectifs     ns1:volume """
+ns1:Solveurs_multi_objectifs
+ns1:volume """
 TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h
 """ ;
 
-ns1:Complément_en_Anglais_du_Projet_Intégrateur_CMI_OPTIM     ns1:volume """
+ns1:Complément_en_Anglais_du_Projet_Intégrateur_CMI_OPTIM
+ns1:volume """
 TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h
 """ ;
 
-ns1:Stage_Spécifique_M1_CMI_OPTIM     ns1:volume """
+ns1:Stage_Spécifique_M1_CMI_OPTIM
+ns1:volume """
 TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h
 """ ;
 
-ns1:Transport_et_logistique     ns1:volume """
+ns1:Transport_et_logistique
+ns1:volume """
 TOTAL : 24h Répartition : CM : 10h TD : 10h CI : 0h TP : 4h EAD : 0h
 """ ;
 
-ns1:Stage     ns1:volume """
+ns1:Stage
+ns1:volume """
 TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h
 """ ;
 
-ns1:Complément_en_Anglais_du_Stage_M2_CMI_OPTIM     ns1:volume """
+ns1:Complément_en_Anglais_du_Stage_M2_CMI_OPTIM
+ns1:volume """
 TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h
 """ ;
-
